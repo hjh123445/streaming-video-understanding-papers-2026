@@ -13,6 +13,7 @@ from __future__ import annotations
 import csv
 import datetime as dt
 import html
+import re
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -133,14 +134,26 @@ def classify_paper(title: str, summary: str) -> tuple[str, str]:
     return primary, " | ".join(hits)
 
 
+def to_brief(summary: str, max_len: int = 120) -> str:
+    plain = " ".join(summary.split())
+    first_sentence = re.split(r"(?<=[.!?])\s+", plain, maxsplit=1)[0]
+    if len(first_sentence) <= max_len:
+        return first_sentence
+    return first_sentence[: max_len - 3].rstrip() + "..."
+
+
+def escape_md_cell(text: str) -> str:
+    return text.replace("|", "\\|").replace("\n", " ").strip()
+
+
 def write_outputs(rows: list[dict[str, str]]) -> None:
     OUT_RAW.parent.mkdir(parents=True, exist_ok=True)
 
     with OUT_RAW.open("w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["date", "title", "source", "url"])
+        writer.writerow(["date", "title", "source", "url", "brief"])
         for r in rows:
-            writer.writerow([r["published"][:10], r["title"], "arXiv", r["url"]])
+            writer.writerow([r["published"][:10], r["title"], "arXiv", r["url"], to_brief(r["summary"])])
 
     enriched: list[dict[str, str]] = []
     for r in rows:
@@ -153,6 +166,7 @@ def write_outputs(rows: list[dict[str, str]]) -> None:
                 "url": r["url"],
                 "primary_direction": primary,
                 "all_directions": categories,
+                "brief": to_brief(r["summary"]),
             }
         )
 
@@ -166,6 +180,7 @@ def write_outputs(rows: list[dict[str, str]]) -> None:
                 "url",
                 "primary_direction",
                 "all_directions",
+                "brief",
             ],
         )
         writer.writeheader()
@@ -202,8 +217,17 @@ def write_outputs(rows: list[dict[str, str]]) -> None:
 
     for direction, _ in sorted(category_counts.items(), key=lambda x: (-x[1], x[0])):
         lines.extend(["", f"## {direction}", ""])
+        lines.extend(
+            [
+                "| Date | Paper | Link | Brief |",
+                "|---|---|---|---|",
+            ]
+        )
         for r in sorted(grouped[direction], key=lambda x: x["date"], reverse=True):
-            lines.append(f"- {r['date']} | [{r['title']}]({r['url']})")
+            title = escape_md_cell(r["title"])
+            brief = escape_md_cell(r["brief"])
+            link = f"[arXiv]({r['url']})"
+            lines.append(f"| {r['date']} | {title} | {link} | {brief} |")
 
     OUT_REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
