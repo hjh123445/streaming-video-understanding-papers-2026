@@ -7,6 +7,7 @@ Last refreshed: 2026-03-28 (Asia/Shanghai)
 - Full classified CSV: `data/papers_2026_streaming_video_understanding.csv`
 - Raw retrieval CSV: `data/papers_2026_streaming_video_understanding.auto.csv`
 - Category counts: `data/papers_2026_streaming_video_understanding.categories.csv`
+- Auto update workflow: `.github/workflows/auto-update-papers.yml` (daily at 09:00 Asia/Shanghai)
 
 ---
 
