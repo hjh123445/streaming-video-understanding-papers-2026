@@ -1,0 +1,22 @@
+date,title,source,url
+2026-03-23,Color When It Counts: Grayscale-Guided Online Triggering for Always-On Streaming Video Sensing,arXiv,http://arxiv.org/abs/2603.22466v1
+2026-03-23,StreamingClaw Technical Report,arXiv,http://arxiv.org/abs/2603.22120v2
+2026-03-23,StreamingEval: A Unified Evaluation Protocol towards Realistic Streaming Video Understanding,arXiv,http://arxiv.org/abs/2603.21493v1
+2026-03-20,PEARL: Personalized Streaming Video Understanding Model,arXiv,http://arxiv.org/abs/2603.20422v1
+2026-03-20,CurveStream: Boosting Streaming Video Understanding in MLLMs via Curvature-Aware Hierarchical Visual Memory Management,arXiv,http://arxiv.org/abs/2603.19571v1
+2026-03-19,Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding,arXiv,http://arxiv.org/abs/2603.19054v1
+2026-03-13,Thinking in Streaming Video,arXiv,http://arxiv.org/abs/2603.12938v1
+2026-03-12,Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously,arXiv,http://arxiv.org/abs/2603.12262v1
+2026-03-12,WAT: Online Video Understanding Needs Watching Before Thinking,arXiv,http://arxiv.org/abs/2603.13412v1
+2026-03-12,Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models,arXiv,http://arxiv.org/abs/2603.11896v1
+2026-03-09,StreamReady: Learning What to Answer and When in Long Streaming Videos,arXiv,http://arxiv.org/abs/2603.08620v1
+2026-03-02,FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding,arXiv,http://arxiv.org/abs/2603.02096v1
+2026-03-01,Event-Anchored Frame Selection for Effective Long-Video Understanding,arXiv,http://arxiv.org/abs/2603.00983v1
+2026-02-20,Going Down Memory Lane: Scaling Tokens for Video Stream Understanding with Dynamic KV-Cache Memory,arXiv,http://arxiv.org/abs/2602.18434v1
+2026-02-18,ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding,arXiv,http://arxiv.org/abs/2602.16412v2
+2026-02-17,EventMemAgent: Hierarchical Event-Centric Memory for Online Video Understanding with Adaptive Tool Use,arXiv,http://arxiv.org/abs/2602.15329v1
+2026-02-09,Vista: Scene-Aware Optimization for Streaming Video Question Answering under Post-Hoc Queries,arXiv,http://arxiv.org/abs/2602.08448v1
+2026-02-02,FreshMem: Brain-Inspired Frequency-Space Hybrid Memory for Streaming Video Understanding,arXiv,http://arxiv.org/abs/2602.01683v1
+2026-01-26,Agentic Very Long Video Understanding,arXiv,http://arxiv.org/abs/2601.18157v2
+2026-01-21,HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding,arXiv,http://arxiv.org/abs/2601.14724v2
+2026-01-20,Hierarchical Long Video Understanding with Audiovisual Entity Cohesion and Agentic Search,arXiv,http://arxiv.org/abs/2601.13719v2

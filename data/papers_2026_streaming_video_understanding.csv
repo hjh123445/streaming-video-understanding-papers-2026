@@ -1,0 +1,8 @@
+﻿year,month,day,title,venue,status,url,notes
+2026,3,13,Thinking in Streaming Video,arXiv,preprint,https://arxiv.org/abs/2603.12938,Streaming video reasoning
+2026,3,12,Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models,arXiv,preprint,https://arxiv.org/abs/2603.11896,Segment-level streaming memory
+2026,3,2,FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding,arXiv,preprint,https://arxiv.org/abs/2603.02096,Adaptive hierarchical memory
+2026,2,20,Going Down Memory Lane: Scaling Tokens for Video Stream Understanding with Dynamic KV-Cache Memory,arXiv,preprint,https://arxiv.org/abs/2602.18434,Token scaling and dynamic memory
+2026,2,2,FreshMem: Brain-Inspired Frequency-Space Hybrid Memory for Streaming Video Understanding,arXiv,preprint,https://arxiv.org/abs/2602.01683,Frequency-space hybrid memory
+2026,1,26,QueryStream: Advancing Streaming Video Understanding with Query-Aware Pruning and Proactive Response,ICLR 2026,poster,https://openreview.net/forum?id=738HjJEbml,Conference publication
+2026,1,21,HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding,arXiv,preprint,https://arxiv.org/abs/2601.14724,Hierarchical KV cache
