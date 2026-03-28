@@ -1,46 +1,58 @@
 ﻿# 2026 Streaming Video Understanding Papers
 
-This repository tracks **2026 papers** related to streaming/online video understanding.
+This repository tracks **2026 papers** related to streaming/online video understanding, and now includes **automatic direction-based classification**.
 
-Last updated: **2026-03-28** (Asia/Shanghai)
+Last refreshed: **2026-03-28** (Asia/Shanghai)
 
-## Scope
+## What is improved
 
-Included topics:
-- Streaming video understanding
-- Online video understanding
-- Long-horizon streaming video reasoning with MLLMs
-- Memory/kv-cache methods for streaming video QA and understanding
+- Expanded retrieval coverage from arXiv query set (broader than the initial seed list)
+- Automatic deduplication (same paper from multiple queries)
+- Automatic research-direction classification
+- Auto-generated grouped report for easy browsing
 
-## Paper List (2026)
+## Current snapshot
 
-| Date | Title | Venue/Status | Link |
-|---|---|---|---|
-| 2026-03-13 | Thinking in Streaming Video | arXiv preprint | [arXiv:2603.12938](https://arxiv.org/abs/2603.12938) |
-| 2026-03-12 | Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models | arXiv preprint | [arXiv:2603.11896](https://arxiv.org/abs/2603.11896) |
-| 2026-03-02 | FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding | arXiv preprint | [arXiv:2603.02096](https://arxiv.org/abs/2603.02096) |
-| 2026-02-20 | Going Down Memory Lane: Scaling Tokens for Video Stream Understanding with Dynamic KV-Cache Memory | arXiv preprint | [arXiv:2602.18434](https://arxiv.org/abs/2602.18434) |
-| 2026-02-02 | FreshMem: Brain-Inspired Frequency-Space Hybrid Memory for Streaming Video Understanding | arXiv preprint | [arXiv:2602.01683](https://arxiv.org/abs/2602.01683) |
-| 2026-01-26 | QueryStream: Advancing Streaming Video Understanding with Query-Aware Pruning and Proactive Response | ICLR 2026 Poster | [OpenReview](https://openreview.net/forum?id=738HjJEbml) |
-| 2026-01-21 | HERMES: KV Cache as Hierarchical Memory for Efficient Streaming Video Understanding | arXiv preprint | [arXiv:2601.14724](https://arxiv.org/abs/2601.14724) |
+- Total papers currently collected: **42**
+- Primary direction counts:
+  - Memory & KV-Cache: 20
+  - Reasoning & Agents: 16
+  - Efficiency & Compression: 3
+  - Benchmarks & Evaluation: 1
+  - General Streaming Video Understanding: 1
+  - Video QA / Query: 1
 
-## Data File
+## Main files
 
-Machine-readable list:
-- `data/papers_2026_streaming_video_understanding.csv`
+- Master list with direction labels:
+  - `data/papers_2026_streaming_video_understanding.csv`
+- Raw relevant results:
+  - `data/papers_2026_streaming_video_understanding.auto.csv`
+- Direction summary counts:
+  - `data/papers_2026_streaming_video_understanding.categories.csv`
+- Grouped markdown report:
+  - `data/papers_2026_streaming_video_understanding.by_direction.md`
 
-## Maintenance
-
-To refresh from arXiv automatically (keyword-based retrieval for 2026):
+## Refresh command
 
 ```bash
 python scripts/update_arxiv_2026.py
 ```
 
-The script updates:
-- `data/papers_2026_streaming_video_understanding.auto.csv`
+This command regenerates all files above.
 
-## Notes
+## Classification logic (automatic)
 
-- "All latest" is interpreted as **all currently discoverable, relevant 2026 entries by query keywords**.
-- This field moves quickly; manual checks are still recommended for completeness.
+Current rule-based categories include:
+
+- Memory & KV-Cache
+- Reasoning & Agents
+- Efficiency & Compression
+- Video QA / Query
+- Benchmarks & Evaluation
+- Sensors / Systems
+- General Streaming Video Understanding (fallback)
+
+Notes:
+- Classification is keyword-based and may include edge cases.
+- You can tighten or widen the rules in `scripts/update_arxiv_2026.py` depending on your preference for precision vs. recall.

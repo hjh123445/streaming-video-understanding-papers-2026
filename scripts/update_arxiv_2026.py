@@ -1,7 +1,11 @@
 ﻿#!/usr/bin/env python3
-"""Update a 2026 streaming video understanding paper list from arXiv.
+"""Update 2026 streaming video understanding papers from arXiv.
 
-This script performs keyword-based search via the arXiv API and writes a CSV.
+Outputs:
+- data/papers_2026_streaming_video_understanding.auto.csv (raw relevant rows)
+- data/papers_2026_streaming_video_understanding.csv (classified master list)
+- data/papers_2026_streaming_video_understanding.categories.csv (category counts)
+- data/papers_2026_streaming_video_understanding.by_direction.md (readable grouped report)
 """
 
 from __future__ import annotations
@@ -15,14 +19,20 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ARXIV_API = "http://export.arxiv.org/api/query"
-OUT_FILE = Path("data/papers_2026_streaming_video_understanding.auto.csv")
+OUT_RAW = Path("data/papers_2026_streaming_video_understanding.auto.csv")
+OUT_MASTER = Path("data/papers_2026_streaming_video_understanding.csv")
+OUT_CATEGORIES = Path("data/papers_2026_streaming_video_understanding.categories.csv")
+OUT_REPORT = Path("data/papers_2026_streaming_video_understanding.by_direction.md")
 
 SEARCH_TERMS = [
     'all:"streaming video understanding"',
     'all:"video stream understanding"',
     'all:"online video understanding"',
     'all:"streaming video reasoning"',
+    'all:"streaming video question answering"',
     'all:"long video understanding" AND all:"streaming"',
+    'all:"streaming" AND all:"VideoLLM"',
+    'all:"streaming" AND all:"multimodal" AND all:"video"',
 ]
 
 RELEVANCE_HINTS = {
@@ -32,10 +42,48 @@ RELEVANCE_HINTS = {
     "video stream",
     "long video",
     "video reasoning",
+    "videollm",
+    "video question answering",
 }
 
+CATEGORY_RULES = [
+    (
+        "Memory & KV-Cache",
+        ("memory", "kv", "cache", "memor", "hierarchical memory", "eventmem"),
+    ),
+    (
+        "Reasoning & Agents",
+        ("reason", "thinking", "agent", "proactive", "tool use", "search"),
+    ),
+    (
+        "Efficiency & Compression",
+        ("token", "pruning", "compression", "efficient", "scaling", "optimization"),
+    ),
+    (
+        "Video QA / Query",
+        ("question answering", "qa", "query", "answer"),
+    ),
+    (
+        "Benchmarks & Evaluation",
+        ("benchmark", "evaluation", "eval", "protocol", "technical report"),
+    ),
+    (
+        "Sensors / Systems",
+        ("always-on", "sensing", "triggering", "sensor"),
+    ),
+]
 
-def fetch_entries(query: str, max_results: int = 100) -> list[dict[str, str]]:
+
+def normalize_arxiv_url(url: str) -> str:
+    url = url.replace("http://", "https://")
+    if "arxiv.org/abs/" not in url:
+        return url
+    tail = url.split("/abs/", 1)[1]
+    base_id = tail.split("v", 1)[0]
+    return f"https://arxiv.org/abs/{base_id}"
+
+
+def fetch_entries(query: str, max_results: int = 200) -> list[dict[str, str]]:
     params = {
         "search_query": query,
         "start": 0,
@@ -62,7 +110,7 @@ def fetch_entries(query: str, max_results: int = 100) -> list[dict[str, str]]:
                 "title": html.unescape(" ".join(title.split())),
                 "summary": html.unescape(" ".join(summary.split())),
                 "published": published,
-                "url": link,
+                "url": normalize_arxiv_url(link),
             }
         )
     return rows
@@ -71,6 +119,93 @@ def fetch_entries(query: str, max_results: int = 100) -> list[dict[str, str]]:
 def looks_relevant(title: str, summary: str) -> bool:
     blob = f"{title} {summary}".lower()
     return any(h in blob for h in RELEVANCE_HINTS)
+
+
+def classify_paper(title: str, summary: str) -> tuple[str, str]:
+    blob = f"{title} {summary}".lower()
+    hits: list[str] = []
+    for name, keywords in CATEGORY_RULES:
+        if any(k in blob for k in keywords):
+            hits.append(name)
+    if not hits:
+        hits.append("General Streaming Video Understanding")
+    primary = hits[0]
+    return primary, " | ".join(hits)
+
+
+def write_outputs(rows: list[dict[str, str]]) -> None:
+    OUT_RAW.parent.mkdir(parents=True, exist_ok=True)
+
+    with OUT_RAW.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["date", "title", "source", "url"])
+        for r in rows:
+            writer.writerow([r["published"][:10], r["title"], "arXiv", r["url"]])
+
+    enriched: list[dict[str, str]] = []
+    for r in rows:
+        primary, categories = classify_paper(r["title"], r["summary"])
+        enriched.append(
+            {
+                "date": r["published"][:10],
+                "title": r["title"],
+                "source": "arXiv",
+                "url": r["url"],
+                "primary_direction": primary,
+                "all_directions": categories,
+            }
+        )
+
+    with OUT_MASTER.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=[
+                "date",
+                "title",
+                "source",
+                "url",
+                "primary_direction",
+                "all_directions",
+            ],
+        )
+        writer.writeheader()
+        writer.writerows(enriched)
+
+    category_counts: dict[str, int] = {}
+    for r in enriched:
+        category_counts[r["primary_direction"]] = category_counts.get(r["primary_direction"], 0) + 1
+
+    with OUT_CATEGORIES.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["direction", "count"])
+        for direction, count in sorted(category_counts.items(), key=lambda x: (-x[1], x[0])):
+            writer.writerow([direction, count])
+
+    grouped: dict[str, list[dict[str, str]]] = {}
+    for r in enriched:
+        grouped.setdefault(r["primary_direction"], []).append(r)
+
+    lines = [
+        "# 2026 Streaming Video Understanding Papers by Direction",
+        "",
+        f"Generated at: {dt.datetime.now().isoformat(timespec='seconds')}",
+        "",
+        f"Total papers: {len(enriched)}",
+        "",
+        "## Category Summary",
+        "",
+        "| Direction | Count |",
+        "|---|---:|",
+    ]
+    for direction, count in sorted(category_counts.items(), key=lambda x: (-x[1], x[0])):
+        lines.append(f"| {direction} | {count} |")
+
+    for direction, _ in sorted(category_counts.items(), key=lambda x: (-x[1], x[0])):
+        lines.extend(["", f"## {direction}", ""])
+        for r in sorted(grouped[direction], key=lambda x: x["date"], reverse=True):
+            lines.append(f"- {r['date']} | [{r['title']}]({r['url']})")
+
+    OUT_REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def main() -> None:
@@ -86,15 +221,9 @@ def main() -> None:
             all_rows[row["url"]] = row
 
     sorted_rows = sorted(all_rows.values(), key=lambda r: r["published"], reverse=True)
+    write_outputs(sorted_rows)
 
-    OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    with OUT_FILE.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(["date", "title", "source", "url"])
-        for r in sorted_rows:
-            writer.writerow([r["published"][:10], r["title"], "arXiv", r["url"]])
-
-    print(f"Wrote {len(sorted_rows)} rows to {OUT_FILE}")
+    print(f"Wrote {len(sorted_rows)} rows to {OUT_MASTER}")
     print(f"Generated at: {dt.datetime.now().isoformat(timespec='seconds')}")
 
 
