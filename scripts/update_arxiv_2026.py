@@ -14,12 +14,20 @@ import csv
 import datetime as dt
 import html
 import re
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 
-ARXIV_API = "http://export.arxiv.org/api/query"
+ARXIV_API = "https://export.arxiv.org/api/query"
+REQUEST_HEADERS = {
+    "User-Agent": "streaming-video-understanding-papers-2026/1.0 (maintainer: 2736340051@qq.com)"
+}
+MAX_RETRIES = 5
+BASE_SLEEP_SECONDS = 2.0
+MIN_VALID_ROWS = 20
 OUT_RAW = Path("data/papers_2026_streaming_video_understanding.auto.csv")
 OUT_MASTER = Path("data/papers_2026_streaming_video_understanding.csv")
 OUT_CATEGORIES = Path("data/papers_2026_streaming_video_understanding.categories.csv")
@@ -84,7 +92,7 @@ def normalize_arxiv_url(url: str) -> str:
     return f"https://arxiv.org/abs/{base_id}"
 
 
-def fetch_entries(query: str, max_results: int = 200) -> list[dict[str, str]]:
+def fetch_entries(query: str, max_results: int = 100) -> list[dict[str, str]]:
     params = {
         "search_query": query,
         "start": 0,
@@ -93,8 +101,36 @@ def fetch_entries(query: str, max_results: int = 200) -> list[dict[str, str]]:
         "sortOrder": "descending",
     }
     url = f"{ARXIV_API}?{urllib.parse.urlencode(params)}"
-    with urllib.request.urlopen(url, timeout=30) as resp:
-        data = resp.read()
+    req = urllib.request.Request(url, headers=REQUEST_HEADERS)
+    data = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = resp.read()
+            break
+        except HTTPError as e:
+            is_retryable = e.code in (429, 500, 502, 503, 504)
+            if not is_retryable or attempt == MAX_RETRIES:
+                raise
+            retry_after = e.headers.get("Retry-After")
+            if retry_after and retry_after.isdigit():
+                sleep_s = float(retry_after)
+            else:
+                sleep_s = BASE_SLEEP_SECONDS * (2 ** (attempt - 1))
+            print(
+                f"[warn] query failed with HTTP {e.code}; retrying in {sleep_s:.1f}s "
+                f"({attempt}/{MAX_RETRIES})"
+            )
+            time.sleep(sleep_s)
+        except URLError as e:
+            if attempt == MAX_RETRIES:
+                raise
+            sleep_s = BASE_SLEEP_SECONDS * (2 ** (attempt - 1))
+            print(f"[warn] transient network error ({e}); retrying in {sleep_s:.1f}s")
+            time.sleep(sleep_s)
+
+    if data is None:
+        return []
 
     root = ET.fromstring(data)
     ns = {"atom": "http://www.w3.org/2005/Atom"}
@@ -236,15 +272,28 @@ def main() -> None:
     all_rows: dict[str, dict[str, str]] = {}
 
     for q in SEARCH_TERMS:
-        for row in fetch_entries(q):
+        try:
+            rows = fetch_entries(q)
+        except Exception as e:  # Keep scheduled job alive even if one query is rate-limited.
+            print(f"[warn] skipped query due to error: {q} -> {e}")
+            continue
+
+        for row in rows:
             date = row["published"][:10]
             if not date.startswith("2026-"):
                 continue
             if not looks_relevant(row["title"], row["summary"]):
                 continue
             all_rows[row["url"]] = row
+        time.sleep(2.0)
 
     sorted_rows = sorted(all_rows.values(), key=lambda r: r["published"], reverse=True)
+    if len(sorted_rows) < MIN_VALID_ROWS:
+        print(
+            f"[warn] only collected {len(sorted_rows)} rows (<{MIN_VALID_ROWS}); "
+            "skip writing output to avoid replacing data with partial results."
+        )
+        return
     write_outputs(sorted_rows)
 
     print(f"Wrote {len(sorted_rows)} rows to {OUT_MASTER}")
