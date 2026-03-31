@@ -1,17 +1,17 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-03-28T07:22:23
+Generated at: 2026-03-31T03:48:48
 
-Total papers: 42
+Total papers: 45
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 20 |
-| Reasoning & Agents | 16 |
-| Efficiency & Compression | 3 |
-| Benchmarks & Evaluation | 1 |
+| Reasoning & Agents | 17 |
+| Efficiency & Compression | 4 |
+| Benchmarks & Evaluation | 2 |
 | General Streaming Video Understanding | 1 |
 | Video QA / Query | 1 |
 
@@ -44,6 +44,7 @@ Total papers: 42
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
 | 2026-03-25 | CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents | [arXiv](https://arxiv.org/abs/2603.24440) | Computer-use agents (CUAs) hold great promise for automating complex desktop workflows, yet progress toward general-p... |
 | 2026-03-24 | VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs | [arXiv](https://arxiv.org/abs/2603.23481) | Video-Action Models (VAMs) have emerged as a promising framework for embodied intelligence, learning implicit world d... |
 | 2026-03-19 | Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.19054) | Recent advances in Streaming Video Understanding has enabled a new interaction paradigm where models respond proactiv... |
@@ -65,6 +66,7 @@ Total papers: 42
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-03-26 | GazeQwen: Lightweight Gaze-Conditioned LLM Modulation for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.25841) | Current multimodal large language models (MLLMs) cannot effectively utilize eye-gaze information for video understand... |
 | 2026-03-23 | Color When It Counts: Grayscale-Guided Online Triggering for Always-On Streaming Video Sensing | [arXiv](https://arxiv.org/abs/2603.22466) | Always-on sensing is essential for next-generation edge/wearable AI systems, yet continuous high-fidelity RGB video c... |
 | 2026-03-01 | Event-Anchored Frame Selection for Effective Long-Video Understanding | [arXiv](https://arxiv.org/abs/2603.00983) | Massive frame redundancy and limited context window make efficient frame selection crucial for long-video understandi... |
 | 2026-02-14 | EchoTorrent: Towards Swift, Sustained, and Streaming Multi-Modal Video Generation | [arXiv](https://arxiv.org/abs/2602.13669) | Recent multi-modal video generation models have achieved high visual quality, but their prohibitive latency and limit... |
@@ -73,6 +75,7 @@ Total papers: 42
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-03-27 | Cinematic Audio Source Separation Using Visual Cues | [arXiv](https://arxiv.org/abs/2603.26113) | Cinematic Audio Source Separation (CASS) aims to decompose mixed film audio into speech, music, and sound effects, en... |
 | 2026-02-17 | Automatic Funny Scene Extraction from Long-form Cinematic Videos | [arXiv](https://arxiv.org/abs/2602.15381) | Automatically extracting engaging and high-quality humorous scenes from cinematic titles is pivotal for creating capt... |
 
 ## General Streaming Video Understanding
