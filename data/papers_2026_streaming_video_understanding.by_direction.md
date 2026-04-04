@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-04-02T03:41:55
+Generated at: 2026-04-04T03:31:18
 
-Total papers: 46
+Total papers: 47
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 21 |
+| Memory & KV-Cache | 22 |
 | Reasoning & Agents | 17 |
 | Efficiency & Compression | 4 |
 | Benchmarks & Evaluation | 2 |
@@ -19,6 +19,7 @@ Total papers: 46
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-04-02 | A Simple Baseline for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.02317) | Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video stre... |
 | 2026-03-31 | Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism | [arXiv](https://arxiv.org/abs/2603.29252) | Long video understanding is a key challenge that plagues the advancement of \emph{Multimodal Large language Models} (... |
 | 2026-03-23 | StreamingClaw Technical Report | [arXiv](https://arxiv.org/abs/2603.22120) | Emerging applications such as embodied intelligence, AI hardware, autonomous driving, and intelligent cockpits rely o... |
 | 2026-03-23 | StreamingEval: A Unified Evaluation Protocol towards Realistic Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.21493) | Real-time, continuous understanding of visual signals is essential for real-world interactive AI applications, and po... |
