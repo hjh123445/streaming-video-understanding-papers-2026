@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-04-06T03:56:34
+Generated at: 2026-04-07T03:47:25
 
-Total papers: 47
+Total papers: 48
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 22 |
-| Reasoning & Agents | 17 |
+| Reasoning & Agents | 18 |
 | Efficiency & Compression | 4 |
 | Benchmarks & Evaluation | 2 |
 | General Streaming Video Understanding | 1 |
@@ -46,6 +46,7 @@ Total papers: 47
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
 | 2026-03-25 | CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents | [arXiv](https://arxiv.org/abs/2603.24440) | Computer-use agents (CUAs) hold great promise for automating complex desktop workflows, yet progress toward general-p... |
 | 2026-03-24 | VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs | [arXiv](https://arxiv.org/abs/2603.23481) | Video-Action Models (VAMs) have emerged as a promising framework for embodied intelligence, learning implicit world d... |
