@@ -1,4 +1,7 @@
 date,title,source,url,brief
+2026-04-07,CoStream: Codec-Guided Resource-Efficient System for Video Streaming Analytics,arXiv,https://arxiv.org/abs/2604.06036,"Video streaming analytics is a crucial workload for vision-language model serving, but the high cost of multimodal in..."
+2026-04-07,"EchoAgent: Towards Reliable Echocardiography Interpretation with ""Eyes"",""Hands"" and ""Minds""",arXiv,https://arxiv.org/abs/2604.05541,"Reliable interpretation of echocardiography (Echo) is crucial for assessing cardiac function, which demands clinician..."
+2026-04-07,DAT: Dual-Aware Adaptive Transmission for Efficient Multimodal LLM Inference in Edge-Cloud Systems,arXiv,https://arxiv.org/abs/2604.05375,"Multimodal large language models (MLLMs) have shown strong capability in semantic understanding and visual reasoning,..."
 2026-04-05,AURA: Always-On Understanding and Real-Time Assistance via Video Streams,arXiv,https://arxiv.org/abs/2604.04184,"Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most..."
 2026-04-02,A Simple Baseline for Streaming Video Understanding,arXiv,https://arxiv.org/abs/2604.02317,Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video stre...
 2026-03-31,Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism,arXiv,https://arxiv.org/abs/2603.29252,Long video understanding is a key challenge that plagues the advancement of \emph{Multimodal Large language Models} (...

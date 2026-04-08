@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-04-07T03:47:25
+Generated at: 2026-04-08T03:49:49
 
-Total papers: 48
+Total papers: 51
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 22 |
-| Reasoning & Agents | 18 |
+| Memory & KV-Cache | 23 |
+| Reasoning & Agents | 20 |
 | Efficiency & Compression | 4 |
 | Benchmarks & Evaluation | 2 |
 | General Streaming Video Understanding | 1 |
@@ -19,6 +19,7 @@ Total papers: 48
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-04-07 | CoStream: Codec-Guided Resource-Efficient System for Video Streaming Analytics | [arXiv](https://arxiv.org/abs/2604.06036) | Video streaming analytics is a crucial workload for vision-language model serving, but the high cost of multimodal in... |
 | 2026-04-02 | A Simple Baseline for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.02317) | Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video stre... |
 | 2026-03-31 | Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism | [arXiv](https://arxiv.org/abs/2603.29252) | Long video understanding is a key challenge that plagues the advancement of \emph{Multimodal Large language Models} (... |
 | 2026-03-23 | StreamingClaw Technical Report | [arXiv](https://arxiv.org/abs/2603.22120) | Emerging applications such as embodied intelligence, AI hardware, autonomous driving, and intelligent cockpits rely o... |
@@ -46,6 +47,8 @@ Total papers: 48
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-04-07 | EchoAgent: Towards Reliable Echocardiography Interpretation with "Eyes","Hands" and "Minds" | [arXiv](https://arxiv.org/abs/2604.05541) | Reliable interpretation of echocardiography (Echo) is crucial for assessing cardiac function, which demands clinician... |
+| 2026-04-07 | DAT: Dual-Aware Adaptive Transmission for Efficient Multimodal LLM Inference in Edge-Cloud Systems | [arXiv](https://arxiv.org/abs/2604.05375) | Multimodal large language models (MLLMs) have shown strong capability in semantic understanding and visual reasoning,... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
 | 2026-03-25 | CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents | [arXiv](https://arxiv.org/abs/2603.24440) | Computer-use agents (CUAs) hold great promise for automating complex desktop workflows, yet progress toward general-p... |
