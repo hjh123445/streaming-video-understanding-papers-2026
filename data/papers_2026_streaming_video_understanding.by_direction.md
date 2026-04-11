@@ -1,16 +1,16 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-04-09T03:46:05
+Generated at: 2026-04-11T03:35:20
 
-Total papers: 51
+Total papers: 53
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 23 |
-| Reasoning & Agents | 20 |
-| Efficiency & Compression | 4 |
+| Reasoning & Agents | 21 |
+| Efficiency & Compression | 5 |
 | Benchmarks & Evaluation | 2 |
 | General Streaming Video Understanding | 1 |
 | Video QA / Query | 1 |
@@ -19,7 +19,7 @@ Total papers: 51
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
-| 2026-04-07 | CodecFlow: Codec-Guided End-to-End Optimization for Streaming Video Analytics | [arXiv](https://arxiv.org/abs/2604.06036) | Video streaming analytics is a crucial workload for vision-language model serving, but the high cost of multimodal in... |
+| 2026-04-07 | CodecSight: Leveraging Video Codec Signals for Efficient Streaming VLM Inference | [arXiv](https://arxiv.org/abs/2604.06036) | Video streaming analytics is a crucial workload for vision-language model serving, but the high cost of multimodal in... |
 | 2026-04-02 | A Simple Baseline for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.02317) | Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video stre... |
 | 2026-03-31 | Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism | [arXiv](https://arxiv.org/abs/2603.29252) | Long video understanding is a key challenge that plagues the advancement of \emph{Multimodal Large language Models} (... |
 | 2026-03-23 | StreamingClaw Technical Report | [arXiv](https://arxiv.org/abs/2603.22120) | Emerging applications such as embodied intelligence, AI hardware, autonomous driving, and intelligent cockpits rely o... |
@@ -47,6 +47,7 @@ Total papers: 51
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-04-09 | LPM 1.0: Video-based Character Performance Model | [arXiv](https://arxiv.org/abs/2604.07823) | Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is... |
 | 2026-04-07 | EchoAgent: Towards Reliable Echocardiography Interpretation with "Eyes","Hands" and "Minds" | [arXiv](https://arxiv.org/abs/2604.05541) | Reliable interpretation of echocardiography (Echo) is crucial for assessing cardiac function, which demands clinician... |
 | 2026-04-07 | DAT: Dual-Aware Adaptive Transmission for Efficient Multimodal LLM Inference in Edge-Cloud Systems | [arXiv](https://arxiv.org/abs/2604.05375) | Multimodal large language models (MLLMs) have shown strong capability in semantic understanding and visual reasoning,... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
@@ -72,6 +73,7 @@ Total papers: 51
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-04-09 | Small Vision-Language Models are Smart Compressors for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.08120) | Adapting Multimodal Large Language Models (MLLMs) for hour-long videos is bottlenecked by context limits. |
 | 2026-03-26 | GazeQwen: Lightweight Gaze-Conditioned LLM Modulation for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.25841) | Current multimodal large language models (MLLMs) cannot effectively utilize eye-gaze information for video understand... |
 | 2026-03-23 | Color When It Counts: Grayscale-Guided Online Triggering for Always-On Streaming Video Sensing | [arXiv](https://arxiv.org/abs/2603.22466) | Always-on sensing is essential for next-generation edge/wearable AI systems, yet continuous high-fidelity RGB video c... |
 | 2026-03-01 | Event-Anchored Frame Selection for Effective Long-Video Understanding | [arXiv](https://arxiv.org/abs/2603.00983) | Massive frame redundancy and limited context window make efficient frame selection crucial for long-video understandi... |
