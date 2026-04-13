@@ -1,4 +1,6 @@
 date,title,source,url,brief
+2026-04-10,Multimodal Anomaly Detection for Human-Robot Interaction,arXiv,https://arxiv.org/abs/2604.09326,Ensuring safety and reliability in human-robot interaction (HRI) requires the timely detection of unexpected events t...
+2026-04-10,StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding,arXiv,https://arxiv.org/abs/2604.09000,Vision agent memory has shown remarkable effectiveness in streaming video understanding.
 2026-04-09,Small Vision-Language Models are Smart Compressors for Long Video Understanding,arXiv,https://arxiv.org/abs/2604.08120,Adapting Multimodal Large Language Models (MLLMs) for hour-long videos is bottlenecked by context limits.
 2026-04-09,LPM 1.0: Video-based Character Performance Model,arXiv,https://arxiv.org/abs/2604.07823,"Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is..."
 2026-04-07,CodecSight: Leveraging Video Codec Signals for Efficient Streaming VLM Inference,arXiv,https://arxiv.org/abs/2604.06036,"Video streaming analytics is a crucial workload for vision-language model serving, but the high cost of multimodal in..."

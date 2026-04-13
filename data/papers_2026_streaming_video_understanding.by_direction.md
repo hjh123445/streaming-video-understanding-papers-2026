@@ -1,17 +1,17 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-04-12T04:09:44
+Generated at: 2026-04-13T04:18:26
 
-Total papers: 53
+Total papers: 55
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 23 |
+| Memory & KV-Cache | 24 |
 | Reasoning & Agents | 21 |
 | Efficiency & Compression | 5 |
-| Benchmarks & Evaluation | 2 |
+| Benchmarks & Evaluation | 3 |
 | General Streaming Video Understanding | 1 |
 | Video QA / Query | 1 |
 
@@ -19,6 +19,7 @@ Total papers: 53
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-04-10 | StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.09000) | Vision agent memory has shown remarkable effectiveness in streaming video understanding. |
 | 2026-04-07 | CodecSight: Leveraging Video Codec Signals for Efficient Streaming VLM Inference | [arXiv](https://arxiv.org/abs/2604.06036) | Video streaming analytics is a crucial workload for vision-language model serving, but the high cost of multimodal in... |
 | 2026-04-02 | A Simple Baseline for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.02317) | Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video stre... |
 | 2026-03-31 | Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism | [arXiv](https://arxiv.org/abs/2603.29252) | Long video understanding is a key challenge that plagues the advancement of \emph{Multimodal Large language Models} (... |
@@ -83,6 +84,7 @@ Total papers: 53
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-04-10 | Multimodal Anomaly Detection for Human-Robot Interaction | [arXiv](https://arxiv.org/abs/2604.09326) | Ensuring safety and reliability in human-robot interaction (HRI) requires the timely detection of unexpected events t... |
 | 2026-03-27 | Cinematic Audio Source Separation Using Visual Cues | [arXiv](https://arxiv.org/abs/2603.26113) | Cinematic Audio Source Separation (CASS) aims to decompose mixed film audio into speech, music, and sound effects, en... |
 | 2026-02-17 | Automatic Funny Scene Extraction from Long-form Cinematic Videos | [arXiv](https://arxiv.org/abs/2602.15381) | Automatically extracting engaging and high-quality humorous scenes from cinematic titles is pivotal for creating capt... |
 
