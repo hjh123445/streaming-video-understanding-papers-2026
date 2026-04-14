@@ -1,24 +1,28 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-04-13T04:18:26
+Generated at: 2026-04-14T04:08:22
 
-Total papers: 55
+Total papers: 60
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 24 |
-| Reasoning & Agents | 21 |
+| Memory & KV-Cache | 27 |
+| Reasoning & Agents | 22 |
 | Efficiency & Compression | 5 |
 | Benchmarks & Evaluation | 3 |
 | General Streaming Video Understanding | 1 |
+| Sensors / Systems | 1 |
 | Video QA / Query | 1 |
 
 ## Memory & KV-Cache
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-04-13 | POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs | [arXiv](https://arxiv.org/abs/2604.11627) | Multimodal Large Language Models (MLLMs) have recently demonstrated remarkable capabilities in cross-modal understand... |
+| 2026-04-13 | Technology solutions targeting the performance of gen-AI inference in resource constrained platforms | [arXiv](https://arxiv.org/abs/2604.11128) | The rise of generative AI workloads, particularly language model inference, is intensifying on/off-chip memory pressure. |
+| 2026-04-11 | Mosaic: Cross-Modal Clustering for Efficient Video Understanding | [arXiv](https://arxiv.org/abs/2604.10060) | Large vision-language models (VLMs) are enabling interactive video reasoning, giving rise to streaming long-video und... |
 | 2026-04-10 | StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.09000) | Vision agent memory has shown remarkable effectiveness in streaming video understanding. |
 | 2026-04-07 | CodecSight: Leveraging Video Codec Signals for Efficient Streaming VLM Inference | [arXiv](https://arxiv.org/abs/2604.06036) | Video streaming analytics is a crucial workload for vision-language model serving, but the high cost of multimodal in... |
 | 2026-04-02 | A Simple Baseline for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.02317) | Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video stre... |
@@ -48,6 +52,7 @@ Total papers: 55
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-04-13 | Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding | [arXiv](https://arxiv.org/abs/2604.11244) | Advances in Multimodal Large Language Models (MLLMs) are transforming video captioning from a descriptive endpoint in... |
 | 2026-04-09 | LPM 1.0: Video-based Character Performance Model | [arXiv](https://arxiv.org/abs/2604.07823) | Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is... |
 | 2026-04-07 | EchoAgent: Towards Reliable Echocardiography Interpretation with "Eyes","Hands" and "Minds" | [arXiv](https://arxiv.org/abs/2604.05541) | Reliable interpretation of echocardiography (Echo) is crucial for assessing cardiac function, which demands clinician... |
 | 2026-04-07 | DAT: Dual-Aware Adaptive Transmission for Efficient Multimodal LLM Inference in Edge-Cloud Systems | [arXiv](https://arxiv.org/abs/2604.05375) | Multimodal large language models (MLLMs) have shown strong capability in semantic understanding and visual reasoning,... |
@@ -93,6 +98,12 @@ Total papers: 55
 | Date | Paper | Link | Brief |
 |---|---|---|---|
 | 2026-01-11 | Speak While Watching: Unleashing TRUE Real-Time Video Understanding Capability of Multimodal Large Language Models | [arXiv](https://arxiv.org/abs/2601.06843) | Multimodal Large Language Models (MLLMs) have achieved strong performance across many tasks, yet most systems remain... |
+
+## Sensors / Systems
+
+| Date | Paper | Link | Brief |
+|---|---|---|---|
+| 2026-04-13 | From Multimodal Signals to Adaptive XR Experiences for De-escalation Training | [arXiv](https://arxiv.org/abs/2604.11570) | We present the early-stage design and implementation of a multimodal, real-time communication analysis system intende... |
 
 ## Video QA / Query
 
