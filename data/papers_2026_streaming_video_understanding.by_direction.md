@@ -1,25 +1,26 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-05-04T04:38:56
+Generated at: 2026-05-06T04:32:27
 
-Total papers: 63
+Total papers: 65
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 29 |
+| Memory & KV-Cache | 30 |
 | Reasoning & Agents | 23 |
 | Efficiency & Compression | 5 |
 | Benchmarks & Evaluation | 3 |
+| Video QA / Query | 2 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
-| Video QA / Query | 1 |
 
 ## Memory & KV-Cache
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-03 | Decouple and Cache: KV Cache Construction for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.01858) | Streaming video understanding requires processing unbounded video streams with limited memory and computation, posing... |
 | 2026-04-20 | Progressive Online Video Understanding with Evidence-Aligned Timing and Transparent Decisions | [arXiv](https://arxiv.org/abs/2604.18459) | Visual agents operating in the wild must respond to queries precisely when sufficient evidence first appears in a vid... |
 | 2026-04-18 | OASIS: On-Demand Hierarchical Event Memory for Streaming Video Reasoning | [arXiv](https://arxiv.org/abs/2604.17052) | Streaming video reasoning requires models to operate in a setting where history grows without bound while meaningful... |
 | 2026-04-13 | POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs | [arXiv](https://arxiv.org/abs/2604.11627) | Multimodal Large Language Models (MLLMs) have recently demonstrated remarkable capabilities in cross-modal understand... |
@@ -96,6 +97,13 @@ Total papers: 63
 | 2026-03-27 | Cinematic Audio Source Separation Using Visual Cues | [arXiv](https://arxiv.org/abs/2603.26113) | Cinematic Audio Source Separation (CASS) aims to decompose mixed film audio into speech, music, and sound effects, en... |
 | 2026-02-17 | Automatic Funny Scene Extraction from Long-form Cinematic Videos | [arXiv](https://arxiv.org/abs/2602.15381) | Automatically extracting engaging and high-quality humorous scenes from cinematic titles is pivotal for creating capt... |
 
+## Video QA / Query
+
+| Date | Paper | Link | Brief |
+|---|---|---|---|
+| 2026-05-02 | Multimodal Confidence Modeling in Audio-Visual Quality Assessment | [arXiv](https://arxiv.org/abs/2605.01219) | Audio-visual quality assessment (AVQA) is essential for streaming, teleconferencing, and immersive media. |
+| 2026-02-18 | ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding | [arXiv](https://arxiv.org/abs/2602.16412) | While multimodal large language models (MLLMs) have shown remarkable success across a wide range of tasks, long-form... |
+
 ## General Streaming Video Understanding
 
 | Date | Paper | Link | Brief |
@@ -107,9 +115,3 @@ Total papers: 63
 | Date | Paper | Link | Brief |
 |---|---|---|---|
 | 2026-04-13 | From Multimodal Signals to Adaptive XR Experiences for De-escalation Training | [arXiv](https://arxiv.org/abs/2604.11570) | We present the early-stage design and implementation of a multimodal, real-time communication analysis system intende... |
-
-## Video QA / Query
-
-| Date | Paper | Link | Brief |
-|---|---|---|---|
-| 2026-02-18 | ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding | [arXiv](https://arxiv.org/abs/2602.16412) | While multimodal large language models (MLLMs) have shown remarkable success across a wide range of tasks, long-form... |

@@ -1,8 +1,8 @@
 direction,count
-Memory & KV-Cache,29
+Memory & KV-Cache,30
 Reasoning & Agents,23
 Efficiency & Compression,5
 Benchmarks & Evaluation,3
+Video QA / Query,2
 General Streaming Video Understanding,1
 Sensors / Systems,1
-Video QA / Query,1
