@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-05-07T04:32:44
+Generated at: 2026-05-09T04:21:22
 
-Total papers: 65
+Total papers: 67
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 30 |
-| Reasoning & Agents | 23 |
+| Memory & KV-Cache | 31 |
+| Reasoning & Agents | 24 |
 | Efficiency & Compression | 5 |
 | Benchmarks & Evaluation | 3 |
 | Video QA / Query | 2 |
@@ -20,6 +20,7 @@ Total papers: 65
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-07 | Event-Causal RAG: A Retrieval-Augmented Generation Framework for Long Video Reasoning in Complex Scenarios | [arXiv](https://arxiv.org/abs/2605.06185) | Recent large vision-language models have achieved strong performance on short- and medium-length video understanding,... |
 | 2026-05-03 | Decouple and Cache: KV Cache Construction for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.01858) | Streaming video understanding requires processing unbounded video streams with limited memory and computation, posing... |
 | 2026-04-20 | Progressive Online Video Understanding with Evidence-Aligned Timing and Transparent Decisions | [arXiv](https://arxiv.org/abs/2604.18459) | Visual agents operating in the wild must respond to queries precisely when sufficient evidence first appears in a vid... |
 | 2026-04-18 | OASIS: On-Demand Hierarchical Event Memory for Streaming Video Reasoning | [arXiv](https://arxiv.org/abs/2604.17052) | Streaming video reasoning requires models to operate in a setting where history grows without bound while meaningful... |
@@ -55,6 +56,7 @@ Total papers: 65
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-07 | MedHorizon: Towards Long-context Medical Video Understanding in the Wild | [arXiv](https://arxiv.org/abs/2605.06537) | Medical multimodal large language models (MLLMs) have advanced image understanding and short-video analysis, but real... |
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
 | 2026-04-13 | Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding | [arXiv](https://arxiv.org/abs/2604.11244) | Advances in Multimodal Large Language Models (MLLMs) are transforming video captioning from a descriptive endpoint in... |
 | 2026-04-09 | LPM 1.0: Video-based Character Performance Model | [arXiv](https://arxiv.org/abs/2604.07823) | Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is... |
