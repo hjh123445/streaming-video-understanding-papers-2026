@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-05-14T04:41:05
+Generated at: 2026-05-15T04:46:34
 
-Total papers: 75
+Total papers: 76
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 34 |
+| Memory & KV-Cache | 35 |
 | Reasoning & Agents | 27 |
 | Efficiency & Compression | 7 |
 | Benchmarks & Evaluation | 3 |
@@ -20,6 +20,7 @@ Total papers: 75
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-14 | CoRDS: Coreset-based Representative and Diverse Selection for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.14310) | Streaming video understanding with large vision-language models (VLMs) requires a compact memory that can support fut... |
 | 2026-05-08 | Semantic-Aware Adaptive Visual Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.07897) | Online streaming video understanding requires models to process continuous visual inputs and respond to user queries... |
 | 2026-05-08 | Response-G1: Explicit Scene Graph Modeling for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.07575) | Proactive streaming video understanding requires Video-LLMs to decide when to respond as a video unfolds, a task wher... |
 | 2026-05-08 | Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning | [arXiv](https://arxiv.org/abs/2605.08271) | Understanding ultra-long videos such as egocentric recordings, live streams, or surveillance footage spanning days to... |
