@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-05-17T04:51:54
+Generated at: 2026-05-21T05:07:25
 
-Total papers: 76
+Total papers: 85
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 35 |
-| Reasoning & Agents | 27 |
+| Memory & KV-Cache | 39 |
+| Reasoning & Agents | 32 |
 | Efficiency & Compression | 7 |
 | Benchmarks & Evaluation | 3 |
 | Video QA / Query | 2 |
@@ -20,6 +20,10 @@ Total papers: 76
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-19 | DynaTok: Temporally Adaptive and Positional Bias-Aware Token Compression for Video-LLMs | [arXiv](https://arxiv.org/abs/2605.19322) | Recent advances in Video Large Language Models (Video-LLMs) have greatly expanded multimodal reasoning capabilities. |
+| 2026-05-18 | Advancing Narrative Long Video Generation via Training-Free Identity-Aware Memory | [arXiv](https://arxiv.org/abs/2605.18733) | Autoregressive video generation has improved rapidly in visual fidelity and interactivity, but it still suffers from... |
+| 2026-05-18 | An Efficient Streaming Video Understanding Framework with Agentic Control | [arXiv](https://arxiv.org/abs/2605.17921) | Streaming video requires handling dynamic information density under strict latency budgets. |
+| 2026-05-15 | Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval | [arXiv](https://arxiv.org/abs/2605.16481) | Long video understanding requires more than large context windows. |
 | 2026-05-14 | CoRDS: Coreset-based Representative and Diverse Selection for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.14310) | Streaming video understanding with large vision-language models (VLMs) requires a compact memory that can support fut... |
 | 2026-05-08 | Semantic-Aware Adaptive Visual Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.07897) | Online streaming video understanding requires models to process continuous visual inputs and respond to user queries... |
 | 2026-05-08 | Response-G1: Explicit Scene Graph Modeling for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.07575) | Proactive streaming video understanding requires Video-LLMs to decide when to respond as a video unfolds, a task wher... |
@@ -60,10 +64,15 @@ Total papers: 76
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-19 | LMM-Track4D: Eliciting 4D Dynamic Reasoning in LMMs via Trajectory-Grounded Dialogue | [arXiv](https://arxiv.org/abs/2605.19390) | Recent large multimodal models (LMMs) have become increasingly capable on image and video understanding, yet still st... |
+| 2026-05-18 | OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.18577) | Omni-proactive streaming video understanding, i.e., autonomously deciding when to speak and what to say from continuo... |
+| 2026-05-17 | Omni-DuplexEval: Evaluating Real-time Duplex Omni-modal Interaction | [arXiv](https://arxiv.org/abs/2605.17360) | Real-time duplex interaction is essential for multimodal AI systems operating in real-world scenarios, where models m... |
+| 2026-05-11 | StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video | [arXiv](https://arxiv.org/abs/2605.16381) | Proactive streaming video understanding requires models to continuously process video streams and decide when to resp... |
 | 2026-05-08 | SYNCR: A Cross-Video Reasoning Benchmark with Synthetic Grounding | [arXiv](https://arxiv.org/abs/2605.08412) | Multimodal Large Language Models (MLLMs) have made rapid progress in single-video understanding, yet their ability to... |
 | 2026-05-08 | TraceAV-Bench: Benchmarking Multi-Hop Trajectory Reasoning over Long Audio-Visual Videos | [arXiv](https://arxiv.org/abs/2605.07593) | Real-world audio-visual understanding requires chaining evidence that is sparse, temporally dispersed, and split acro... |
 | 2026-05-08 | EgoPro-Bench: Benchmarking Personalized Proactive Interaction in Egocentric Video Streams | [arXiv](https://arxiv.org/abs/2605.07299) | Existing Multimodal Large Language Models (MLLMs) remain primarily reactive, failing to continuously perceive environ... |
 | 2026-05-07 | MedHorizon: Towards Long-context Medical Video Understanding in the Wild | [arXiv](https://arxiv.org/abs/2605.06537) | Medical multimodal large language models (MLLMs) have advanced image understanding and short-video analysis, but real... |
+| 2026-04-20 | Leveraging Vision-Language Models to Detect Attention in Educational Videos | [arXiv](https://arxiv.org/abs/2605.20211) | Educational videos are a cornerstone of remote and blended learning. |
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
 | 2026-04-13 | Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding | [arXiv](https://arxiv.org/abs/2604.11244) | Advances in Multimodal Large Language Models (MLLMs) are transforming video captioning from a descriptive endpoint in... |
 | 2026-04-09 | LPM 1.0: Video-based Character Performance Model | [arXiv](https://arxiv.org/abs/2604.07823) | Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is... |
