@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-05-21T05:07:25
+Generated at: 2026-05-22T04:58:21
 
-Total papers: 85
+Total papers: 87
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 39 |
-| Reasoning & Agents | 32 |
+| Memory & KV-Cache | 40 |
+| Reasoning & Agents | 33 |
 | Efficiency & Compression | 7 |
 | Benchmarks & Evaluation | 3 |
 | Video QA / Query | 2 |
@@ -20,6 +20,7 @@ Total papers: 85
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-21 | MuKV: Multi-Grained KV Cache Compression for Long Streaming Video Question-Answering | [arXiv](https://arxiv.org/abs/2605.22269) | Long streaming video QA remains challenging due to growing visual tokens and limited reasoning length of large langua... |
 | 2026-05-19 | DynaTok: Temporally Adaptive and Positional Bias-Aware Token Compression for Video-LLMs | [arXiv](https://arxiv.org/abs/2605.19322) | Recent advances in Video Large Language Models (Video-LLMs) have greatly expanded multimodal reasoning capabilities. |
 | 2026-05-18 | Advancing Narrative Long Video Generation via Training-Free Identity-Aware Memory | [arXiv](https://arxiv.org/abs/2605.18733) | Autoregressive video generation has improved rapidly in visual fidelity and interactivity, but it still suffers from... |
 | 2026-05-18 | An Efficient Streaming Video Understanding Framework with Agentic Control | [arXiv](https://arxiv.org/abs/2605.17921) | Streaming video requires handling dynamic information density under strict latency budgets. |
@@ -64,6 +65,7 @@ Total papers: 85
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-21 | Cambrian-P: Pose-Grounded Video Understanding | [arXiv](https://arxiv.org/abs/2605.22819) | Camera pose matters. |
 | 2026-05-19 | LMM-Track4D: Eliciting 4D Dynamic Reasoning in LMMs via Trajectory-Grounded Dialogue | [arXiv](https://arxiv.org/abs/2605.19390) | Recent large multimodal models (LMMs) have become increasingly capable on image and video understanding, yet still st... |
 | 2026-05-18 | OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.18577) | Omni-proactive streaming video understanding, i.e., autonomously deciding when to speak and what to say from continuo... |
 | 2026-05-17 | Omni-DuplexEval: Evaluating Real-time Duplex Omni-modal Interaction | [arXiv](https://arxiv.org/abs/2605.17360) | Real-time duplex interaction is essential for multimodal AI systems operating in real-world scenarios, where models m... |
