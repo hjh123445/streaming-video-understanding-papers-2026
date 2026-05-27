@@ -1,4 +1,7 @@
 date,title,source,url,brief
+2026-05-26,IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams,arXiv,https://arxiv.org/abs/2605.27074,"Recent multimodal large language models (MLLMs) achieve strong performance on reactive question answering, but real-w..."
+2026-05-26,OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants,arXiv,https://arxiv.org/abs/2605.26485,"We introduce OmniInteract, a streaming benchmark for real-time omnimodal large language models evaluated through nati..."
+2026-05-25,Not All Modalities Are Equal: Instruction-Aware Gating for Multimodal Videos,arXiv,https://arxiv.org/abs/2605.26232,Pre-trained video large language models excel at visual reasoning.
 2026-05-25,LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence,arXiv,https://arxiv.org/abs/2605.25979,"We introduce LLaVA-OneVision-2 (LLaVA-OV-2), the most capable vision-language model in the LLaVA-OneVision series to..."
 2026-05-25,StreamOV: Streaming Omni-Video Understanding via Evidence-Guided Memory and Response Triggering,arXiv,https://arxiv.org/abs/2605.25621,"While streaming omni-video understanding demands continuous perception and proactive, real-time interaction, this cru..."
 2026-05-21,Cambrian-P: Pose-Grounded Video Understanding,arXiv,https://arxiv.org/abs/2605.22819,Camera pose matters.
