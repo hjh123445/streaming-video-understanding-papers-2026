@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-05-28T05:06:50
+Generated at: 2026-05-30T04:50:49
 
-Total papers: 92
+Total papers: 93
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 41 |
-| Reasoning & Agents | 37 |
+| Reasoning & Agents | 38 |
 | Efficiency & Compression | 7 |
 | Benchmarks & Evaluation | 3 |
 | Video QA / Query | 2 |
@@ -66,6 +66,7 @@ Total papers: 92
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-28 | VideoFDB: Evaluating Full-Duplex Vision-Speech Capabilities in Conversational Agents | [arXiv](https://arxiv.org/abs/2605.30256) | Natural human conversation is full-duplex and audio-visual: people simultaneously speak and listen while continuously... |
 | 2026-05-26 | IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams | [arXiv](https://arxiv.org/abs/2605.27074) | Recent multimodal large language models (MLLMs) achieve strong performance on reactive question answering, but real-w... |
 | 2026-05-26 | OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants | [arXiv](https://arxiv.org/abs/2605.26485) | We introduce OmniInteract, a streaming benchmark for real-time omnimodal large language models evaluated through nati... |
 | 2026-05-25 | Not All Modalities Are Equal: Instruction-Aware Gating for Multimodal Videos | [arXiv](https://arxiv.org/abs/2605.26232) | Pre-trained video large language models excel at visual reasoning. |
