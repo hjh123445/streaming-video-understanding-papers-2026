@@ -1,25 +1,26 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-05-31T05:16:34
+Generated at: 2026-06-01T05:59:44
 
-Total papers: 93
+Total papers: 95
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 41 |
+| Memory & KV-Cache | 43 |
 | Reasoning & Agents | 38 |
-| Efficiency & Compression | 7 |
+| Efficiency & Compression | 8 |
 | Benchmarks & Evaluation | 3 |
 | Video QA / Query | 2 |
-| General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
 
 ## Memory & KV-Cache
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-29 | Linear Scaling Video VLMs for Long Video Understanding | [arXiv](https://arxiv.org/abs/2605.31598) | Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video enco... |
+| 2026-05-29 | Task-Focused Memorization for Multimodal Agents | [arXiv](https://arxiv.org/abs/2605.31075) | Long-term memory is essential for multimodal agents to build coherent experience, accumulate world knowledge, and ach... |
 | 2026-05-25 | StreamOV: Streaming Omni-Video Understanding via Evidence-Guided Memory and Response Triggering | [arXiv](https://arxiv.org/abs/2605.25621) | While streaming omni-video understanding demands continuous perception and proactive, real-time interaction, this cru... |
 | 2026-05-21 | MuKV: Multi-Grained KV Cache Compression for Long Streaming Video Question-Answering | [arXiv](https://arxiv.org/abs/2605.22269) | Long streaming video QA remains challenging due to growing visual tokens and limited reasoning length of large langua... |
 | 2026-05-19 | DynaTok: Temporally Adaptive and Positional Bias-Aware Token Compression for Video-LLMs | [arXiv](https://arxiv.org/abs/2605.19322) | Recent advances in Video Large Language Models (Video-LLMs) have greatly expanded multimodal reasoning capabilities. |
@@ -109,6 +110,7 @@ Total papers: 93
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-29 | Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer | [arXiv](https://arxiv.org/abs/2605.30940) | Real-time and accurate spatial audio generation is pivotal for delivering an immersive experience. |
 | 2026-05-11 | EvoStreaming: Your Offline Video Model Is a Natively Streaming Assistant | [arXiv](https://arxiv.org/abs/2605.10343) | Streaming video understanding demands more than watching longer videos: assistants must decide when to speak in real... |
 | 2026-05-04 | HY-Himmel Technical Report: Hierarchical Interleaved Multi-stream Motion Encoding for Long Video Understanding | [arXiv](https://arxiv.org/abs/2605.08158) | Long-video understanding with multimodal language models suffers from three compounding bottlenecks: heavy decode cos... |
 | 2026-04-09 | Small Vision-Language Models are Smart Compressors for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.08120) | Adapting Multimodal Large Language Models (MLLMs) for hour-long videos is bottlenecked by context limits. |
@@ -131,12 +133,6 @@ Total papers: 93
 |---|---|---|---|
 | 2026-05-02 | Multimodal Confidence Modeling in Audio-Visual Quality Assessment | [arXiv](https://arxiv.org/abs/2605.01219) | Audio-visual quality assessment (AVQA) is essential for streaming, teleconferencing, and immersive media. |
 | 2026-02-18 | ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding | [arXiv](https://arxiv.org/abs/2602.16412) | While multimodal large language models (MLLMs) have shown remarkable success across a wide range of tasks, long-form... |
-
-## General Streaming Video Understanding
-
-| Date | Paper | Link | Brief |
-|---|---|---|---|
-| 2026-01-11 | Speak While Watching: Unleashing TRUE Real-Time Video Understanding Capability of Multimodal Large Language Models | [arXiv](https://arxiv.org/abs/2601.06843) | Multimodal Large Language Models (MLLMs) have achieved strong performance across many tasks, yet most systems remain... |
 
 ## Sensors / Systems
 
