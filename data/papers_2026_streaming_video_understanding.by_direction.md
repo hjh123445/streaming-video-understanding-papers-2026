@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-01T05:59:44
+Generated at: 2026-06-02T05:28:07
 
-Total papers: 95
+Total papers: 99
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 43 |
-| Reasoning & Agents | 38 |
+| Memory & KV-Cache | 44 |
+| Reasoning & Agents | 41 |
 | Efficiency & Compression | 8 |
 | Benchmarks & Evaluation | 3 |
 | Video QA / Query | 2 |
@@ -19,6 +19,7 @@ Total papers: 95
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-05-30 | FlowNar: Scalable Streaming Narration for Long-Form Videos | [arXiv](https://arxiv.org/abs/2606.00620) | Recent Large Multimodal Models (LMMs), primarily designed for offline settings, are ill-suited for the dynamic requir... |
 | 2026-05-29 | Linear Scaling Video VLMs for Long Video Understanding | [arXiv](https://arxiv.org/abs/2605.31598) | Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video enco... |
 | 2026-05-29 | Task-Focused Memorization for Multimodal Agents | [arXiv](https://arxiv.org/abs/2605.31075) | Long-term memory is essential for multimodal agents to build coherent experience, accumulate world knowledge, and ach... |
 | 2026-05-25 | StreamOV: Streaming Omni-Video Understanding via Evidence-Guided Memory and Response Triggering | [arXiv](https://arxiv.org/abs/2605.25621) | While streaming omni-video understanding demands continuous perception and proactive, real-time interaction, this cru... |
@@ -67,6 +68,9 @@ Total papers: 95
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-01 | X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding | [arXiv](https://arxiv.org/abs/2606.02482) | While video streaming understanding has made significant strides, real-world applications, such as live sports broadc... |
+| 2026-06-01 | PaSBench-Video: A Streaming Video Benchmark for Proactive Safety Warning | [arXiv](https://arxiv.org/abs/2606.02443) | Between the first visible sign of danger and the moment an accident occurs, there is often a window where interventio... |
+| 2026-06-01 | 3rd Place at CVPR 2026 CASTLE Challenge: Agentic Multi-View Long-Context Video Understanding via Hierarchical Knowledge Graph Retrieval | [arXiv](https://arxiv.org/abs/2606.01933) | This paper presents our winning methodology for the CASTLE 2026 Challenge at the CVPR 2026 EgoVis Workshop, where our... |
 | 2026-05-28 | VideoFDB: Evaluating Full-Duplex Vision-Speech Capabilities in Conversational Agents | [arXiv](https://arxiv.org/abs/2605.30256) | Natural human conversation is full-duplex and audio-visual: people simultaneously speak and listen while continuously... |
 | 2026-05-26 | IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams | [arXiv](https://arxiv.org/abs/2605.27074) | Recent multimodal large language models (MLLMs) achieve strong performance on reactive question answering, but real-w... |
 | 2026-05-26 | OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants | [arXiv](https://arxiv.org/abs/2605.26485) | We introduce OmniInteract, a streaming benchmark for real-time omnimodal large language models evaluated through nati... |
@@ -83,6 +87,7 @@ Total papers: 95
 | 2026-05-07 | MedHorizon: Towards Long-context Medical Video Understanding in the Wild | [arXiv](https://arxiv.org/abs/2605.06537) | Medical multimodal large language models (MLLMs) have advanced image understanding and short-video analysis, but real... |
 | 2026-04-20 | Leveraging Vision-Language Models to Detect Attention in Educational Videos | [arXiv](https://arxiv.org/abs/2605.20211) | Educational videos are a cornerstone of remote and blended learning. |
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
+| 2026-04-13 | Multimodal Large Language Model-Enabled Video Translation: A Role-Oriented Survey | [arXiv](https://arxiv.org/abs/2604.11283) | Recent progress in multimodal large language models (MLLMs) is reshaping video translation from a cascaded pipeline o... |
 | 2026-04-13 | Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding | [arXiv](https://arxiv.org/abs/2604.11244) | Advances in Multimodal Large Language Models (MLLMs) are transforming video captioning from a descriptive endpoint in... |
 | 2026-04-09 | LPM 1.0: Video-based Character Performance Model | [arXiv](https://arxiv.org/abs/2604.07823) | Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is... |
 | 2026-04-07 | EchoAgent: Towards Reliable Echocardiography Interpretation with "Eyes","Hands" and "Minds" | [arXiv](https://arxiv.org/abs/2604.05541) | Reliable interpretation of echocardiography (Echo) is crucial for assessing cardiac function, which demands clinician... |
@@ -104,7 +109,6 @@ Total papers: 95
 | 2026-01-26 | Agentic Very Long Video Understanding | [arXiv](https://arxiv.org/abs/2601.18157) | The advent of always-on personal AI assistants, enabled by all-day wearable devices such as smart glasses, demands a... |
 | 2026-01-23 | Acoustic Field Video for Multimodal Scene Understanding | [arXiv](https://arxiv.org/abs/2601.17123) | We introduce and explore a new multimodal input representation for vision-language models: acoustic field video. |
 | 2026-01-20 | Hierarchical Long Video Understanding with Audiovisual Entity Cohesion and Agentic Search | [arXiv](https://arxiv.org/abs/2601.13719) | Long video understanding presents significant challenges for vision-language models due to extremely long context win... |
-| 2026-01-15 | ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding | [arXiv](https://arxiv.org/abs/2601.10323) | Recent Omni-multimodal Large Language Models show promise in unified audio, vision, and text modeling. |
 
 ## Efficiency & Compression
 
