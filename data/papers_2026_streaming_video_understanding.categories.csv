@@ -1,4 +1,7 @@
 direction,count
-Memory & KV-Cache,20
-Reasoning & Agents,6
-Efficiency & Compression,3
+Memory & KV-Cache,43
+Reasoning & Agents,42
+Efficiency & Compression,9
+Benchmarks & Evaluation,3
+Video QA / Query,2
+Sensors / Systems,1
