@@ -1,8 +1,8 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-04T05:53:39
+Generated at: 2026-06-06T04:51:50
 
-Total papers: 100
+Total papers: 101
 
 ## Category Summary
 
@@ -11,7 +11,7 @@ Total papers: 100
 | Memory & KV-Cache | 43 |
 | Reasoning & Agents | 42 |
 | Efficiency & Compression | 9 |
-| Benchmarks & Evaluation | 3 |
+| Benchmarks & Evaluation | 4 |
 | Video QA / Query | 2 |
 | Sensors / Systems | 1 |
 
@@ -128,6 +128,7 @@ Total papers: 100
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-04 | Video-Rate Streaming Stylization on a Vision-Aware MLLM-Conditioned Edit Diffusion: Asymmetric Batched Inference on a Distilled UNet + MLLM Text Encoder | [arXiv](https://arxiv.org/abs/2606.05981) | Aggressive distillation of the diffusion U-Net inverts the per-frame bottleneck of real-time text-to-image pipelines:... |
 | 2026-04-10 | Multimodal Anomaly Detection for Human-Robot Interaction | [arXiv](https://arxiv.org/abs/2604.09326) | Ensuring safety and reliability in human-robot interaction (HRI) requires the timely detection of unexpected events t... |
 | 2026-03-27 | Cinematic Audio Source Separation Using Visual Cues | [arXiv](https://arxiv.org/abs/2603.26113) | Cinematic Audio Source Separation (CASS) aims to decompose mixed film audio into speech, music, and sound effects, en... |
 | 2026-02-17 | Automatic Funny Scene Extraction from Long-form Cinematic Videos | [arXiv](https://arxiv.org/abs/2602.15381) | Automatically extracting engaging and high-quality humorous scenes from cinematic titles is pivotal for creating capt... |
