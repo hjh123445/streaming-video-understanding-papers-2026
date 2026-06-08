@@ -1,17 +1,17 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-07T05:19:49
+Generated at: 2026-06-08T05:28:17
 
-Total papers: 101
+Total papers: 106
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 43 |
-| Reasoning & Agents | 42 |
+| Memory & KV-Cache | 45 |
+| Reasoning & Agents | 44 |
 | Efficiency & Compression | 9 |
-| Benchmarks & Evaluation | 4 |
+| Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
 | Sensors / Systems | 1 |
 
@@ -19,6 +19,8 @@ Total papers: 101
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-05 | MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism | [arXiv](https://arxiv.org/abs/2606.07512) | Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induce... |
+| 2026-06-05 | Watch, Remember, Reason: Human-View Video Understanding with MLLMs | [arXiv](https://arxiv.org/abs/2606.07433) | Video understanding is being rapidly transformed by multimodal large language models (MLLMs), as research moves from... |
 | 2026-05-30 | FlowNar: Scalable Streaming Narration for Long-Form Videos | [arXiv](https://arxiv.org/abs/2606.00620) | Recent Large Multimodal Models (LMMs), primarily designed for offline settings, are ill-suited for the dynamic requir... |
 | 2026-05-29 | Linear Scaling Video VLMs for Long Video Understanding | [arXiv](https://arxiv.org/abs/2605.31598) | Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video enco... |
 | 2026-05-29 | Task-Focused Memorization for Multimodal Agents | [arXiv](https://arxiv.org/abs/2605.31075) | Long-term memory is essential for multimodal agents to build coherent experience, accumulate world knowledge, and ach... |
@@ -67,6 +69,8 @@ Total papers: 101
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-05 | Don't Pause: Streaming Video-Language Synchrony for Online Video Understanding | [arXiv](https://arxiv.org/abs/2606.06991) | Online Video Large Language Models (Video-LLMs) have advanced toward seamless human-AI interaction through frame-by-f... |
+| 2026-06-05 | Stream3D-VLM: Online 3D Spatial Understanding with Incremental Geometry Priors | [arXiv](https://arxiv.org/abs/2606.06891) | Despite advances in 3D scene understanding, existing 3D Large Multimodal Models operate in offline settings, requirin... |
 | 2026-06-03 | Bridging Short Videos and Live Streams: Reasoning-Guided Multimodal LLMs for Cross-Domain Representation Learning | [arXiv](https://arxiv.org/abs/2606.04448) | As live streaming services grow, many platforms offer short videos and live streams to meet diverse needs. |
 | 2026-06-02 | Benchmarking Visual State Tracking in Multimodal Video Understanding | [arXiv](https://arxiv.org/abs/2606.03920) | Understanding a video requires more than recognizing isolated moments, as humans continuously track entities, states,... |
 | 2026-06-02 | OVO-S-Bench: A Hierarchical Benchmark for Streaming Spatial Intelligence in Multimodal LLMs | [arXiv](https://arxiv.org/abs/2606.03890) | Multimodal agents in robotics, AR, and autonomous driving must reason about places and layouts from continuous egocen... |
@@ -128,6 +132,7 @@ Total papers: 101
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-05 | TraRA: Trajectory-level Recognition Aggregation for Video Text Spotting in Urban Surveillance | [arXiv](https://arxiv.org/abs/2606.07161) | Video Text Spotting (VTS) is essential for urban surveillance and intelligent transportation systems, enabling automa... |
 | 2026-06-04 | Video-Rate Streaming Stylization on a Vision-Aware MLLM-Conditioned Edit Diffusion: Asymmetric Batched Inference on a Distilled UNet + MLLM Text Encoder | [arXiv](https://arxiv.org/abs/2606.05981) | Aggressive distillation of the diffusion U-Net inverts the per-frame bottleneck of real-time text-to-image pipelines:... |
 | 2026-04-10 | Multimodal Anomaly Detection for Human-Robot Interaction | [arXiv](https://arxiv.org/abs/2604.09326) | Ensuring safety and reliability in human-robot interaction (HRI) requires the timely detection of unexpected events t... |
 | 2026-03-27 | Cinematic Audio Source Separation Using Visual Cues | [arXiv](https://arxiv.org/abs/2603.26113) | Cinematic Audio Source Separation (CASS) aims to decompose mixed film audio into speech, music, and sound effects, en... |
