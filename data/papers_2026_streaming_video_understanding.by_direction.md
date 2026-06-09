@@ -1,17 +1,17 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-08T05:28:17
+Generated at: 2026-06-09T05:02:12
 
-Total papers: 106
+Total papers: 108
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 45 |
-| Reasoning & Agents | 44 |
-| Efficiency & Compression | 9 |
-| Benchmarks & Evaluation | 5 |
+| Memory & KV-Cache | 46 |
+| Reasoning & Agents | 45 |
+| Efficiency & Compression | 8 |
+| Benchmarks & Evaluation | 6 |
 | Video QA / Query | 2 |
 | Sensors / Systems | 1 |
 
@@ -19,6 +19,7 @@ Total papers: 106
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-07 | Harnessing Streaming Video in the Wild | [arXiv](https://arxiv.org/abs/2606.08615) | Vision-Language Models (VLMs) are increasingly required to process unbounded video streams in applications such as vi... |
 | 2026-06-05 | MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism | [arXiv](https://arxiv.org/abs/2606.07512) | Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induce... |
 | 2026-06-05 | Watch, Remember, Reason: Human-View Video Understanding with MLLMs | [arXiv](https://arxiv.org/abs/2606.07433) | Video understanding is being rapidly transformed by multimodal large language models (MLLMs), as research moves from... |
 | 2026-05-30 | FlowNar: Scalable Streaming Narration for Long-Form Videos | [arXiv](https://arxiv.org/abs/2606.00620) | Recent Large Multimodal Models (LMMs), primarily designed for offline settings, are ill-suited for the dynamic requir... |
@@ -69,6 +70,8 @@ Total papers: 106
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-08 | Streaming Interventions: Can Video Large Language Models Correct Mistakes as They Occur? | [arXiv](https://arxiv.org/abs/2606.09547) | Learning everyday skills, like cooking a dish, relies increasingly on instructional media such as online videos. |
+| 2026-06-08 | DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking for Full-Duplex Interaction | [arXiv](https://arxiv.org/abs/2606.09186) | Human interaction is continuous, multimodal, and full-duplex by nature. |
 | 2026-06-05 | Don't Pause: Streaming Video-Language Synchrony for Online Video Understanding | [arXiv](https://arxiv.org/abs/2606.06991) | Online Video Large Language Models (Video-LLMs) have advanced toward seamless human-AI interaction through frame-by-f... |
 | 2026-06-05 | Stream3D-VLM: Online 3D Spatial Understanding with Incremental Geometry Priors | [arXiv](https://arxiv.org/abs/2606.06891) | Despite advances in 3D scene understanding, existing 3D Large Multimodal Models operate in offline settings, requirin... |
 | 2026-06-03 | Bridging Short Videos and Live Streams: Reasoning-Guided Multimodal LLMs for Cross-Domain Representation Learning | [arXiv](https://arxiv.org/abs/2606.04448) | As live streaming services grow, many platforms offer short videos and live streams to meet diverse needs. |
@@ -110,7 +113,6 @@ Total papers: 106
 | 2026-03-08 | Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence | [arXiv](https://arxiv.org/abs/2603.07660) | The pursuit of spatial intelligence fundamentally relies on access to large-scale, fine-grained 3D data. |
 | 2026-03-03 | Proact-VL: A Proactive VideoLLM for Real-Time AI Companions | [arXiv](https://arxiv.org/abs/2603.03447) | Proactive and real-time interactive experiences are essential for human-like AI companions, yet face three key challe... |
 | 2026-03-01 | Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI | [arXiv](https://arxiv.org/abs/2603.01104) | What if accessing the web did not require a screen, a stable desk, or even free hands? |
-| 2026-02-13 | Artic: AI-oriented Real-time Communication for MLLM Video Assistant | [arXiv](https://arxiv.org/abs/2602.12641) | AI Video Assistant emerges as a new paradigm for Real-time Communication (RTC), where one peer is a Multimodal Large... |
 | 2026-01-26 | Agentic Very Long Video Understanding | [arXiv](https://arxiv.org/abs/2601.18157) | The advent of always-on personal AI assistants, enabled by all-day wearable devices such as smart glasses, demands a... |
 | 2026-01-20 | Hierarchical Long Video Understanding with Audiovisual Entity Cohesion and Agentic Search | [arXiv](https://arxiv.org/abs/2601.13719) | Long video understanding presents significant challenges for vision-language models due to extremely long context win... |
 
@@ -126,12 +128,12 @@ Total papers: 106
 | 2026-03-26 | GazeQwen: Lightweight Gaze-Conditioned LLM Modulation for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.25841) | Current multimodal large language models (MLLMs) cannot effectively utilize eye-gaze information for video understand... |
 | 2026-03-23 | Color When It Counts: Grayscale-Guided Online Triggering for Always-On Streaming Video Sensing | [arXiv](https://arxiv.org/abs/2603.22466) | Always-on sensing is essential for next-generation edge/wearable AI systems, yet continuous high-fidelity RGB video c... |
 | 2026-03-01 | Event-Anchored Frame Selection for Effective Long-Video Understanding | [arXiv](https://arxiv.org/abs/2603.00983) | Massive frame redundancy and limited context window make efficient frame selection crucial for long-video understandi... |
-| 2026-02-14 | EchoTorrent: Towards Swift, Sustained, and Streaming Multi-Modal Video Generation | [arXiv](https://arxiv.org/abs/2602.13669) | Recent multi-modal video generation models have achieved high visual quality, but their prohibitive latency and limit... |
 
 ## Benchmarks & Evaluation
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-07 | Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography | [arXiv](https://arxiv.org/abs/2606.08726) | The aim of steganography is to hide secret information inside ordinary media so that the existence of communication i... |
 | 2026-06-05 | TraRA: Trajectory-level Recognition Aggregation for Video Text Spotting in Urban Surveillance | [arXiv](https://arxiv.org/abs/2606.07161) | Video Text Spotting (VTS) is essential for urban surveillance and intelligent transportation systems, enabling automa... |
 | 2026-06-04 | Video-Rate Streaming Stylization on a Vision-Aware MLLM-Conditioned Edit Diffusion: Asymmetric Batched Inference on a Distilled UNet + MLLM Text Encoder | [arXiv](https://arxiv.org/abs/2606.05981) | Aggressive distillation of the diffusion U-Net inverts the per-frame bottleneck of real-time text-to-image pipelines:... |
 | 2026-04-10 | Multimodal Anomaly Detection for Human-Robot Interaction | [arXiv](https://arxiv.org/abs/2604.09326) | Ensuring safety and reliability in human-robot interaction (HRI) requires the timely detection of unexpected events t... |
