@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-09T05:02:12
+Generated at: 2026-06-10T05:14:47
 
 Total papers: 108
 
@@ -9,9 +9,9 @@ Total papers: 108
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 46 |
-| Reasoning & Agents | 45 |
+| Reasoning & Agents | 46 |
 | Efficiency & Compression | 8 |
-| Benchmarks & Evaluation | 6 |
+| Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
 | Sensors / Systems | 1 |
 
@@ -70,6 +70,7 @@ Total papers: 108
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-08 | From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs | [arXiv](https://arxiv.org/abs/2606.10147) | Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel thro... |
 | 2026-06-08 | Streaming Interventions: Can Video Large Language Models Correct Mistakes as They Occur? | [arXiv](https://arxiv.org/abs/2606.09547) | Learning everyday skills, like cooking a dish, relies increasingly on instructional media such as online videos. |
 | 2026-06-08 | DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking for Full-Duplex Interaction | [arXiv](https://arxiv.org/abs/2606.09186) | Human interaction is continuous, multimodal, and full-duplex by nature. |
 | 2026-06-05 | Don't Pause: Streaming Video-Language Synchrony for Online Video Understanding | [arXiv](https://arxiv.org/abs/2606.06991) | Online Video Large Language Models (Video-LLMs) have advanced toward seamless human-AI interaction through frame-by-f... |
@@ -138,7 +139,6 @@ Total papers: 108
 | 2026-06-04 | Video-Rate Streaming Stylization on a Vision-Aware MLLM-Conditioned Edit Diffusion: Asymmetric Batched Inference on a Distilled UNet + MLLM Text Encoder | [arXiv](https://arxiv.org/abs/2606.05981) | Aggressive distillation of the diffusion U-Net inverts the per-frame bottleneck of real-time text-to-image pipelines:... |
 | 2026-04-10 | Multimodal Anomaly Detection for Human-Robot Interaction | [arXiv](https://arxiv.org/abs/2604.09326) | Ensuring safety and reliability in human-robot interaction (HRI) requires the timely detection of unexpected events t... |
 | 2026-03-27 | Cinematic Audio Source Separation Using Visual Cues | [arXiv](https://arxiv.org/abs/2603.26113) | Cinematic Audio Source Separation (CASS) aims to decompose mixed film audio into speech, music, and sound effects, en... |
-| 2026-02-17 | Automatic Funny Scene Extraction from Long-form Cinematic Videos | [arXiv](https://arxiv.org/abs/2602.15381) | Automatically extracting engaging and high-quality humorous scenes from cinematic titles is pivotal for creating capt... |
 
 ## Video QA / Query
 
