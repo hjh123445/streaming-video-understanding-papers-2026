@@ -1,4 +1,6 @@
 date,title,source,url,brief
+2026-06-10,InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning,arXiv,https://arxiv.org/abs/2606.12195,Recent progress in foundation models has shifted toward agentic behavior involving multi-step reasoning and tool use.
+2026-06-10,From Content to Knowledge: Lightning Fast Long-Video Understanding with Neural Knowledge Representations,arXiv,https://arxiv.org/abs/2606.11913,We propose a new paradigm for long video understanding by treating a long video as a Neural Knowledge Representation...
 2026-06-08,From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs,arXiv,https://arxiv.org/abs/2606.10147,"Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel thro..."
 2026-06-08,Streaming Interventions: Can Video Large Language Models Correct Mistakes as They Occur?,arXiv,https://arxiv.org/abs/2606.09547,"Learning everyday skills, like cooking a dish, relies increasingly on instructional media such as online videos."
 2026-06-08,"DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking for Full-Duplex Interaction",arXiv,https://arxiv.org/abs/2606.09186,"Human interaction is continuous, multimodal, and full-duplex by nature."

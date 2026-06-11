@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-10T05:14:47
+Generated at: 2026-06-11T05:26:05
 
-Total papers: 108
+Total papers: 110
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 46 |
-| Reasoning & Agents | 46 |
+| Memory & KV-Cache | 47 |
+| Reasoning & Agents | 47 |
 | Efficiency & Compression | 8 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
@@ -19,6 +19,7 @@ Total papers: 108
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-10 | InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning | [arXiv](https://arxiv.org/abs/2606.12195) | Recent progress in foundation models has shifted toward agentic behavior involving multi-step reasoning and tool use. |
 | 2026-06-07 | Harnessing Streaming Video in the Wild | [arXiv](https://arxiv.org/abs/2606.08615) | Vision-Language Models (VLMs) are increasingly required to process unbounded video streams in applications such as vi... |
 | 2026-06-05 | MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism | [arXiv](https://arxiv.org/abs/2606.07512) | Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induce... |
 | 2026-06-05 | Watch, Remember, Reason: Human-View Video Understanding with MLLMs | [arXiv](https://arxiv.org/abs/2606.07433) | Video understanding is being rapidly transformed by multimodal large language models (MLLMs), as research moves from... |
@@ -70,6 +71,7 @@ Total papers: 108
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-10 | From Content to Knowledge: Lightning Fast Long-Video Understanding with Neural Knowledge Representations | [arXiv](https://arxiv.org/abs/2606.11913) | We propose a new paradigm for long video understanding by treating a long video as a Neural Knowledge Representation... |
 | 2026-06-08 | From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs | [arXiv](https://arxiv.org/abs/2606.10147) | Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel thro... |
 | 2026-06-08 | Streaming Interventions: Can Video Large Language Models Correct Mistakes as They Occur? | [arXiv](https://arxiv.org/abs/2606.09547) | Learning everyday skills, like cooking a dish, relies increasingly on instructional media such as online videos. |
 | 2026-06-08 | DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking for Full-Duplex Interaction | [arXiv](https://arxiv.org/abs/2606.09186) | Human interaction is continuous, multimodal, and full-duplex by nature. |
