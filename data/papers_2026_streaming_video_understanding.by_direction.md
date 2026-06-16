@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-15T06:21:17
+Generated at: 2026-06-16T06:31:21
 
-Total papers: 110
+Total papers: 111
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 47 |
+| Memory & KV-Cache | 48 |
 | Reasoning & Agents | 47 |
 | Efficiency & Compression | 8 |
 | Benchmarks & Evaluation | 5 |
@@ -19,6 +19,9 @@ Total papers: 110
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-15 | What Should a Streaming Video Model Remember? | [arXiv](https://arxiv.org/abs/2606.16353) | Streaming video understanding models must answer queries at any moment during an ongoing stream, using only what they... |
+| 2026-06-15 | VisualClaw: A Real-Time, Personalized Agent for the Physical World | [arXiv](https://arxiv.org/abs/2606.16295) | Vision language models are serving as general-purpose interfaces for complex multimodal tasks. |
+| 2026-06-13 | Keep It in Mind: User Centric Continual Spatial Intelligence Reasoning in Egocentric Video Streams | [arXiv](https://arxiv.org/abs/2606.15200) | We introduce UCS-Bench, a dataset spanning 170+ hours of egocentric visual observations with 8.1K+ timestamped questi... |
 | 2026-06-10 | InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning | [arXiv](https://arxiv.org/abs/2606.12195) | Recent progress in foundation models has shifted toward agentic behavior involving multi-step reasoning and tool use. |
 | 2026-06-07 | Harnessing Streaming Video in the Wild | [arXiv](https://arxiv.org/abs/2606.08615) | Vision-Language Models (VLMs) are increasingly required to process unbounded video streams in applications such as vi... |
 | 2026-06-05 | MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism | [arXiv](https://arxiv.org/abs/2606.07512) | Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induce... |
@@ -57,8 +60,6 @@ Total papers: 110
 | 2026-03-12 | Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models | [arXiv](https://arxiv.org/abs/2603.11896) | Multimodal large language models (MLLMs) have shown strong performance on offline video understanding, but most are l... |
 | 2026-03-02 | FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.02096) | This paper presents FluxMem, a training-free framework for efficient streaming video understanding. |
 | 2026-03-02 | From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents | [arXiv](https://arxiv.org/abs/2603.01455) | While multimodal large language models have demonstrated impressive short-term reasoning, they struggle with long-hor... |
-| 2026-02-27 | Enhancing Vision-Language Navigation with Multimodal Event Knowledge from Real-World Indoor Tour Videos | [arXiv](https://arxiv.org/abs/2602.23937) | Vision-Language Navigation (VLN) agents often struggle with long-horizon reasoning in unseen environments, particular... |
-| 2026-02-25 | Exploring Multimodal LMMs for Online Episodic Memory Question Answering on the Edge | [arXiv](https://arxiv.org/abs/2602.22455) | We investigate the feasibility of using Multimodal Large Language Models (MLLMs) for real-time online episodic memory... |
 | 2026-02-25 | WeaveTime: Stream from Earlier Frames into Emergent Memory in VideoLLMs | [arXiv](https://arxiv.org/abs/2602.22142) | Recent advances in Multimodal Large Language Models have greatly improved visual understanding and reasoning, yet the... |
 | 2026-02-20 | Going Down Memory Lane: Scaling Tokens for Video Stream Understanding with Dynamic KV-Cache Memory | [arXiv](https://arxiv.org/abs/2602.18434) | Streaming video understanding requires models to robustly encode, store, and retrieve information from a continuous v... |
 | 2026-02-17 | EventMemAgent: Hierarchical Event-Centric Memory for Online Video Understanding with Adaptive Tool Use | [arXiv](https://arxiv.org/abs/2602.15329) | Online video understanding requires models to perform continuous perception and long-range reasoning within potential... |
