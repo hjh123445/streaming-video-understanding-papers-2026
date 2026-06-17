@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-16T06:31:21
+Generated at: 2026-06-17T06:06:58
 
-Total papers: 111
+Total papers: 112
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 48 |
+| Memory & KV-Cache | 49 |
 | Reasoning & Agents | 47 |
 | Efficiency & Compression | 8 |
 | Benchmarks & Evaluation | 5 |
@@ -19,6 +19,7 @@ Total papers: 111
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-16 | LiveStarPro: Proactive Streaming Video Understanding with Hierarchical Memory for Long-Horizon Streams | [arXiv](https://arxiv.org/abs/2606.17798) | Despite the remarkable progress of Video Large Language Models (Video-LLMs), current online architectures still strug... |
 | 2026-06-15 | What Should a Streaming Video Model Remember? | [arXiv](https://arxiv.org/abs/2606.16353) | Streaming video understanding models must answer queries at any moment during an ongoing stream, using only what they... |
 | 2026-06-15 | VisualClaw: A Real-Time, Personalized Agent for the Physical World | [arXiv](https://arxiv.org/abs/2606.16295) | Vision language models are serving as general-purpose interfaces for complex multimodal tasks. |
 | 2026-06-13 | Keep It in Mind: User Centric Continual Spatial Intelligence Reasoning in Egocentric Video Streams | [arXiv](https://arxiv.org/abs/2606.15200) | We introduce UCS-Bench, a dataset spanning 170+ hours of egocentric visual observations with 8.1K+ timestamped questi... |
