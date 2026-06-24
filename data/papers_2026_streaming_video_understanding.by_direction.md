@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-23T04:57:05
+Generated at: 2026-06-24T05:00:34
 
-Total papers: 115
+Total papers: 114
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 52 |
-| Reasoning & Agents | 46 |
+| Reasoning & Agents | 45 |
 | Efficiency & Compression | 9 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
@@ -118,7 +118,6 @@ Total papers: 115
 | 2026-03-12 | HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios | [arXiv](https://arxiv.org/abs/2603.11975) | The rapid evolution of embodied agents has accelerated the deployment of household robots in real-world environments. |
 | 2026-03-10 | FetalAgents: A Multi-Agent System for Fetal Ultrasound Image and Video Analysis | [arXiv](https://arxiv.org/abs/2603.09733) | Fetal ultrasound (US) is the primary imaging modality for prenatal screening, yet its interpretation relies heavily o... |
 | 2026-03-09 | StreamReady: Learning What to Answer and When in Long Streaming Videos | [arXiv](https://arxiv.org/abs/2603.08620) | Streaming video understanding often involves time-sensitive scenarios where models need to answer exactly when the su... |
-| 2026-03-08 | Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence | [arXiv](https://arxiv.org/abs/2603.07660) | The pursuit of spatial intelligence fundamentally relies on access to large-scale, fine-grained 3D data. |
 | 2026-03-03 | Proact-VL: A Proactive VideoLLM for Real-Time AI Companions | [arXiv](https://arxiv.org/abs/2603.03447) | Proactive and real-time interactive experiences are essential for human-like AI companions, yet face three key challe... |
 | 2026-01-26 | Agentic Very Long Video Understanding | [arXiv](https://arxiv.org/abs/2601.18157) | The advent of always-on personal AI assistants, enabled by all-day wearable devices such as smart glasses, demands a... |
 | 2026-01-20 | Hierarchical Long Video Understanding with Audiovisual Entity Cohesion and Agentic Search | [arXiv](https://arxiv.org/abs/2601.13719) | Long video understanding presents significant challenges for vision-language models due to extremely long context win... |
