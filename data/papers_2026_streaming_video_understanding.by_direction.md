@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-24T05:00:34
+Generated at: 2026-06-25T05:02:12
 
-Total papers: 114
+Total papers: 115
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 52 |
+| Memory & KV-Cache | 53 |
 | Reasoning & Agents | 45 |
 | Efficiency & Compression | 9 |
 | Benchmarks & Evaluation | 5 |
@@ -19,6 +19,7 @@ Total papers: 114
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-24 | Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2606.25658) | Currently, streaming video understanding is still a daunting task for existing \emph{multimodal large language models... |
 | 2026-06-22 | Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse | [arXiv](https://arxiv.org/abs/2606.23581) | Multimodal agents repeatedly re-examine the same video frames, UI screenshots, and rendered artifacts as their contex... |
 | 2026-06-18 | SignVLA: Real-Time Sign Language-Guided Robotic Manipulation via Attention LSTM and Vision-Language-Action Models | [arXiv](https://arxiv.org/abs/2606.20857) | Vision-Language-Action (VLA) models enable robots to execute manipulation tasks from natural-language instructions gr... |
 | 2026-06-18 | ViCoStream: Streaming VideoLLMs Can Run Beyond 100 FPS with Stage-Wise Coordinated Inference | [arXiv](https://arxiv.org/abs/2606.19849) | Streaming VideoLLMs must continuously process incoming video while maintaining low query latency, making both video-i... |
@@ -76,6 +77,7 @@ Total papers: 114
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-23 | Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models | [arXiv](https://arxiv.org/abs/2606.25041) | We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for... |
 | 2026-06-10 | From Content to Knowledge: Lightning Fast Long-Video Understanding with Neural Knowledge Representations | [arXiv](https://arxiv.org/abs/2606.11913) | We propose a new paradigm for long video understanding by treating a long video as a Neural Knowledge Representation... |
 | 2026-06-08 | From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs | [arXiv](https://arxiv.org/abs/2606.10147) | Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel thro... |
 | 2026-06-08 | Streaming Interventions: Can Video Large Language Models Correct Mistakes as They Occur? | [arXiv](https://arxiv.org/abs/2606.09547) | Learning everyday skills, like cooking a dish, relies increasingly on instructional media such as online videos. |
@@ -116,7 +118,6 @@ Total papers: 114
 | 2026-03-19 | Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.19054) | Recent advances in Streaming Video Understanding has enabled a new interaction paradigm where models respond proactiv... |
 | 2026-03-12 | Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously | [arXiv](https://arxiv.org/abs/2603.12262) | Online Video Large Language Models (VideoLLMs) play a critical role in supporting responsive, real-time interaction. |
 | 2026-03-12 | HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios | [arXiv](https://arxiv.org/abs/2603.11975) | The rapid evolution of embodied agents has accelerated the deployment of household robots in real-world environments. |
-| 2026-03-10 | FetalAgents: A Multi-Agent System for Fetal Ultrasound Image and Video Analysis | [arXiv](https://arxiv.org/abs/2603.09733) | Fetal ultrasound (US) is the primary imaging modality for prenatal screening, yet its interpretation relies heavily o... |
 | 2026-03-09 | StreamReady: Learning What to Answer and When in Long Streaming Videos | [arXiv](https://arxiv.org/abs/2603.08620) | Streaming video understanding often involves time-sensitive scenarios where models need to answer exactly when the su... |
 | 2026-03-03 | Proact-VL: A Proactive VideoLLM for Real-Time AI Companions | [arXiv](https://arxiv.org/abs/2603.03447) | Proactive and real-time interactive experiences are essential for human-like AI companions, yet face three key challe... |
 | 2026-01-26 | Agentic Very Long Video Understanding | [arXiv](https://arxiv.org/abs/2601.18157) | The advent of always-on personal AI assistants, enabled by all-day wearable devices such as smart glasses, demands a... |
