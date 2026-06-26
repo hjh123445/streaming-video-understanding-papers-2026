@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-25T05:02:12
+Generated at: 2026-06-26T05:06:09
 
-Total papers: 115
+Total papers: 116
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 53 |
+| Memory & KV-Cache | 54 |
 | Reasoning & Agents | 45 |
 | Efficiency & Compression | 9 |
 | Benchmarks & Evaluation | 5 |
@@ -19,6 +19,7 @@ Total papers: 115
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-25 | ProtoKV: Streaming Video Understanding under Delayed Query with Summary-State Memory | [arXiv](https://arxiv.org/abs/2606.26762) | Streaming video understanding (SVU) must answer queries that arrive asynchronously while visual tokens stream continu... |
 | 2026-06-24 | Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2606.25658) | Currently, streaming video understanding is still a daunting task for existing \emph{multimodal large language models... |
 | 2026-06-22 | Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse | [arXiv](https://arxiv.org/abs/2606.23581) | Multimodal agents repeatedly re-examine the same video frames, UI screenshots, and rendered artifacts as their contex... |
 | 2026-06-18 | SignVLA: Real-Time Sign Language-Guided Robotic Manipulation via Attention LSTM and Vision-Language-Action Models | [arXiv](https://arxiv.org/abs/2606.20857) | Vision-Language-Action (VLA) models enable robots to execute manipulation tasks from natural-language instructions gr... |
