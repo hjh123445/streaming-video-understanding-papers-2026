@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-06-29T05:28:07
+Generated at: 2026-06-30T05:00:18
 
-Total papers: 116
+Total papers: 117
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 54 |
-| Reasoning & Agents | 45 |
+| Reasoning & Agents | 46 |
 | Efficiency & Compression | 9 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
@@ -78,6 +78,7 @@ Total papers: 116
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-06-29 | From Failure Taxonomy to Intervention: A Diagnostic Methodology for Industry-Scale AVLM in Video and Live-Streaming Platform Moderation | [arXiv](https://arxiv.org/abs/2606.30059) | Industry-scale video and live-streaming moderation imposes requirements that are difficult to satisfy with generic pr... |
 | 2026-06-23 | Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models | [arXiv](https://arxiv.org/abs/2606.25041) | We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for... |
 | 2026-06-10 | From Content to Knowledge: Lightning Fast Long-Video Understanding with Neural Knowledge Representations | [arXiv](https://arxiv.org/abs/2606.11913) | We propose a new paradigm for long video understanding by treating a long video as a Neural Knowledge Representation... |
 | 2026-06-08 | From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs | [arXiv](https://arxiv.org/abs/2606.10147) | Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel thro... |
