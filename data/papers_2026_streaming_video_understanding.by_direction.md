@@ -1,18 +1,18 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-07-06T05:08:02
+Generated at: 2026-07-07T04:48:39
 
-Total papers: 117
+Total papers: 118
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 54 |
+| Memory & KV-Cache | 53 |
 | Reasoning & Agents | 45 |
 | Efficiency & Compression | 9 |
-| Benchmarks & Evaluation | 5 |
-| Video QA / Query | 2 |
+| Benchmarks & Evaluation | 6 |
+| Video QA / Query | 3 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
 
@@ -62,7 +62,6 @@ Total papers: 117
 | 2026-03-23 | StreamingEval: A Unified Evaluation Protocol towards Realistic Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.21493) | Real-time, continuous understanding of visual signals is essential for real-world interactive AI applications, and po... |
 | 2026-03-20 | PEARL: Personalized Streaming Video Understanding Model | [arXiv](https://arxiv.org/abs/2603.20422) | Human cognition of new concepts is inherently a streaming process: we continuously recognize new objects or identitie... |
 | 2026-03-20 | CurveStream: Boosting Streaming Video Understanding in MLLMs via Curvature-Aware Hierarchical Visual Memory Management | [arXiv](https://arxiv.org/abs/2603.19571) | Multimodal Large Language Models have achieved significant success in offline video understanding, yet their applicat... |
-| 2026-03-19 | Click-to-Ask: An AI Live Streaming Assistant with Offline Copywriting and Online Interactive QA | [arXiv](https://arxiv.org/abs/2603.18649) | Live streaming commerce has become a prominent form of broadcasting in the modern era. |
 | 2026-03-13 | Thinking in Streaming Video | [arXiv](https://arxiv.org/abs/2603.12938) | Real-time understanding of continuous video streams is essential for interactive assistants and multimodal agents ope... |
 | 2026-03-12 | WAT: Online Video Understanding Needs Watching Before Thinking | [arXiv](https://arxiv.org/abs/2603.13412) | Multimodal Large Language Models (MLLMs) have shown strong capabilities in image understanding, motivating recent eff... |
 | 2026-03-12 | Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models | [arXiv](https://arxiv.org/abs/2603.11896) | Multimodal large language models (MLLMs) have shown strong performance on offline video understanding, but most are l... |
@@ -143,6 +142,7 @@ Total papers: 117
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-03 | GuideMe: Multi-Domain Task Guidance and Intervention in Streaming Video | [arXiv](https://arxiv.org/abs/2607.02991) | While multimodal Large Language Models (MLLMs) excel at offline video understanding, an interesting question of how f... |
 | 2026-06-07 | Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography | [arXiv](https://arxiv.org/abs/2606.08726) | The aim of steganography is to hide secret information inside ordinary media so that the existence of communication i... |
 | 2026-06-05 | TraRA: Trajectory-level Recognition Aggregation for Video Text Spotting in Urban Surveillance | [arXiv](https://arxiv.org/abs/2606.07161) | Video Text Spotting (VTS) is essential for urban surveillance and intelligent transportation systems, enabling automa... |
 | 2026-06-04 | Video-Rate Streaming Stylization on a Vision-Aware MLLM-Conditioned Edit Diffusion: Asymmetric Batched Inference on a Distilled UNet + MLLM Text Encoder | [arXiv](https://arxiv.org/abs/2606.05981) | Aggressive distillation of the diffusion U-Net inverts the per-frame bottleneck of real-time text-to-image pipelines:... |
@@ -153,6 +153,7 @@ Total papers: 117
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-06 | QSVideo: Query-Conditioned Semantic Temporal Retrieval for Video Understanding | [arXiv](https://arxiv.org/abs/2607.04559) | The performance of vision-language models (VLMs) in video understanding declines with increasing video duration, as v... |
 | 2026-05-02 | Multimodal Confidence Modeling in Audio-Visual Quality Assessment | [arXiv](https://arxiv.org/abs/2605.01219) | Audio-visual quality assessment (AVQA) is essential for streaming, teleconferencing, and immersive media. |
 | 2026-02-18 | ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding | [arXiv](https://arxiv.org/abs/2602.16412) | While multimodal large language models (MLLMs) have shown remarkable success across a wide range of tasks, long-form... |
 
@@ -160,7 +161,7 @@ Total papers: 117
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
-| 2026-07-01 | A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps | [arXiv](https://arxiv.org/abs/2607.01400) | Deep multimodal brain-encoding models now predict fMRI responses to naturalistic video with high accuracy. |
+| 2026-07-01 | A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps | [arXiv](https://arxiv.org/abs/2607.01400) | Deep multimodal brain-encoding models now predict fMRI responses to naturalistic video with high accuracy; whether th... |
 
 ## Sensors / Systems
 
