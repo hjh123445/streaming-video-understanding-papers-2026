@@ -1,4 +1,6 @@
 date,title,source,url,brief
+2026-07-07,SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation,arXiv,https://arxiv.org/abs/2607.05994,Human-Object Interaction (HOI) video generation aims to synthesize realistic videos of humans manipulating diverse ob...
+2026-07-06,Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory,arXiv,https://arxiv.org/abs/2607.05511,"Agentic video understanding equips models with long-term memory to autonomously process and respond to continuous, lo..."
 2026-07-06,QSVideo: Query-Conditioned Semantic Temporal Retrieval for Video Understanding,arXiv,https://arxiv.org/abs/2607.04559,"The performance of vision-language models (VLMs) in video understanding declines with increasing video duration, as v..."
 2026-07-03,GuideMe: Multi-Domain Task Guidance and Intervention in Streaming Video,arXiv,https://arxiv.org/abs/2607.02991,"While multimodal Large Language Models (MLLMs) excel at offline video understanding, an interesting question of how f..."
 2026-07-01,A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps,arXiv,https://arxiv.org/abs/2607.01400,Deep multimodal brain-encoding models now predict fMRI responses to naturalistic video with high accuracy; whether th...

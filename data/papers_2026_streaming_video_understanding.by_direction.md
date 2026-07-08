@@ -1,17 +1,17 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-07-07T04:48:39
+Generated at: 2026-07-08T04:11:35
 
-Total papers: 118
+Total papers: 120
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 53 |
+| Memory & KV-Cache | 54 |
 | Reasoning & Agents | 45 |
 | Efficiency & Compression | 9 |
-| Benchmarks & Evaluation | 6 |
+| Benchmarks & Evaluation | 7 |
 | Video QA / Query | 3 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
@@ -20,6 +20,7 @@ Total papers: 118
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-06 | Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory | [arXiv](https://arxiv.org/abs/2607.05511) | Agentic video understanding equips models with long-term memory to autonomously process and respond to continuous, lo... |
 | 2026-06-25 | ProtoKV: Streaming Video Understanding under Delayed Query with Summary-State Memory | [arXiv](https://arxiv.org/abs/2606.26762) | Streaming video understanding (SVU) must answer queries that arrive asynchronously while visual tokens stream continu... |
 | 2026-06-24 | Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2606.25658) | Currently, streaming video understanding is still a daunting task for existing \emph{multimodal large language models... |
 | 2026-06-22 | Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse | [arXiv](https://arxiv.org/abs/2606.23581) | Multimodal agents repeatedly re-examine the same video frames, UI screenshots, and rendered artifacts as their contex... |
@@ -142,6 +143,7 @@ Total papers: 118
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-07 | SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation | [arXiv](https://arxiv.org/abs/2607.05994) | Human-Object Interaction (HOI) video generation aims to synthesize realistic videos of humans manipulating diverse ob... |
 | 2026-07-03 | GuideMe: Multi-Domain Task Guidance and Intervention in Streaming Video | [arXiv](https://arxiv.org/abs/2607.02991) | While multimodal Large Language Models (MLLMs) excel at offline video understanding, an interesting question of how f... |
 | 2026-06-07 | Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography | [arXiv](https://arxiv.org/abs/2606.08726) | The aim of steganography is to hide secret information inside ordinary media so that the existence of communication i... |
 | 2026-06-05 | TraRA: Trajectory-level Recognition Aggregation for Video Text Spotting in Urban Surveillance | [arXiv](https://arxiv.org/abs/2606.07161) | Video Text Spotting (VTS) is essential for urban surveillance and intelligent transportation systems, enabling automa... |
