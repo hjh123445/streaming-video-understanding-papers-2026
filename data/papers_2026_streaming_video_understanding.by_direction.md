@@ -1,16 +1,16 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-07-13T04:27:44
+Generated at: 2026-07-14T03:54:13
 
-Total papers: 120
+Total papers: 122
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 54 |
-| Reasoning & Agents | 45 |
-| Efficiency & Compression | 9 |
+| Memory & KV-Cache | 56 |
+| Reasoning & Agents | 44 |
+| Efficiency & Compression | 10 |
 | Benchmarks & Evaluation | 7 |
 | Video QA / Query | 3 |
 | General Streaming Video Understanding | 1 |
@@ -20,7 +20,9 @@ Total papers: 120
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-13 | SLVMBench: Skill Learning from Video Memory | [arXiv](https://arxiv.org/abs/2607.11312) | We introduce Skill Learning from Video Memory (SLVMBench), the first benchmark that jointly evaluates whether video l... |
 | 2026-07-06 | Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory | [arXiv](https://arxiv.org/abs/2607.05511) | Agentic video understanding equips models with long-term memory to autonomously process and respond to continuous, lo... |
+| 2026-07-06 | ReflectWorld-MM: An Entity-Oriented Multi-Media Memory System for Open-Ended Video Streams | [arXiv](https://arxiv.org/abs/2607.09759) | Building assistants that can continually watch the world, remember what they see, and reason over their accumulated e... |
 | 2026-06-25 | ProtoKV: Streaming Video Understanding under Delayed Query with Summary-State Memory | [arXiv](https://arxiv.org/abs/2606.26762) | Streaming video understanding (SVU) must answer queries that arrive asynchronously while visual tokens stream continu... |
 | 2026-06-24 | Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2606.25658) | Currently, streaming video understanding is still a daunting task for existing \emph{multimodal large language models... |
 | 2026-06-22 | Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse | [arXiv](https://arxiv.org/abs/2606.23581) | Multimodal agents repeatedly re-examine the same video frames, UI screenshots, and rendered artifacts as their contex... |
@@ -117,7 +119,6 @@ Total papers: 120
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
 | 2026-03-25 | CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents | [arXiv](https://arxiv.org/abs/2603.24440) | Computer-use agents (CUAs) hold great promise for automating complex desktop workflows, yet progress toward general-p... |
-| 2026-03-24 | VTAM: Video-Tactile-Action Models for Complex Physical Interaction Beyond VLAs | [arXiv](https://arxiv.org/abs/2603.23481) | Video-Action Models (VAMs) have emerged as a promising framework for embodied intelligence, learning implicit world d... |
 | 2026-03-19 | Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.19054) | Recent advances in Streaming Video Understanding has enabled a new interaction paradigm where models respond proactiv... |
 | 2026-03-12 | Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously | [arXiv](https://arxiv.org/abs/2603.12262) | Online Video Large Language Models (VideoLLMs) play a critical role in supporting responsive, real-time interaction. |
 | 2026-03-09 | StreamReady: Learning What to Answer and When in Long Streaming Videos | [arXiv](https://arxiv.org/abs/2603.08620) | Streaming video understanding often involves time-sensitive scenarios where models need to answer exactly when the su... |
@@ -129,6 +130,7 @@ Total papers: 120
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-11 | DynaFilter: Cloud-driven Dynamic Filtering for Satellite Edge Intelligence | [arXiv](https://arxiv.org/abs/2607.10098) | Modern satellite edge systems, including those performing remote sensing tasks such object detection and tracking, ar... |
 | 2026-06-18 | NEST: Narrative Event Structures in Time for Long Video Understanding | [arXiv](https://arxiv.org/abs/2606.19706) | Recent progress in vision-language models has enabled the processing of increasingly long video sequences, but the ab... |
 | 2026-06-03 | Continual Visual and Verbal Learning Through a Child's Egocentric Input | [arXiv](https://arxiv.org/abs/2606.05115) | Children learn the meanings of words from a continuous, temporally structured stream of egocentric experience. |
 | 2026-05-29 | Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer | [arXiv](https://arxiv.org/abs/2605.30940) | Real-time and accurate spatial audio generation is pivotal for delivering an immersive experience. |
