@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-07-14T03:54:13
+Generated at: 2026-07-15T03:55:30
 
-Total papers: 122
+Total papers: 121
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 56 |
-| Reasoning & Agents | 44 |
+| Reasoning & Agents | 43 |
 | Efficiency & Compression | 10 |
 | Benchmarks & Evaluation | 7 |
 | Video QA / Query | 3 |
@@ -22,7 +22,7 @@ Total papers: 122
 |---|---|---|---|
 | 2026-07-13 | SLVMBench: Skill Learning from Video Memory | [arXiv](https://arxiv.org/abs/2607.11312) | We introduce Skill Learning from Video Memory (SLVMBench), the first benchmark that jointly evaluates whether video l... |
 | 2026-07-06 | Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory | [arXiv](https://arxiv.org/abs/2607.05511) | Agentic video understanding equips models with long-term memory to autonomously process and respond to continuous, lo... |
-| 2026-07-06 | ReflectWorld-MM: An Entity-Oriented Multi-Media Memory System for Open-Ended Video Streams | [arXiv](https://arxiv.org/abs/2607.09759) | Building assistants that can continually watch the world, remember what they see, and reason over their accumulated e... |
+| 2026-07-06 | ReflectWorld-MM: An Entity-Oriented Multimodal Memory System for Open-Ended Video Streams | [arXiv](https://arxiv.org/abs/2607.09759) | Building assistants that can continually watch the world, remember what they see, and reason over their accumulated e... |
 | 2026-06-25 | ProtoKV: Streaming Video Understanding under Delayed Query with Summary-State Memory | [arXiv](https://arxiv.org/abs/2606.26762) | Streaming video understanding (SVU) must answer queries that arrive asynchronously while visual tokens stream continu... |
 | 2026-06-24 | Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2606.25658) | Currently, streaming video understanding is still a daunting task for existing \emph{multimodal large language models... |
 | 2026-06-22 | Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse | [arXiv](https://arxiv.org/abs/2606.23581) | Multimodal agents repeatedly re-examine the same video frames, UI screenshots, and rendered artifacts as their contex... |
@@ -118,7 +118,6 @@ Total papers: 122
 | 2026-04-07 | DAT: Dual-Aware Adaptive Transmission for Efficient Multimodal LLM Inference in Edge-Cloud Systems | [arXiv](https://arxiv.org/abs/2604.05375) | Multimodal large language models (MLLMs) have shown strong capability in semantic understanding and visual reasoning,... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
-| 2026-03-25 | CUA-Suite: Massive Human-annotated Video Demonstrations for Computer-Use Agents | [arXiv](https://arxiv.org/abs/2603.24440) | Computer-use agents (CUAs) hold great promise for automating complex desktop workflows, yet progress toward general-p... |
 | 2026-03-19 | Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.19054) | Recent advances in Streaming Video Understanding has enabled a new interaction paradigm where models respond proactiv... |
 | 2026-03-12 | Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously | [arXiv](https://arxiv.org/abs/2603.12262) | Online Video Large Language Models (VideoLLMs) play a critical role in supporting responsive, real-time interaction. |
 | 2026-03-09 | StreamReady: Learning What to Answer and When in Long Streaming Videos | [arXiv](https://arxiv.org/abs/2603.08620) | Streaming video understanding often involves time-sensitive scenarios where models need to answer exactly when the su... |
