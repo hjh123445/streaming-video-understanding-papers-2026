@@ -1,17 +1,17 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-07-15T03:55:30
+Generated at: 2026-07-16T03:58:10
 
-Total papers: 121
+Total papers: 124
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 56 |
-| Reasoning & Agents | 43 |
-| Efficiency & Compression | 10 |
-| Benchmarks & Evaluation | 7 |
+| Memory & KV-Cache | 57 |
+| Reasoning & Agents | 44 |
+| Efficiency & Compression | 13 |
+| Benchmarks & Evaluation | 5 |
 | Video QA / Query | 3 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
@@ -20,6 +20,7 @@ Total papers: 121
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-14 | FOLIO: Focused Semantic Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2607.13298) | In online streaming video understanding, a video stream continues to arrive and queries may be issued at any time. |
 | 2026-07-13 | SLVMBench: Skill Learning from Video Memory | [arXiv](https://arxiv.org/abs/2607.11312) | We introduce Skill Learning from Video Memory (SLVMBench), the first benchmark that jointly evaluates whether video l... |
 | 2026-07-06 | Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory | [arXiv](https://arxiv.org/abs/2607.05511) | Agentic video understanding equips models with long-term memory to autonomously process and respond to continuous, lo... |
 | 2026-07-06 | ReflectWorld-MM: An Entity-Oriented Multimodal Memory System for Open-Ended Video Streams | [arXiv](https://arxiv.org/abs/2607.09759) | Building assistants that can continually watch the world, remember what they see, and reason over their accumulated e... |
@@ -81,6 +82,7 @@ Total papers: 121
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-15 | Towards Spatial Supersensing in the Wild | [arXiv](https://arxiv.org/abs/2607.13681) | Humans can efficiently parse continuous sensory streams, from hours to years, scaffolding an internal world model tha... |
 | 2026-06-29 | From Failure Taxonomy to Intervention: A Diagnostic Methodology for Industry-Scale AVLM in Video and Live-Streaming Platform Moderation | [arXiv](https://arxiv.org/abs/2606.30059) | Industry-scale video and live-streaming moderation imposes requirements that are difficult to satisfy with generic pr... |
 | 2026-06-23 | Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models | [arXiv](https://arxiv.org/abs/2606.25041) | We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for... |
 | 2026-06-10 | From Content to Knowledge: Lightning Fast Long-Video Understanding with Neural Knowledge Representations | [arXiv](https://arxiv.org/abs/2606.11913) | We propose a new paradigm for long video understanding by treating a long video as a Neural Knowledge Representation... |
@@ -129,8 +131,11 @@ Total papers: 121
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-15 | M$^\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming | [arXiv](https://arxiv.org/abs/2607.14005) | Driving-world generation has emerged as a core capability for scalable autonomous-driving simulation, yet existing me... |
+| 2026-07-15 | ScanFocus: A Coarse-to-Fine Framework for Spatio-Temporal Video Grounding | [arXiv](https://arxiv.org/abs/2607.13421) | Spatio-Temporal Video Grounding (STVG) aims to retrieve the visual trajectory of a specific object from a video strea... |
 | 2026-07-11 | DynaFilter: Cloud-driven Dynamic Filtering for Satellite Edge Intelligence | [arXiv](https://arxiv.org/abs/2607.10098) | Modern satellite edge systems, including those performing remote sensing tasks such object detection and tracking, ar... |
 | 2026-06-18 | NEST: Narrative Event Structures in Time for Long Video Understanding | [arXiv](https://arxiv.org/abs/2606.19706) | Recent progress in vision-language models has enabled the processing of increasingly long video sequences, but the ab... |
+| 2026-06-04 | Inverting the Streaming-Diffusion Bottleneck: Video-Rate MLLM-Conditioned Edit Diffusion on a Consumer GPU | [arXiv](https://arxiv.org/abs/2606.05981) | Aggressive distillation of the diffusion U-Net inverts the per-frame bottleneck of real-time text-to-image pipelines:... |
 | 2026-06-03 | Continual Visual and Verbal Learning Through a Child's Egocentric Input | [arXiv](https://arxiv.org/abs/2606.05115) | Children learn the meanings of words from a continuous, temporally structured stream of egocentric experience. |
 | 2026-05-29 | Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer | [arXiv](https://arxiv.org/abs/2605.30940) | Real-time and accurate spatial audio generation is pivotal for delivering an immersive experience. |
 | 2026-05-11 | EvoStreaming: Your Offline Video Model Is a Natively Streaming Assistant | [arXiv](https://arxiv.org/abs/2605.10343) | Streaming video understanding demands more than watching longer videos: assistants must decide when to speak in real... |
@@ -148,9 +153,7 @@ Total papers: 121
 | 2026-07-03 | GuideMe: Multi-Domain Task Guidance and Intervention in Streaming Video | [arXiv](https://arxiv.org/abs/2607.02991) | While multimodal Large Language Models (MLLMs) excel at offline video understanding, an interesting question of how f... |
 | 2026-06-07 | Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography | [arXiv](https://arxiv.org/abs/2606.08726) | The aim of steganography is to hide secret information inside ordinary media so that the existence of communication i... |
 | 2026-06-05 | TraRA: Trajectory-level Recognition Aggregation for Video Text Spotting in Urban Surveillance | [arXiv](https://arxiv.org/abs/2606.07161) | Video Text Spotting (VTS) is essential for urban surveillance and intelligent transportation systems, enabling automa... |
-| 2026-06-04 | Video-Rate Streaming Stylization on a Vision-Aware MLLM-Conditioned Edit Diffusion: Asymmetric Batched Inference on a Distilled UNet + MLLM Text Encoder | [arXiv](https://arxiv.org/abs/2606.05981) | Aggressive distillation of the diffusion U-Net inverts the per-frame bottleneck of real-time text-to-image pipelines:... |
 | 2026-04-10 | Multimodal Anomaly Detection for Human-Robot Interaction | [arXiv](https://arxiv.org/abs/2604.09326) | Ensuring safety and reliability in human-robot interaction (HRI) requires the timely detection of unexpected events t... |
-| 2026-03-27 | Cinematic Audio Source Separation Using Visual Cues | [arXiv](https://arxiv.org/abs/2603.26113) | Cinematic Audio Source Separation (CASS) aims to decompose mixed film audio into speech, music, and sound effects, en... |
 
 ## Video QA / Query
 
