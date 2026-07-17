@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-07-16T03:58:10
+Generated at: 2026-07-17T03:57:41
 
-Total papers: 124
+Total papers: 125
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 57 |
-| Reasoning & Agents | 44 |
+| Reasoning & Agents | 45 |
 | Efficiency & Compression | 13 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 3 |
@@ -82,6 +82,7 @@ Total papers: 124
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-16 | Video = World + Event Stream | [arXiv](https://arxiv.org/abs/2607.15038) | We present Wan-Streamer v0.3, which reframes our native-streaming interaction model under a single organizing view: a... |
 | 2026-07-15 | Towards Spatial Supersensing in the Wild | [arXiv](https://arxiv.org/abs/2607.13681) | Humans can efficiently parse continuous sensory streams, from hours to years, scaffolding an internal world model tha... |
 | 2026-06-29 | From Failure Taxonomy to Intervention: A Diagnostic Methodology for Industry-Scale AVLM in Video and Live-Streaming Platform Moderation | [arXiv](https://arxiv.org/abs/2606.30059) | Industry-scale video and live-streaming moderation imposes requirements that are difficult to satisfy with generic pr... |
 | 2026-06-23 | Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models | [arXiv](https://arxiv.org/abs/2606.25041) | We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for... |
