@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-07-20T04:33:31
+Generated at: 2026-07-21T04:13:04
 
-Total papers: 125
+Total papers: 126
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 57 |
-| Reasoning & Agents | 45 |
+| Reasoning & Agents | 46 |
 | Efficiency & Compression | 13 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 3 |
@@ -82,8 +82,10 @@ Total papers: 125
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-20 | FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications | [arXiv](https://arxiv.org/abs/2607.18171) | Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous mod... |
 | 2026-07-16 | Video = World + Event Stream | [arXiv](https://arxiv.org/abs/2607.15038) | We present Wan-Streamer v0.3, which reframes our native-streaming interaction model under a single organizing view: a... |
 | 2026-07-15 | Towards Spatial Supersensing in the Wild | [arXiv](https://arxiv.org/abs/2607.13681) | Humans can efficiently parse continuous sensory streams, from hours to years, scaffolding an internal world model tha... |
+| 2026-07-15 | GMoT: Gated Motion-Aware Tokenization for Fine-Grained Micro-Gesture Video Reasoning with Multimodal LLMs | [arXiv](https://arxiv.org/abs/2607.16322) | Micro-gesture recognition demands the detection of fleeting, spatially localized movements that are frequently overwh... |
 | 2026-06-29 | From Failure Taxonomy to Intervention: A Diagnostic Methodology for Industry-Scale AVLM in Video and Live-Streaming Platform Moderation | [arXiv](https://arxiv.org/abs/2606.30059) | Industry-scale video and live-streaming moderation imposes requirements that are difficult to satisfy with generic pr... |
 | 2026-06-23 | Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models | [arXiv](https://arxiv.org/abs/2606.25041) | We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for... |
 | 2026-06-10 | From Content to Knowledge: Lightning Fast Long-Video Understanding with Neural Knowledge Representations | [arXiv](https://arxiv.org/abs/2606.11913) | We propose a new paradigm for long video understanding by treating a long video as a Neural Knowledge Representation... |
@@ -118,7 +120,6 @@ Total papers: 125
 | 2026-04-13 | Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding | [arXiv](https://arxiv.org/abs/2604.11244) | Advances in Multimodal Large Language Models (MLLMs) are transforming video captioning from a descriptive endpoint in... |
 | 2026-04-09 | LPM 1.0: Video-based Character Performance Model | [arXiv](https://arxiv.org/abs/2604.07823) | Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is... |
 | 2026-04-07 | EchoAgent: Towards Reliable Echocardiography Interpretation with "Eyes","Hands" and "Minds" | [arXiv](https://arxiv.org/abs/2604.05541) | Reliable interpretation of echocardiography (Echo) is crucial for assessing cardiac function, which demands clinician... |
-| 2026-04-07 | DAT: Dual-Aware Adaptive Transmission for Efficient Multimodal LLM Inference in Edge-Cloud Systems | [arXiv](https://arxiv.org/abs/2604.05375) | Multimodal large language models (MLLMs) have shown strong capability in semantic understanding and visual reasoning,... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
 | 2026-03-19 | Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.19054) | Recent advances in Streaming Video Understanding has enabled a new interaction paradigm where models respond proactiv... |
