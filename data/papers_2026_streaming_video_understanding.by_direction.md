@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-07-22T04:14:17
+Generated at: 2026-07-23T04:12:15
 
 Total papers: 126
 
@@ -8,8 +8,8 @@ Total papers: 126
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 57 |
-| Reasoning & Agents | 46 |
+| Memory & KV-Cache | 58 |
+| Reasoning & Agents | 45 |
 | Efficiency & Compression | 13 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 3 |
@@ -20,6 +20,7 @@ Total papers: 126
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-22 | Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos | [arXiv](https://arxiv.org/abs/2607.19857) | Language-guided aerial perception aims to understand user-specified tiny targets in complex unmanned aerial vehicle (... |
 | 2026-07-14 | FOLIO: Focused Semantic Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2607.13298) | In online streaming video understanding, a video stream continues to arrive and queries may be issued at any time. |
 | 2026-07-13 | SLVMBench: Skill Learning from Video Memory | [arXiv](https://arxiv.org/abs/2607.11312) | We introduce Skill Learning from Video Memory (SLVMBench), the first benchmark that jointly evaluates whether video l... |
 | 2026-07-06 | Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory | [arXiv](https://arxiv.org/abs/2607.05511) | Agentic video understanding equips models with long-term memory to autonomously process and respond to continuous, lo... |
@@ -119,7 +120,6 @@ Total papers: 126
 | 2026-04-13 | Multimodal Large Language Model-Enabled Video Translation: A Role-Oriented Survey | [arXiv](https://arxiv.org/abs/2604.11283) | Recent progress in multimodal large language models (MLLMs) is reshaping video translation from a cascaded pipeline o... |
 | 2026-04-13 | Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding | [arXiv](https://arxiv.org/abs/2604.11244) | Advances in Multimodal Large Language Models (MLLMs) are transforming video captioning from a descriptive endpoint in... |
 | 2026-04-09 | LPM 1.0: Video-based Character Performance Model | [arXiv](https://arxiv.org/abs/2604.07823) | Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is... |
-| 2026-04-07 | EchoAgent: Towards Reliable Echocardiography Interpretation with "Eyes","Hands" and "Minds" | [arXiv](https://arxiv.org/abs/2604.05541) | Reliable interpretation of echocardiography (Echo) is crucial for assessing cardiac function, which demands clinician... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
 | 2026-03-19 | Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.19054) | Recent advances in Streaming Video Understanding has enabled a new interaction paradigm where models respond proactiv... |
