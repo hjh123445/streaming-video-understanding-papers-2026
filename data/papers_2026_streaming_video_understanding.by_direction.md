@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-07-28T03:57:45
+Generated at: 2026-07-29T04:08:59
 
-Total papers: 125
+Total papers: 127
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 57 |
-| Reasoning & Agents | 45 |
+| Reasoning & Agents | 47 |
 | Efficiency & Compression | 13 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 3 |
@@ -82,6 +82,9 @@ Total papers: 125
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-28 | Knowledge-Guided Multimodal Reasoning over Interacting Streams for Video-Level Ambivalence and Hesitancy Recognition | [arXiv](https://arxiv.org/abs/2607.25961) | Ambivalence and hesitancy (A/H) are conflicting affective states that precede the delay or abandonment of health beha... |
+| 2026-07-27 | Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model | [arXiv](https://arxiv.org/abs/2607.24904) | Standard vision-language models (VLMs) suffer from Moravec's paradox: they excel at complex offline visual reasoning... |
+| 2026-07-26 | KuaiLive-M3: A Multi-Modal, Multi-Domain, and Multi-Feedback Dataset for Live Streaming Recommendation | [arXiv](https://arxiv.org/abs/2607.24862) | Existing public live streaming datasets suffer from three major limitations: they provide limited access to temporall... |
 | 2026-07-20 | FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications | [arXiv](https://arxiv.org/abs/2607.18171) | Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous mod... |
 | 2026-07-16 | Video = World + Event Stream | [arXiv](https://arxiv.org/abs/2607.15038) | We present Wan-Streamer v0.3, which reframes our native-streaming interaction model under a single organizing view: a... |
 | 2026-07-15 | Towards Spatial Supersensing in the Wild | [arXiv](https://arxiv.org/abs/2607.13681) | Humans can efficiently parse continuous sensory streams, from hours to years, scaffolding an internal world model tha... |
@@ -118,7 +121,6 @@ Total papers: 125
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
 | 2026-04-13 | Multimodal Large Language Model-Enabled Video Translation: A Role-Oriented Survey | [arXiv](https://arxiv.org/abs/2604.11283) | Recent progress in multimodal large language models (MLLMs) is reshaping video translation from a cascaded pipeline o... |
 | 2026-04-13 | Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding | [arXiv](https://arxiv.org/abs/2604.11244) | Advances in Multimodal Large Language Models (MLLMs) are transforming video captioning from a descriptive endpoint in... |
-| 2026-04-09 | LPM 1.0: Video-based Character Performance Model | [arXiv](https://arxiv.org/abs/2604.07823) | Performance, the externalization of intent, emotion, and personality through visual, vocal, and temporal behavior, is... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
 | 2026-03-19 | Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.19054) | Recent advances in Streaming Video Understanding has enabled a new interaction paradigm where models respond proactiv... |
