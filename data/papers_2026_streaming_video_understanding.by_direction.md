@@ -1,17 +1,17 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-07-30T03:53:51
+Generated at: 2026-07-31T04:19:39
 
-Total papers: 127
+Total papers: 128
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 57 |
+| Memory & KV-Cache | 58 |
 | Reasoning & Agents | 47 |
-| Efficiency & Compression | 13 |
-| Benchmarks & Evaluation | 5 |
+| Efficiency & Compression | 14 |
+| Benchmarks & Evaluation | 4 |
 | Video QA / Query | 3 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
@@ -20,6 +20,7 @@ Total papers: 127
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-30 | ObjectStream: Latent Objects as Memory Anchors for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2607.28312) | Streaming video understanding requires models to continuously retain useful visual evidence before future questions a... |
 | 2026-07-22 | Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos | [arXiv](https://arxiv.org/abs/2607.19857) | Language-guided aerial perception aims to understand user-specified tiny targets in complex unmanned aerial vehicle (... |
 | 2026-07-14 | FOLIO: Focused Semantic Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2607.13298) | In online streaming video understanding, a video stream continues to arrive and queries may be issued at any time. |
 | 2026-07-13 | SLVMBench: Skill Learning from Video Memory | [arXiv](https://arxiv.org/abs/2607.11312) | We introduce Skill Learning from Video Memory (SLVMBench), the first benchmark that jointly evaluates whether video l... |
@@ -134,6 +135,7 @@ Total papers: 127
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-07-30 | Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers | [arXiv](https://arxiv.org/abs/2607.28611) | Visual generation increasingly requires high-resolution images, long videos, and multimodal context, making the quadr... |
 | 2026-07-15 | M$^\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming | [arXiv](https://arxiv.org/abs/2607.14005) | Driving-world generation has emerged as a core capability for scalable autonomous-driving simulation, yet existing me... |
 | 2026-07-15 | ScanFocus: A Coarse-to-Fine Framework for Spatio-Temporal Video Grounding | [arXiv](https://arxiv.org/abs/2607.13421) | Spatio-Temporal Video Grounding (STVG) aims to retrieve the visual trajectory of a specific object from a video strea... |
 | 2026-07-11 | DynaFilter: Cloud-driven Dynamic Filtering for Satellite Edge Intelligence | [arXiv](https://arxiv.org/abs/2607.10098) | Modern satellite edge systems, including those performing remote sensing tasks such object detection and tracking, ar... |
@@ -156,7 +158,6 @@ Total papers: 127
 | 2026-07-03 | GuideMe: Multi-Domain Task Guidance and Intervention in Streaming Video | [arXiv](https://arxiv.org/abs/2607.02991) | While multimodal Large Language Models (MLLMs) excel at offline video understanding, an interesting question of how f... |
 | 2026-06-07 | Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography | [arXiv](https://arxiv.org/abs/2606.08726) | The aim of steganography is to hide secret information inside ordinary media so that the existence of communication i... |
 | 2026-06-05 | TraRA: Trajectory-level Recognition Aggregation for Video Text Spotting in Urban Surveillance | [arXiv](https://arxiv.org/abs/2606.07161) | Video Text Spotting (VTS) is essential for urban surveillance and intelligent transportation systems, enabling automa... |
-| 2026-04-10 | Multimodal Anomaly Detection for Human-Robot Interaction | [arXiv](https://arxiv.org/abs/2604.09326) | Ensuring safety and reliability in human-robot interaction (HRI) requires the timely detection of unexpected events t... |
 
 ## Video QA / Query
 
