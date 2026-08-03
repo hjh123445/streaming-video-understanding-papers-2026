@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-02T04:21:22
+Generated at: 2026-08-03T04:26:51
 
-Total papers: 128
+Total papers: 127
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 58 |
+| Memory & KV-Cache | 57 |
 | Reasoning & Agents | 47 |
 | Efficiency & Compression | 14 |
 | Benchmarks & Evaluation | 4 |
@@ -58,7 +58,6 @@ Total papers: 128
 | 2026-04-20 | Progressive Online Video Understanding with Evidence-Aligned Timing and Transparent Decisions | [arXiv](https://arxiv.org/abs/2604.18459) | Visual agents operating in the wild must respond to queries precisely when sufficient evidence first appears in a vid... |
 | 2026-04-18 | OASIS: On-Demand Hierarchical Event Memory for Streaming Video Reasoning | [arXiv](https://arxiv.org/abs/2604.17052) | Streaming video reasoning requires models to operate in a setting where history grows without bound while meaningful... |
 | 2026-04-13 | POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs | [arXiv](https://arxiv.org/abs/2604.11627) | Multimodal Large Language Models (MLLMs) have recently demonstrated remarkable capabilities in cross-modal understand... |
-| 2026-04-13 | Technology solutions targeting the performance of gen-AI inference in resource constrained platforms | [arXiv](https://arxiv.org/abs/2604.11128) | The rise of generative AI workloads, particularly language model inference, is intensifying on/off-chip memory pressure. |
 | 2026-04-11 | Mosaic: Cross-Modal Clustering for Efficient Video Understanding | [arXiv](https://arxiv.org/abs/2604.10060) | Large vision-language models (VLMs) are enabling interactive video reasoning, giving rise to streaming long-video und... |
 | 2026-04-10 | StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.09000) | Vision agent memory has shown remarkable effectiveness in streaming video understanding. |
 | 2026-04-02 | A Simple Baseline for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.02317) | Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video stre... |
