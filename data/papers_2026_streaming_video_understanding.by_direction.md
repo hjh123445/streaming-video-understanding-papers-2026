@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-03T04:26:51
+Generated at: 2026-08-04T04:09:50
 
-Total papers: 127
+Total papers: 128
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 57 |
+| Memory & KV-Cache | 58 |
 | Reasoning & Agents | 47 |
 | Efficiency & Compression | 14 |
 | Benchmarks & Evaluation | 4 |
@@ -20,6 +20,7 @@ Total papers: 127
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-02 | Think in Sets for Streaming Video Token Compression | [arXiv](https://arxiv.org/abs/2608.01169) | Streaming VideoLLMs process frames causally while visual tokens grow continuously, making compression essential for c... |
 | 2026-07-30 | ObjectStream: Latent Objects as Memory Anchors for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2607.28312) | Streaming video understanding requires models to continuously retain useful visual evidence before future questions a... |
 | 2026-07-22 | Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos | [arXiv](https://arxiv.org/abs/2607.19857) | Language-guided aerial perception aims to understand user-specified tiny targets in complex unmanned aerial vehicle (... |
 | 2026-07-14 | FOLIO: Focused Semantic Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2607.13298) | In online streaming video understanding, a video stream continues to arrive and queries may be issued at any time. |
