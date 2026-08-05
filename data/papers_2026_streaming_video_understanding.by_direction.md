@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-04T04:09:50
+Generated at: 2026-08-05T03:57:19
 
 Total papers: 128
 
@@ -8,18 +8,18 @@ Total papers: 128
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 58 |
+| Memory & KV-Cache | 59 |
 | Reasoning & Agents | 47 |
 | Efficiency & Compression | 14 |
 | Benchmarks & Evaluation | 4 |
 | Video QA / Query | 3 |
 | General Streaming Video Understanding | 1 |
-| Sensors / Systems | 1 |
 
 ## Memory & KV-Cache
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-04 | Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent | [arXiv](https://arxiv.org/abs/2608.03979) | We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video stream... |
 | 2026-08-02 | Think in Sets for Streaming Video Token Compression | [arXiv](https://arxiv.org/abs/2608.01169) | Streaming VideoLLMs process frames causally while visual tokens grow continuously, making compression essential for c... |
 | 2026-07-30 | ObjectStream: Latent Objects as Memory Anchors for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2607.28312) | Streaming video understanding requires models to continuously retain useful visual evidence before future questions a... |
 | 2026-07-22 | Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos | [arXiv](https://arxiv.org/abs/2607.19857) | Language-guided aerial perception aims to understand user-specified tiny targets in complex unmanned aerial vehicle (... |
@@ -83,6 +83,8 @@ Total papers: 128
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-04 | UniGD: A Unified Generative-Discriminative Framework for Industrial Retrieval | [arXiv](https://arxiv.org/abs/2608.03150) | Generative retrieval (GR) is a promising paradigm for industrial search advertising, yet its deployment is constraine... |
+| 2026-08-04 | Qwen-3D: A Generalist 3D Vision-Language Model for Spatial Understanding | [arXiv](https://arxiv.org/abs/2608.02980) | Large Multimodal Models (LMMs) have achieved remarkable success on images and short videos, yet scaling them to long... |
 | 2026-07-28 | Knowledge-Guided Multimodal Reasoning over Interacting Streams for Video-Level Ambivalence and Hesitancy Recognition | [arXiv](https://arxiv.org/abs/2607.25961) | Ambivalence and hesitancy (A/H) are conflicting affective states that precede the delay or abandonment of health beha... |
 | 2026-07-27 | Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model | [arXiv](https://arxiv.org/abs/2607.24904) | Standard vision-language models (VLMs) suffer from Moravec's paradox: they excel at complex offline visual reasoning... |
 | 2026-07-26 | KuaiLive-M3: A Multi-Modal, Multi-Domain, and Multi-Feedback Dataset for Live Streaming Recommendation | [arXiv](https://arxiv.org/abs/2607.24862) | Existing public live streaming datasets suffer from three major limitations: they provide limited access to temporall... |
@@ -120,8 +122,6 @@ Total papers: 128
 | 2026-05-07 | MedHorizon: Towards Long-context Medical Video Understanding in the Wild | [arXiv](https://arxiv.org/abs/2605.06537) | Medical multimodal large language models (MLLMs) have advanced image understanding and short-video analysis, but real... |
 | 2026-04-20 | Leveraging Vision-Language Models to Detect Attention in Educational Videos | [arXiv](https://arxiv.org/abs/2605.20211) | Educational videos are a cornerstone of remote and blended learning. |
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
-| 2026-04-13 | Multimodal Large Language Model-Enabled Video Translation: A Role-Oriented Survey | [arXiv](https://arxiv.org/abs/2604.11283) | Recent progress in multimodal large language models (MLLMs) is reshaping video translation from a cascaded pipeline o... |
-| 2026-04-13 | Script-a-Video: Deep Structured Audio-visual Captions via Factorized Streams and Relational Grounding | [arXiv](https://arxiv.org/abs/2604.11244) | Advances in Multimodal Large Language Models (MLLMs) are transforming video captioning from a descriptive endpoint in... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
 | 2026-03-19 | Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.19054) | Recent advances in Streaming Video Understanding has enabled a new interaction paradigm where models respond proactiv... |
@@ -172,9 +172,3 @@ Total papers: 128
 | Date | Paper | Link | Brief |
 |---|---|---|---|
 | 2026-07-01 | A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps | [arXiv](https://arxiv.org/abs/2607.01400) | Deep multimodal brain-encoding models now predict fMRI responses to naturalistic video with high accuracy; whether th... |
-
-## Sensors / Systems
-
-| Date | Paper | Link | Brief |
-|---|---|---|---|
-| 2026-04-13 | From Multimodal Signals to Adaptive XR Experiences for De-escalation Training | [arXiv](https://arxiv.org/abs/2604.11570) | We present the early-stage design and implementation of a multimodal, real-time communication analysis system intende... |
