@@ -1,4 +1,5 @@
 date,title,source,url,brief
+2026-08-06,"StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding",arXiv,https://arxiv.org/abs/2608.05703,"Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio..."
 2026-08-04,Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent,arXiv,https://arxiv.org/abs/2608.03979,"We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video stream..."
 2026-08-04,UniGD: A Unified Generative-Discriminative Framework for Industrial Retrieval,arXiv,https://arxiv.org/abs/2608.03150,"Generative retrieval (GR) is a promising paradigm for industrial search advertising, yet its deployment is constraine..."
 2026-08-04,Qwen-3D: A Generalist 3D Vision-Language Model for Spatial Understanding,arXiv,https://arxiv.org/abs/2608.02980,"Large Multimodal Models (LMMs) have achieved remarkable success on images and short videos, yet scaling them to long..."
@@ -94,7 +95,6 @@ date,title,source,url,brief
 2026-04-20,Leveraging Vision-Language Models to Detect Attention in Educational Videos,arXiv,https://arxiv.org/abs/2605.20211,Educational videos are a cornerstone of remote and blended learning.
 2026-04-19,Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding,arXiv,https://arxiv.org/abs/2604.17422,Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi...
 2026-04-18,OASIS: On-Demand Hierarchical Event Memory for Streaming Video Reasoning,arXiv,https://arxiv.org/abs/2604.17052,Streaming video reasoning requires models to operate in a setting where history grows without bound while meaningful...
-2026-04-13,POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs,arXiv,https://arxiv.org/abs/2604.11627,Multimodal Large Language Models (MLLMs) have recently demonstrated remarkable capabilities in cross-modal understand...
 2026-04-11,Mosaic: Cross-Modal Clustering for Efficient Video Understanding,arXiv,https://arxiv.org/abs/2604.10060,"Large vision-language models (VLMs) are enabling interactive video reasoning, giving rise to streaming long-video und..."
 2026-04-10,StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding,arXiv,https://arxiv.org/abs/2604.09000,Vision agent memory has shown remarkable effectiveness in streaming video understanding.
 2026-04-09,Small Vision-Language Models are Smart Compressors for Long Video Understanding,arXiv,https://arxiv.org/abs/2604.08120,Adapting Multimodal Large Language Models (MLLMs) for hour-long videos is bottlenecked by context limits.

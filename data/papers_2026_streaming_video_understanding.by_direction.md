@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-06T04:08:26
+Generated at: 2026-08-07T03:47:11
 
 Total papers: 128
 
@@ -19,6 +19,7 @@ Total papers: 128
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-06 | StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.05703) | Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio... |
 | 2026-08-04 | Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent | [arXiv](https://arxiv.org/abs/2608.03979) | We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video stream... |
 | 2026-08-02 | Think in Sets for Streaming Video Token Compression | [arXiv](https://arxiv.org/abs/2608.01169) | Streaming VideoLLMs process frames causally while visual tokens grow continuously, making compression essential for c... |
 | 2026-07-30 | ObjectStream: Latent Objects as Memory Anchors for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2607.28312) | Streaming video understanding requires models to continuously retain useful visual evidence before future questions a... |
@@ -58,7 +59,6 @@ Total papers: 128
 | 2026-05-03 | Decouple and Cache: KV Cache Construction for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.01858) | Streaming video understanding requires processing unbounded video streams with limited memory and computation, posing... |
 | 2026-04-20 | Progressive Online Video Understanding with Evidence-Aligned Timing and Transparent Decisions | [arXiv](https://arxiv.org/abs/2604.18459) | Visual agents operating in the wild must respond to queries precisely when sufficient evidence first appears in a vid... |
 | 2026-04-18 | OASIS: On-Demand Hierarchical Event Memory for Streaming Video Reasoning | [arXiv](https://arxiv.org/abs/2604.17052) | Streaming video reasoning requires models to operate in a setting where history grows without bound while meaningful... |
-| 2026-04-13 | POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs | [arXiv](https://arxiv.org/abs/2604.11627) | Multimodal Large Language Models (MLLMs) have recently demonstrated remarkable capabilities in cross-modal understand... |
 | 2026-04-11 | Mosaic: Cross-Modal Clustering for Efficient Video Understanding | [arXiv](https://arxiv.org/abs/2604.10060) | Large vision-language models (VLMs) are enabling interactive video reasoning, giving rise to streaming long-video und... |
 | 2026-04-10 | StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.09000) | Vision agent memory has shown remarkable effectiveness in streaming video understanding. |
 | 2026-04-02 | A Simple Baseline for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2604.02317) | Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video stre... |
