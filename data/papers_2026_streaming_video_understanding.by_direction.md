@@ -1,8 +1,8 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-09T02:59:57
+Generated at: 2026-08-10T03:09:16
 
-Total papers: 128
+Total papers: 129
 
 ## Category Summary
 
@@ -14,6 +14,7 @@ Total papers: 128
 | Benchmarks & Evaluation | 4 |
 | Video QA / Query | 3 |
 | General Streaming Video Understanding | 1 |
+| Sensors / Systems | 1 |
 
 ## Memory & KV-Cache
 
@@ -172,3 +173,9 @@ Total papers: 128
 | Date | Paper | Link | Brief |
 |---|---|---|---|
 | 2026-07-01 | A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps | [arXiv](https://arxiv.org/abs/2607.01400) | Deep multimodal brain-encoding models now predict fMRI responses to naturalistic video with high accuracy; whether th... |
+
+## Sensors / Systems
+
+| Date | Paper | Link | Brief |
+|---|---|---|---|
+| 2026-08-07 | Unordered Landmark Visual Navigation | [arXiv](https://arxiv.org/abs/2608.06833) | Image-goal navigation is a fundamental capability for embodied AI, yet its practical deployment is strained by strong... |
