@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-10T03:09:16
+Generated at: 2026-08-11T03:02:15
 
-Total papers: 129
+Total papers: 130
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 59 |
+| Memory & KV-Cache | 60 |
 | Reasoning & Agents | 47 |
 | Efficiency & Compression | 14 |
 | Benchmarks & Evaluation | 4 |
@@ -20,6 +20,7 @@ Total papers: 129
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-09 | Aero Realtime: Fully Aligned Input-Output Streams for Low-Latency Streaming Multimodal Generation | [arXiv](https://arxiv.org/abs/2608.08469) | Existing streaming multimodal models process observations incrementally but still follow a turn-based prefill-then-de... |
 | 2026-08-06 | StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.05703) | Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio... |
 | 2026-08-04 | Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent | [arXiv](https://arxiv.org/abs/2608.03979) | We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video stream... |
 | 2026-08-02 | Think in Sets for Streaming Video Token Compression | [arXiv](https://arxiv.org/abs/2608.01169) | Streaming VideoLLMs process frames causally while visual tokens grow continuously, making compression essential for c... |
@@ -84,6 +85,7 @@ Total papers: 129
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-05 | LAVE: Latent Visual Evidence-Enhanced Planning for Video Tool-use Agents | [arXiv](https://arxiv.org/abs/2608.07585) | Long-video understanding requires models to efficiently acquire and reuse sparse visual evidence from long and redund... |
 | 2026-08-04 | UniGD: A Unified Generative-Discriminative Framework for Industrial Retrieval | [arXiv](https://arxiv.org/abs/2608.03150) | Generative retrieval (GR) is a promising paradigm for industrial search advertising, yet its deployment is constraine... |
 | 2026-08-04 | Qwen-3D: A Generalist 3D Vision-Language Model for Spatial Understanding | [arXiv](https://arxiv.org/abs/2608.02980) | Large Multimodal Models (LMMs) have achieved remarkable success on images and short videos, yet scaling them to long... |
 | 2026-07-28 | Knowledge-Guided Multimodal Reasoning over Interacting Streams for Video-Level Ambivalence and Hesitancy Recognition | [arXiv](https://arxiv.org/abs/2607.25961) | Ambivalence and hesitancy (A/H) are conflicting affective states that precede the delay or abandonment of health beha... |
@@ -121,7 +123,6 @@ Total papers: 129
 | 2026-05-08 | TraceAV-Bench: Benchmarking Multi-Hop Trajectory Reasoning over Long Audio-Visual Videos | [arXiv](https://arxiv.org/abs/2605.07593) | Real-world audio-visual understanding requires chaining evidence that is sparse, temporally dispersed, and split acro... |
 | 2026-05-08 | EgoPro-Bench: Benchmarking Personalized Proactive Interaction in Egocentric Video Streams | [arXiv](https://arxiv.org/abs/2605.07299) | Existing Multimodal Large Language Models (MLLMs) remain primarily reactive, failing to continuously perceive environ... |
 | 2026-05-07 | MedHorizon: Towards Long-context Medical Video Understanding in the Wild | [arXiv](https://arxiv.org/abs/2605.06537) | Medical multimodal large language models (MLLMs) have advanced image understanding and short-video analysis, but real... |
-| 2026-04-20 | Leveraging Vision-Language Models to Detect Attention in Educational Videos | [arXiv](https://arxiv.org/abs/2605.20211) | Educational videos are a cornerstone of remote and blended learning. |
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
