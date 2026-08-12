@@ -1,18 +1,18 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-11T03:02:15
+Generated at: 2026-08-12T03:21:03
 
-Total papers: 130
+Total papers: 131
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 60 |
+| Memory & KV-Cache | 61 |
 | Reasoning & Agents | 47 |
-| Efficiency & Compression | 14 |
+| Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 4 |
-| Video QA / Query | 3 |
+| Video QA / Query | 2 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
 
@@ -20,6 +20,7 @@ Total papers: 130
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-11 | StreamFlow: Dynamic Memory Flows for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.10949) | Streaming video understanding requires multimodal large language models (MLLMs) to preserve relevant evidence from co... |
 | 2026-08-09 | Aero Realtime: Fully Aligned Input-Output Streams for Low-Latency Streaming Multimodal Generation | [arXiv](https://arxiv.org/abs/2608.08469) | Existing streaming multimodal models process observations incrementally but still follow a turn-based prefill-then-de... |
 | 2026-08-06 | StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.05703) | Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio... |
 | 2026-08-04 | Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent | [arXiv](https://arxiv.org/abs/2608.03979) | We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video stream... |
@@ -137,6 +138,7 @@ Total papers: 130
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-11 | Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence | [arXiv](https://arxiv.org/abs/2608.10720) | Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, yet their responses remain... |
 | 2026-07-30 | Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers | [arXiv](https://arxiv.org/abs/2607.28611) | Visual generation increasingly requires high-resolution images, long videos, and multimodal context, making the quadr... |
 | 2026-07-15 | M$^\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming | [arXiv](https://arxiv.org/abs/2607.14005) | Driving-world generation has emerged as a core capability for scalable autonomous-driving simulation, yet existing me... |
 | 2026-07-15 | ScanFocus: A Coarse-to-Fine Framework for Spatio-Temporal Video Grounding | [arXiv](https://arxiv.org/abs/2607.13421) | Spatio-Temporal Video Grounding (STVG) aims to retrieve the visual trajectory of a specific object from a video strea... |
@@ -166,7 +168,6 @@ Total papers: 130
 | Date | Paper | Link | Brief |
 |---|---|---|---|
 | 2026-07-06 | QSVideo: Query-Conditioned Semantic Temporal Retrieval for Video Understanding | [arXiv](https://arxiv.org/abs/2607.04559) | The performance of vision-language models (VLMs) in video understanding declines with increasing video duration, as v... |
-| 2026-05-02 | Multimodal Confidence Modeling in Audio-Visual Quality Assessment | [arXiv](https://arxiv.org/abs/2605.01219) | Audio-visual quality assessment (AVQA) is essential for streaming, teleconferencing, and immersive media. |
 | 2026-02-18 | ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding | [arXiv](https://arxiv.org/abs/2602.16412) | While multimodal large language models (MLLMs) have shown remarkable success across a wide range of tasks, long-form... |
 
 ## General Streaming Video Understanding
