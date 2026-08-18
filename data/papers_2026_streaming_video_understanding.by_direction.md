@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-17T02:17:47
+Generated at: 2026-08-18T02:13:37
 
-Total papers: 131
+Total papers: 132
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 61 |
+| Memory & KV-Cache | 62 |
 | Reasoning & Agents | 47 |
 | Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 4 |
@@ -20,6 +20,7 @@ Total papers: 131
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-17 | StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.16320) | Streaming video understanding demands direct responses from the causally observed prefix of an unfolding video. |
 | 2026-08-11 | StreamFlow: Dynamic Memory Flows for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.10949) | Streaming video understanding requires multimodal large language models (MLLMs) to preserve relevant evidence from co... |
 | 2026-08-09 | Aero Realtime: Fully Aligned Input-Output Streams for Low-Latency Streaming Multimodal Generation | [arXiv](https://arxiv.org/abs/2608.08469) | Existing streaming multimodal models process observations incrementally but still follow a turn-based prefill-then-de... |
 | 2026-08-06 | StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.05703) | Deploying autonomous multimodal agents in continuous, real-world environments requires them to ingest unbounded audio... |
