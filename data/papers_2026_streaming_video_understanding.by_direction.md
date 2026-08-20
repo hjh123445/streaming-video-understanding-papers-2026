@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-19T02:16:27
+Generated at: 2026-08-20T02:15:02
 
 Total papers: 132
 
@@ -59,7 +59,7 @@ Total papers: 132
 | 2026-05-08 | Semantic-Aware Adaptive Visual Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.07897) | Online streaming video understanding requires models to process continuous visual inputs and respond to user queries... |
 | 2026-05-08 | Response-G1: Explicit Scene Graph Modeling for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.07575) | Proactive streaming video understanding requires Video-LLMs to decide when to respond as a video unfolds, a task wher... |
 | 2026-05-08 | Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning | [arXiv](https://arxiv.org/abs/2605.08271) | Understanding ultra-long videos such as egocentric recordings, live streams, or surveillance footage spanning days to... |
-| 2026-05-07 | Event-Causal RAG: A Retrieval-Augmented Generation Framework for Long Video Reasoning in Complex Scenarios | [arXiv](https://arxiv.org/abs/2605.06185) | Recent large vision-language models have achieved strong performance on short- and medium-length video understanding,... |
+| 2026-05-07 | Event-Causal RAG: A Retrieval-Augmented Generation Framework for Long Video Reasoning in Complex Scenarios | [arXiv](https://arxiv.org/abs/2605.06185) | Large vision-language models perform well on short- and medium-length video understanding but still struggle to maint... |
 | 2026-05-03 | Decouple and Cache: KV Cache Construction for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.01858) | Streaming video understanding requires processing unbounded video streams with limited memory and computation, posing... |
 | 2026-04-20 | Progressive Online Video Understanding with Evidence-Aligned Timing and Transparent Decisions | [arXiv](https://arxiv.org/abs/2604.18459) | Visual agents operating in the wild must respond to queries precisely when sufficient evidence first appears in a vid... |
 | 2026-04-18 | OASIS: On-Demand Hierarchical Event Memory for Streaming Video Reasoning | [arXiv](https://arxiv.org/abs/2604.17052) | Streaming video reasoning requires models to operate in a setting where history grows without bound while meaningful... |
