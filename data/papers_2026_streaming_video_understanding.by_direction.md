@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-23T02:22:03
+Generated at: 2026-08-24T02:20:47
 
 Total papers: 133
 
@@ -9,9 +9,9 @@ Total papers: 133
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 63 |
-| Reasoning & Agents | 47 |
+| Reasoning & Agents | 46 |
 | Efficiency & Compression | 15 |
-| Benchmarks & Evaluation | 4 |
+| Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
@@ -125,7 +125,6 @@ Total papers: 133
 | 2026-05-08 | SYNCR: A Cross-Video Reasoning Benchmark with Synthetic Grounding | [arXiv](https://arxiv.org/abs/2605.08412) | Multimodal Large Language Models (MLLMs) have made rapid progress in single-video understanding, yet their ability to... |
 | 2026-05-08 | TraceAV-Bench: Benchmarking Multi-Hop Trajectory Reasoning over Long Audio-Visual Videos | [arXiv](https://arxiv.org/abs/2605.07593) | Real-world audio-visual understanding requires chaining evidence that is sparse, temporally dispersed, and split acro... |
 | 2026-05-08 | EgoPro-Bench: Benchmarking Personalized Proactive Interaction in Egocentric Video Streams | [arXiv](https://arxiv.org/abs/2605.07299) | Existing Multimodal Large Language Models (MLLMs) remain primarily reactive, failing to continuously perceive environ... |
-| 2026-05-07 | MedHorizon: Towards Long-context Medical Video Understanding in the Wild | [arXiv](https://arxiv.org/abs/2605.06537) | Medical multimodal large language models (MLLMs) have advanced image understanding and short-video analysis, but real... |
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
@@ -160,6 +159,7 @@ Total papers: 133
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-21 | Kinematic Knowledge Maps for Pattern Alignment: Structured Latent Representational Learning in Multimodal Gait Analysis | [arXiv](https://arxiv.org/abs/2608.20969) | Multimodal clinical AI is limited by weakly aligned inputs and the absence of domain-specific interpretable represent... |
 | 2026-07-07 | SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation | [arXiv](https://arxiv.org/abs/2607.05994) | Human-Object Interaction (HOI) video generation aims to synthesize realistic videos of humans manipulating diverse ob... |
 | 2026-07-03 | GuideMe: Multi-Domain Task Guidance and Intervention in Streaming Video | [arXiv](https://arxiv.org/abs/2607.02991) | While multimodal Large Language Models (MLLMs) excel at offline video understanding, an interesting question of how f... |
 | 2026-06-07 | Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography | [arXiv](https://arxiv.org/abs/2606.08726) | The aim of steganography is to hide secret information inside ordinary media so that the existence of communication i... |
