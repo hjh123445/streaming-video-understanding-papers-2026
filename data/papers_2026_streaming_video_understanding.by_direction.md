@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-24T02:20:47
+Generated at: 2026-08-25T02:16:10
 
 Total papers: 133
 
@@ -8,8 +8,8 @@ Total papers: 133
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 63 |
-| Reasoning & Agents | 46 |
+| Memory & KV-Cache | 62 |
+| Reasoning & Agents | 47 |
 | Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
@@ -59,7 +59,6 @@ Total papers: 133
 | 2026-05-14 | CoRDS: Coreset-based Representative and Diverse Selection for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.14310) | Streaming video understanding with large vision-language models (VLMs) requires a compact memory that can support fut... |
 | 2026-05-08 | Semantic-Aware Adaptive Visual Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.07897) | Online streaming video understanding requires models to process continuous visual inputs and respond to user queries... |
 | 2026-05-08 | Response-G1: Explicit Scene Graph Modeling for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.07575) | Proactive streaming video understanding requires Video-LLMs to decide when to respond as a video unfolds, a task wher... |
-| 2026-05-08 | Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning | [arXiv](https://arxiv.org/abs/2605.08271) | Understanding ultra-long videos such as egocentric recordings, live streams, or surveillance footage spanning days to... |
 | 2026-05-07 | Event-Causal RAG: A Retrieval-Augmented Generation Framework for Long Video Reasoning in Complex Scenarios | [arXiv](https://arxiv.org/abs/2605.06185) | Large vision-language models perform well on short- and medium-length video understanding but still struggle to maint... |
 | 2026-05-03 | Decouple and Cache: KV Cache Construction for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.01858) | Streaming video understanding requires processing unbounded video streams with limited memory and computation, posing... |
 | 2026-04-20 | Progressive Online Video Understanding with Evidence-Aligned Timing and Transparent Decisions | [arXiv](https://arxiv.org/abs/2604.18459) | Visual agents operating in the wild must respond to queries precisely when sufficient evidence first appears in a vid... |
@@ -88,6 +87,7 @@ Total papers: 133
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-24 | Budget-Constrained Embodied Perception: Four Resource Walls and a Pre-Registered Evaluation of Access-Structured Perception on Open Models at less than 31B | [arXiv](https://arxiv.org/abs/2608.22975) | Embodied multimodal agents must answer from growing observation streams under a fixed per-decision token budget. |
 | 2026-08-05 | LAVE: Latent Visual Evidence-Enhanced Planning for Video Tool-use Agents | [arXiv](https://arxiv.org/abs/2608.07585) | Long-video understanding requires models to efficiently acquire and reuse sparse visual evidence from long and redund... |
 | 2026-08-04 | UniGD: A Unified Generative-Discriminative Framework for Industrial Retrieval | [arXiv](https://arxiv.org/abs/2608.03150) | Generative retrieval (GR) is a promising paradigm for industrial search advertising, yet its deployment is constraine... |
 | 2026-08-04 | Qwen-3D: A Generalist 3D Vision-Language Model for Spatial Understanding | [arXiv](https://arxiv.org/abs/2608.02980) | Large Multimodal Models (LMMs) have achieved remarkable success on images and short videos, yet scaling them to long... |
