@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-27T10:52:32
+Generated at: 2026-08-28T12:28:14
 
 Total papers: 133
 
@@ -87,6 +87,7 @@ Total papers: 133
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-27 | Emotion Understanding in Streaming Video with Trajectory-Aware Reliability | [arXiv](https://arxiv.org/abs/2608.26786) | Video emotion understanding is commonly studied as an offline classification problem, where the complete video segmen... |
 | 2026-08-24 | Budget-Constrained Embodied Perception: Four Resource Walls and a Pre-Registered Evaluation of Access-Structured Perception on Open Models at less than 31B | [arXiv](https://arxiv.org/abs/2608.22975) | Embodied multimodal agents must answer from growing observation streams under a fixed per-decision token budget. |
 | 2026-08-05 | LAVE: Latent Visual Evidence-Enhanced Planning for Video Tool-use Agents | [arXiv](https://arxiv.org/abs/2608.07585) | Long-video understanding requires models to efficiently acquire and reuse sparse visual evidence from long and redund... |
 | 2026-08-04 | UniGD: A Unified Generative-Discriminative Framework for Industrial Retrieval | [arXiv](https://arxiv.org/abs/2608.03150) | Generative retrieval (GR) is a promising paradigm for industrial search advertising, yet its deployment is constraine... |
@@ -124,7 +125,6 @@ Total papers: 133
 | 2026-05-11 | StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video | [arXiv](https://arxiv.org/abs/2605.16381) | Proactive streaming video understanding requires models to continuously process video streams and decide when to resp... |
 | 2026-05-08 | SYNCR: A Cross-Video Reasoning Benchmark with Synthetic Grounding | [arXiv](https://arxiv.org/abs/2605.08412) | Multimodal Large Language Models (MLLMs) have made rapid progress in single-video understanding, yet their ability to... |
 | 2026-05-08 | TraceAV-Bench: Benchmarking Multi-Hop Trajectory Reasoning over Long Audio-Visual Videos | [arXiv](https://arxiv.org/abs/2605.07593) | Real-world audio-visual understanding requires chaining evidence that is sparse, temporally dispersed, and split acro... |
-| 2026-05-08 | EgoPro-Bench: Benchmarking Personalized Proactive Interaction in Egocentric Video Streams | [arXiv](https://arxiv.org/abs/2605.07299) | Existing Multimodal Large Language Models (MLLMs) remain primarily reactive, failing to continuously perceive environ... |
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
