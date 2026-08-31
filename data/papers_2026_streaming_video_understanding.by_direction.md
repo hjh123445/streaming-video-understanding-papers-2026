@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-08-30T06:12:02
+Generated at: 2026-08-31T06:37:01
 
-Total papers: 133
+Total papers: 134
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 62 |
+| Memory & KV-Cache | 63 |
 | Reasoning & Agents | 47 |
 | Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 5 |
@@ -20,6 +20,7 @@ Total papers: 133
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-28 | StreamEMS: Streaming Video Understanding with Self-Evolving Memory Scheme for Vision-Language Models | [arXiv](https://arxiv.org/abs/2608.27881) | Recently, many streaming video understanding methods have been proposed by constructing an external memory to store h... |
 | 2026-08-20 | StreamSoccer: Event-Driven Memory for Streaming Soccer Commentary | [arXiv](https://arxiv.org/abs/2608.19723) | Streaming video understanding requires models to causally update state as video arrives and organize growing history... |
 | 2026-08-17 | StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.16320) | Streaming video understanding demands direct responses from the causally observed prefix of an unfolding video. |
 | 2026-08-11 | StreamFlow: Dynamic Memory Flows for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.10949) | Streaming video understanding requires multimodal large language models (MLLMs) to preserve relevant evidence from co... |
