@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-09-01T05:59:30
+Generated at: 2026-09-02T05:24:47
 
 Total papers: 135
 
@@ -8,8 +8,8 @@ Total papers: 135
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 64 |
-| Reasoning & Agents | 47 |
+| Memory & KV-Cache | 65 |
+| Reasoning & Agents | 46 |
 | Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
@@ -20,6 +20,7 @@ Total papers: 135
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-08-31 | StreamScout: Learning When to Look Deeper for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.00291) | Streaming video understanding requires answering questions that arrive at arbitrary moments over an unbounded video s... |
 | 2026-08-31 | Dynamic Hub-and-Spoke Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.30294) | Streaming video understanding requires answering questions at arbitrary times over a continuously growing visual stream. |
 | 2026-08-28 | StreamEMS: Streaming Video Understanding with Self-Evolving Memory Scheme for Vision-Language Models | [arXiv](https://arxiv.org/abs/2608.27881) | Recently, many streaming video understanding methods have been proposed by constructing an external memory to store h... |
 | 2026-08-20 | StreamSoccer: Event-Driven Memory for Streaming Soccer Commentary | [arXiv](https://arxiv.org/abs/2608.19723) | Streaming video understanding requires models to causally update state as video arrives and organize growing history... |
@@ -126,7 +127,6 @@ Total papers: 135
 | 2026-05-18 | OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.18577) | Omni-proactive streaming video understanding, i.e., autonomously deciding when to speak and what to say from continuo... |
 | 2026-05-17 | Omni-DuplexEval: Evaluating Real-time Duplex Omni-modal Interaction | [arXiv](https://arxiv.org/abs/2605.17360) | Real-time duplex interaction is essential for multimodal AI systems operating in real-world scenarios, where models m... |
 | 2026-05-11 | StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video | [arXiv](https://arxiv.org/abs/2605.16381) | Proactive streaming video understanding requires models to continuously process video streams and decide when to resp... |
-| 2026-05-08 | SYNCR: A Cross-Video Reasoning Benchmark with Synthetic Grounding | [arXiv](https://arxiv.org/abs/2605.08412) | Multimodal Large Language Models (MLLMs) have made rapid progress in single-video understanding, yet their ability to... |
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
 | 2026-03-29 | STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.27593) | Recent progress in video large language models (Video-LLMs) has enabled strong offline reasoning over long and comple... |
