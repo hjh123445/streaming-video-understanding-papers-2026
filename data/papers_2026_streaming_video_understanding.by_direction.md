@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-09-02T05:24:47
+Generated at: 2026-09-03T05:26:38
 
-Total papers: 135
+Total papers: 137
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 65 |
-| Reasoning & Agents | 46 |
+| Memory & KV-Cache | 66 |
+| Reasoning & Agents | 47 |
 | Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
@@ -20,6 +20,7 @@ Total papers: 135
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-09-02 | ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.02780) | Streaming video understanding is a critical capability for real-world applications, including embodied intelligence,... |
 | 2026-08-31 | StreamScout: Learning When to Look Deeper for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.00291) | Streaming video understanding requires answering questions that arrive at arbitrary moments over an unbounded video s... |
 | 2026-08-31 | Dynamic Hub-and-Spoke Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.30294) | Streaming video understanding requires answering questions at arbitrary times over a continuously growing visual stream. |
 | 2026-08-28 | StreamEMS: Streaming Video Understanding with Self-Evolving Memory Scheme for Vision-Language Models | [arXiv](https://arxiv.org/abs/2608.27881) | Recently, many streaming video understanding methods have been proposed by constructing an external memory to store h... |
@@ -91,6 +92,7 @@ Total papers: 135
 | Date | Paper | Link | Brief |
 |---|---|---|---|
 | 2026-08-31 | DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution | [arXiv](https://arxiv.org/abs/2608.31106) | Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual... |
+| 2026-08-30 | A Data-Driven Multimodal Method for Early Detection of Coordinated Abnormal Behaviors in Live-Streaming Platforms | [arXiv](https://arxiv.org/abs/2609.01649) | With the rapid growth of live-streaming e-commerce and digital marketing, abnormal marketing behaviors have become in... |
 | 2026-08-27 | Emotion Understanding in Streaming Video with Trajectory-Aware Reliability | [arXiv](https://arxiv.org/abs/2608.26786) | Video emotion understanding is commonly studied as an offline classification problem, where the complete video segmen... |
 | 2026-08-24 | Budget-Constrained Embodied Perception: Four Resource Walls and a Pre-Registered Evaluation of Access-Structured Perception on Open Models at less than 31B | [arXiv](https://arxiv.org/abs/2608.22975) | Embodied multimodal agents must answer from growing observation streams under a fixed per-decision token budget. |
 | 2026-08-05 | LAVE: Latent Visual Evidence-Enhanced Planning for Video Tool-use Agents | [arXiv](https://arxiv.org/abs/2608.07585) | Long-video understanding requires models to efficiently acquire and reuse sparse visual evidence from long and redund... |
