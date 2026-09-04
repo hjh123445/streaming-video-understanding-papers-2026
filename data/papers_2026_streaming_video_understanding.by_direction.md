@@ -1,16 +1,16 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-09-03T05:26:38
+Generated at: 2026-09-04T05:26:07
 
-Total papers: 137
+Total papers: 138
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 66 |
+| Memory & KV-Cache | 68 |
 | Reasoning & Agents | 47 |
-| Efficiency & Compression | 15 |
+| Efficiency & Compression | 14 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
 | General Streaming Video Understanding | 1 |
@@ -20,6 +20,8 @@ Total papers: 137
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-09-03 | Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.04131) | Streaming video understanding requires multimodal large language models (MLLMs) to process continuous visual inputs a... |
+| 2026-09-03 | CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.03675) | Streaming video understanding requires Vision Language Models (VLLMs) to process growing video streams and answer use... |
 | 2026-09-02 | ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.02780) | Streaming video understanding is a critical capability for real-world applications, including embodied intelligence,... |
 | 2026-08-31 | StreamScout: Learning When to Look Deeper for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.00291) | Streaming video understanding requires answering questions that arrive at arbitrary moments over an unbounded video s... |
 | 2026-08-31 | Dynamic Hub-and-Spoke Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2608.30294) | Streaming video understanding requires answering questions at arbitrary times over a continuously growing visual stream. |
@@ -95,6 +97,7 @@ Total papers: 137
 | 2026-08-30 | A Data-Driven Multimodal Method for Early Detection of Coordinated Abnormal Behaviors in Live-Streaming Platforms | [arXiv](https://arxiv.org/abs/2609.01649) | With the rapid growth of live-streaming e-commerce and digital marketing, abnormal marketing behaviors have become in... |
 | 2026-08-27 | Emotion Understanding in Streaming Video with Trajectory-Aware Reliability | [arXiv](https://arxiv.org/abs/2608.26786) | Video emotion understanding is commonly studied as an offline classification problem, where the complete video segmen... |
 | 2026-08-24 | Budget-Constrained Embodied Perception: Four Resource Walls and a Pre-Registered Evaluation of Access-Structured Perception on Open Models at less than 31B | [arXiv](https://arxiv.org/abs/2608.22975) | Embodied multimodal agents must answer from growing observation streams under a fixed per-decision token budget. |
+| 2026-08-11 | Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence | [arXiv](https://arxiv.org/abs/2608.10720) | Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, but a spoken answer still... |
 | 2026-08-05 | LAVE: Latent Visual Evidence-Enhanced Planning for Video Tool-use Agents | [arXiv](https://arxiv.org/abs/2608.07585) | Long-video understanding requires models to efficiently acquire and reuse sparse visual evidence from long and redund... |
 | 2026-08-04 | UniGD: A Unified Generative-Discriminative Framework for Industrial Retrieval | [arXiv](https://arxiv.org/abs/2608.03150) | Generative retrieval (GR) is a promising paradigm for industrial search advertising, yet its deployment is constraine... |
 | 2026-08-04 | Qwen-3D: A Generalist 3D Vision-Language Model for Spatial Understanding | [arXiv](https://arxiv.org/abs/2608.02980) | Large Multimodal Models (LMMs) have achieved remarkable success on images and short videos, yet scaling them to long... |
@@ -127,7 +130,6 @@ Total papers: 137
 | 2026-05-21 | Cambrian-P: Pose-Grounded Video Understanding | [arXiv](https://arxiv.org/abs/2605.22819) | Camera pose matters. |
 | 2026-05-19 | LMM-Track4D: Eliciting 4D Dynamic Reasoning in LMMs via Trajectory-Grounded Dialogue | [arXiv](https://arxiv.org/abs/2605.19390) | Recent large multimodal models (LMMs) have become increasingly capable on image and video understanding, yet still st... |
 | 2026-05-18 | OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.18577) | Omni-proactive streaming video understanding, i.e., autonomously deciding when to speak and what to say from continuo... |
-| 2026-05-17 | Omni-DuplexEval: Evaluating Real-time Duplex Omni-modal Interaction | [arXiv](https://arxiv.org/abs/2605.17360) | Real-time duplex interaction is essential for multimodal AI systems operating in real-world scenarios, where models m... |
 | 2026-05-11 | StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video | [arXiv](https://arxiv.org/abs/2605.16381) | Proactive streaming video understanding requires models to continuously process video streams and decide when to resp... |
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
 | 2026-04-05 | AURA: Always-On Understanding and Real-Time Assistance via Video Streams | [arXiv](https://arxiv.org/abs/2604.04184) | Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most... |
@@ -143,7 +145,6 @@ Total papers: 137
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
-| 2026-08-11 | Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence | [arXiv](https://arxiv.org/abs/2608.10720) | Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, yet their responses remain... |
 | 2026-07-30 | Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers | [arXiv](https://arxiv.org/abs/2607.28611) | Visual generation increasingly requires high-resolution images, long videos, and multimodal context, making the quadr... |
 | 2026-07-15 | M$^\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming | [arXiv](https://arxiv.org/abs/2607.14005) | Driving-world generation has emerged as a core capability for scalable autonomous-driving simulation, yet existing me... |
 | 2026-07-15 | ScanFocus: A Coarse-to-Fine Framework for Spatio-Temporal Video Grounding | [arXiv](https://arxiv.org/abs/2607.13421) | Spatio-Temporal Video Grounding (STVG) aims to retrieve the visual trajectory of a specific object from a video strea... |
