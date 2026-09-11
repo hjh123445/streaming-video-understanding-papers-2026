@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-09-10T05:33:03
+Generated at: 2026-09-11T05:35:20
 
-Total papers: 139
+Total papers: 138
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 68 |
-| Reasoning & Agents | 47 |
+| Reasoning & Agents | 46 |
 | Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
@@ -128,7 +128,6 @@ Total papers: 139
 | 2026-05-26 | OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants | [arXiv](https://arxiv.org/abs/2605.26485) | We introduce OmniInteract, a streaming benchmark for real-time omnimodal large language models evaluated through nati... |
 | 2026-05-25 | Not All Modalities Are Equal: Instruction-Aware Gating for Multimodal Videos | [arXiv](https://arxiv.org/abs/2605.26232) | Pre-trained video large language models excel at visual reasoning. |
 | 2026-05-25 | LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence | [arXiv](https://arxiv.org/abs/2605.25979) | We introduce LLaVA-OneVision-2 (LLaVA-OV-2), the most capable vision-language model in the LLaVA-OneVision series to... |
-| 2026-05-21 | Cambrian-P: Pose-Grounded Video Understanding | [arXiv](https://arxiv.org/abs/2605.22819) | Camera pose matters. |
 | 2026-05-18 | OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.18577) | Omni-proactive streaming video understanding, i.e., autonomously deciding when to speak and what to say from continuo... |
 | 2026-05-11 | StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video | [arXiv](https://arxiv.org/abs/2605.16381) | Proactive streaming video understanding requires models to continuously process video streams and decide when to resp... |
 | 2026-04-19 | Where to Focus: Query-Modulated Multimodal Keyframe Selection for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.17422) | Long video understanding remains a formidable challenge for Multimodal Large Language Models (MLLMs) due to the prohi... |
