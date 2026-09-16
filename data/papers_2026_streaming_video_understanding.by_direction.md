@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-09-12T05:21:39
+Generated at: 2026-09-16T05:36:34
 
-Total papers: 138
+Total papers: 139
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 68 |
-| Reasoning & Agents | 46 |
+| Memory & KV-Cache | 67 |
+| Reasoning & Agents | 48 |
 | Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 2 |
@@ -57,7 +57,6 @@ Total papers: 138
 | 2026-05-30 | FlowNar: Scalable Streaming Narration for Long-Form Videos | [arXiv](https://arxiv.org/abs/2606.00620) | Recent Large Multimodal Models (LMMs), primarily designed for offline settings, are ill-suited for the dynamic requir... |
 | 2026-05-29 | Linear Scaling Video VLMs for Long Video Understanding | [arXiv](https://arxiv.org/abs/2605.31598) | Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video enco... |
 | 2026-05-29 | Task-Focused Memorization for Multimodal Agents | [arXiv](https://arxiv.org/abs/2605.31075) | Long-term memory is essential for multimodal agents to build coherent experience, accumulate world knowledge, and ach... |
-| 2026-05-25 | StreamOV: Streaming Omni-Video Understanding via Evidence-Guided Memory and Response Triggering | [arXiv](https://arxiv.org/abs/2605.25621) | While streaming omni-video understanding demands continuous perception and proactive, real-time interaction, this cru... |
 | 2026-05-21 | MuKV: Multi-Grained KV Cache Compression for Long Streaming Video Question-Answering | [arXiv](https://arxiv.org/abs/2605.22269) | Long streaming video QA remains challenging due to growing visual tokens and limited reasoning length of large langua... |
 | 2026-05-19 | DynaTok: Temporally Adaptive and Positional Bias-Aware Token Compression for Video-LLMs | [arXiv](https://arxiv.org/abs/2605.19322) | Recent advances in Video Large Language Models (Video-LLMs) have greatly expanded multimodal reasoning capabilities. |
 | 2026-05-18 | An Efficient Streaming Video Understanding Framework with Agentic Control | [arXiv](https://arxiv.org/abs/2605.17921) | Streaming video requires handling dynamic information density under strict latency budgets. |
@@ -93,6 +92,8 @@ Total papers: 138
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-09-14 | LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows | [arXiv](https://arxiv.org/abs/2609.15863) | Video diffusion models are stochastic and hard to control: precise content often requires repeated sampling without g... |
+| 2026-09-11 | ProactiveBench: Can Streaming Video Models Really Interact Like Humans? | [arXiv](https://arxiv.org/abs/2609.12658) | Streaming video understanding requires models to process continuous multimodal input while maintaining temporal context. |
 | 2026-09-07 | SAFER-Activities: A Dataset for Smart Assessment of Fall Events and Routine Activities | [arXiv](https://arxiv.org/abs/2609.08038) | Smart healthcare monitoring systems require precise action recognition to ensure well-being and timely intervention i... |
 | 2026-08-31 | DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution | [arXiv](https://arxiv.org/abs/2608.31106) | Recent video generators often omit audio or synthesize it in a separate stage, limiting reciprocal modeling of visual... |
 | 2026-08-30 | A Data-Driven Multimodal Method for Early Detection of Coordinated Abnormal Behaviors in Live-Streaming Platforms | [arXiv](https://arxiv.org/abs/2609.01649) | With the rapid growth of live-streaming e-commerce and digital marketing, abnormal marketing behaviors have become in... |
