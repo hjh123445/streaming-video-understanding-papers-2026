@@ -1,17 +1,17 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-09-29T06:33:05
+Generated at: 2026-09-30T06:15:59
 
-Total papers: 137
+Total papers: 140
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 69 |
+| Memory & KV-Cache | 72 |
 | Reasoning & Agents | 42 |
-| Efficiency & Compression | 16 |
-| Benchmarks & Evaluation | 6 |
+| Efficiency & Compression | 15 |
+| Benchmarks & Evaluation | 7 |
 | Video QA / Query | 2 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
@@ -20,6 +20,9 @@ Total papers: 137
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-09-29 | Watch-Think-Interact: Bootstrapping Long-Horizon Multi-Turn Streaming Video Reasoning with Reinforcement Learning | [arXiv](https://arxiv.org/abs/2609.37035) | Streaming video assistance requires models to answer asynchronous questions from an observed prefix under a fixed con... |
+| 2026-09-29 | EGSD: Event-Grounded Self-Distillation for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.36803) | Real-time video understanding requires incrementally maintaining a memory of streaming content, and optimizing this r... |
+| 2026-09-29 | MemEvo: Automatic Discovery of Streaming Video Memory Mechanisms | [arXiv](https://arxiv.org/abs/2609.36581) | Query-agnostic streaming video understanding requires vision-language models to continuously compress an indefinitely... |
 | 2026-09-28 | LLMs are General Asynchronous Agents | [arXiv](https://arxiv.org/abs/2609.35427) | Modern LLMs are increasingly capable as autonomous agents, but they follow sequential interaction cycles: read, think... |
 | 2026-09-26 | KeyRec: Bounded Visual Memory for Streaming and Long-Video Understanding | [arXiv](https://arxiv.org/abs/2609.32182) | Vision-language models are increasingly used to understand long videos and continuous streams. |
 | 2026-09-20 | PREM: Prefix-Steered Recurrent Memory for Long-Video Understanding | [arXiv](https://arxiv.org/abs/2609.23601) | Long-video understanding must capture transient visual evidence under strict token budgets, yet existing methods comp... |
@@ -94,6 +97,7 @@ Total papers: 137
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-09-29 | When to Retrieve, When to Stay: Uncertainty-Aware Temporal Evidence Allocation for Streaming Video-LLMs | [arXiv](https://arxiv.org/abs/2609.37345) | Streaming video understanding requires Video Large Language Models (Video-LLMs) to reason over continuous visual stre... |
 | 2026-09-28 | FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning | [arXiv](https://arxiv.org/abs/2609.35728) | We present FlowAct-R2, a framework for interactive humanoid video generation that combines continuous multimodal cont... |
 | 2026-09-27 | PARSEE-VAD: Efficient Training-Free Online Video Anomaly Detection via Proposition-Aware Reasoning and Streaming Evidence Escalation | [arXiv](https://arxiv.org/abs/2609.33236) | Training-free online video anomaly detection (VAD) with frozen multimodal language models faces two coupled challenge... |
 | 2026-09-25 | TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.30670) | Streaming video understanding requires models to interpret evidence as it arrives, yet current evaluations often repo... |
@@ -123,7 +127,6 @@ Total papers: 137
 | 2026-06-08 | DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking for Full-Duplex Interaction | [arXiv](https://arxiv.org/abs/2606.09186) | Human interaction is continuous, multimodal, and full-duplex by nature. |
 | 2026-06-05 | Don't Pause: Streaming Video-Language Synchrony for Online Video Understanding | [arXiv](https://arxiv.org/abs/2606.06991) | Online Video Large Language Models (Video-LLMs) have advanced toward seamless human-AI interaction through frame-by-f... |
 | 2026-06-05 | Stream3D-VLM: Online 3D Spatial Understanding with Incremental Geometry Priors | [arXiv](https://arxiv.org/abs/2606.06891) | Despite advances in 3D scene understanding, existing 3D Large Multimodal Models operate in offline settings, requirin... |
-| 2026-06-03 | Bridging Short Videos and Live Streams: Reasoning-Guided Multimodal LLMs for Cross-Domain Representation Learning | [arXiv](https://arxiv.org/abs/2606.04448) | As live streaming services grow, many platforms offer short videos and live streams to meet diverse needs. |
 | 2026-06-01 | X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding | [arXiv](https://arxiv.org/abs/2606.02482) | While video streaming understanding has made significant strides, real-world applications, such as live sports broadc... |
 | 2026-05-18 | OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.18577) | Omni-proactive streaming video understanding, i.e., autonomously deciding when to speak and what to say from continuo... |
 | 2026-05-11 | StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video | [arXiv](https://arxiv.org/abs/2605.16381) | Proactive streaming video understanding requires models to continuously process video streams and decide when to resp... |
@@ -150,7 +153,6 @@ Total papers: 137
 | 2026-07-11 | DynaFilter: Cloud-driven Dynamic Filtering for Satellite Edge Intelligence | [arXiv](https://arxiv.org/abs/2607.10098) | Modern satellite edge systems, including those performing remote sensing tasks such object detection and tracking, ar... |
 | 2026-06-18 | NEST: Narrative Event Structures in Time for Long Video Understanding | [arXiv](https://arxiv.org/abs/2606.19706) | Recent progress in vision-language models has enabled processing of increasingly long video sequences, but handling e... |
 | 2026-06-04 | Inverting the Streaming-Diffusion Bottleneck: Video-Rate MLLM-Conditioned Edit Diffusion on a Consumer GPU | [arXiv](https://arxiv.org/abs/2606.05981) | Aggressive distillation of the diffusion U-Net inverts the per-frame bottleneck of real-time text-to-image pipelines:... |
-| 2026-06-03 | Continual Visual and Verbal Learning Through a Child's Egocentric Input | [arXiv](https://arxiv.org/abs/2606.05115) | Children learn the meanings of words from a continuous, temporally structured stream of egocentric experience. |
 | 2026-05-11 | EvoStreaming: Your Offline Video Model Is a Natively Streaming Assistant | [arXiv](https://arxiv.org/abs/2605.10343) | Streaming video understanding demands more than watching longer videos: assistants must decide when to speak in real... |
 | 2026-05-04 | HY-Himmel Technical Report: Hierarchical Interleaved Multi-stream Motion Encoding for Long Video Understanding | [arXiv](https://arxiv.org/abs/2605.08158) | Long-video understanding with multimodal language models suffers from three compounding bottlenecks: heavy decode cos... |
 | 2026-04-09 | Small Vision-Language Models are Smart Compressors for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.08120) | Adapting Multimodal Large Language Models (MLLMs) for hour-long videos is bottlenecked by context limits. |
@@ -162,6 +164,7 @@ Total papers: 137
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-09-29 | Salt++: Context-Aligned Post-Training for Few-Step Streaming Multimodal Generation | [arXiv](https://arxiv.org/abs/2609.36995) | Few-step streaming audio--video generation requires both causal modeling and step distillation, yet standard training... |
 | 2026-09-28 | One Sensor, Whole Body - 3D Body Pose from a Single Consumer Earbud IMU | [arXiv](https://arxiv.org/abs/2609.34978) | Consumer earbuds already stream inertial motion data from the head, one of the most widely worn sensor locations on t... |
 | 2026-08-21 | Kinematic Knowledge Maps for Pattern Alignment: Structured Latent Representational Learning in Multimodal Gait Analysis | [arXiv](https://arxiv.org/abs/2608.20969) | Multimodal clinical AI is limited by weakly aligned inputs and the absence of domain-specific interpretable represent... |
 | 2026-07-07 | SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation | [arXiv](https://arxiv.org/abs/2607.05994) | Human-Object Interaction (HOI) video generation aims to synthesize realistic videos of humans manipulating diverse ob... |
