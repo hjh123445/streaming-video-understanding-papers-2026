@@ -1,17 +1,17 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-09-30T06:15:59
+Generated at: 2026-10-01T06:47:27
 
-Total papers: 140
+Total papers: 139
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 72 |
-| Reasoning & Agents | 42 |
-| Efficiency & Compression | 15 |
-| Benchmarks & Evaluation | 7 |
+| Memory & KV-Cache | 74 |
+| Reasoning & Agents | 41 |
+| Efficiency & Compression | 14 |
+| Benchmarks & Evaluation | 6 |
 | Video QA / Query | 2 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
@@ -20,6 +20,8 @@ Total papers: 140
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-09-30 | LongEmo: Towards Emotion Understanding and Reasoning in Long Videos | [arXiv](https://arxiv.org/abs/2609.40079) | While recent Multimodal Large Language Models (MLLMs) have shown promise in affective computing, their reasoning capa... |
+| 2026-09-30 | MEMO: Multi-Level Entity-Aware Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.38900) | Streaming video understanding requires models to process unbounded visual streams while preserving rich visual semant... |
 | 2026-09-29 | Watch-Think-Interact: Bootstrapping Long-Horizon Multi-Turn Streaming Video Reasoning with Reinforcement Learning | [arXiv](https://arxiv.org/abs/2609.37035) | Streaming video assistance requires models to answer asynchronous questions from an observed prefix under a fixed con... |
 | 2026-09-29 | EGSD: Event-Grounded Self-Distillation for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.36803) | Real-time video understanding requires incrementally maintaining a memory of streaming content, and optimizing this r... |
 | 2026-09-29 | MemEvo: Automatic Discovery of Streaming Video Memory Mechanisms | [arXiv](https://arxiv.org/abs/2609.36581) | Query-agnostic streaming video understanding requires vision-language models to continuously compress an indefinitely... |
@@ -126,7 +128,6 @@ Total papers: 140
 | 2026-06-08 | Streaming Interventions: Can Video Large Language Models Correct Mistakes as They Occur? | [arXiv](https://arxiv.org/abs/2606.09547) | Learning everyday skills, like cooking a dish, relies increasingly on instructional media such as online videos. |
 | 2026-06-08 | DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking for Full-Duplex Interaction | [arXiv](https://arxiv.org/abs/2606.09186) | Human interaction is continuous, multimodal, and full-duplex by nature. |
 | 2026-06-05 | Don't Pause: Streaming Video-Language Synchrony for Online Video Understanding | [arXiv](https://arxiv.org/abs/2606.06991) | Online Video Large Language Models (Video-LLMs) have advanced toward seamless human-AI interaction through frame-by-f... |
-| 2026-06-05 | Stream3D-VLM: Online 3D Spatial Understanding with Incremental Geometry Priors | [arXiv](https://arxiv.org/abs/2606.06891) | Despite advances in 3D scene understanding, existing 3D Large Multimodal Models operate in offline settings, requirin... |
 | 2026-06-01 | X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding | [arXiv](https://arxiv.org/abs/2606.02482) | While video streaming understanding has made significant strides, real-world applications, such as live sports broadc... |
 | 2026-05-18 | OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.18577) | Omni-proactive streaming video understanding, i.e., autonomously deciding when to speak and what to say from continuo... |
 | 2026-05-11 | StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video | [arXiv](https://arxiv.org/abs/2605.16381) | Proactive streaming video understanding requires models to continuously process video streams and decide when to resp... |
@@ -152,7 +153,6 @@ Total papers: 140
 | 2026-07-15 | ScanFocus: A Coarse-to-Fine Framework for Spatio-Temporal Video Grounding | [arXiv](https://arxiv.org/abs/2607.13421) | Spatio-Temporal Video Grounding (STVG) aims to retrieve the visual trajectory of a specific object from a video strea... |
 | 2026-07-11 | DynaFilter: Cloud-driven Dynamic Filtering for Satellite Edge Intelligence | [arXiv](https://arxiv.org/abs/2607.10098) | Modern satellite edge systems, including those performing remote sensing tasks such object detection and tracking, ar... |
 | 2026-06-18 | NEST: Narrative Event Structures in Time for Long Video Understanding | [arXiv](https://arxiv.org/abs/2606.19706) | Recent progress in vision-language models has enabled processing of increasingly long video sequences, but handling e... |
-| 2026-06-04 | Inverting the Streaming-Diffusion Bottleneck: Video-Rate MLLM-Conditioned Edit Diffusion on a Consumer GPU | [arXiv](https://arxiv.org/abs/2606.05981) | Aggressive distillation of the diffusion U-Net inverts the per-frame bottleneck of real-time text-to-image pipelines:... |
 | 2026-05-11 | EvoStreaming: Your Offline Video Model Is a Natively Streaming Assistant | [arXiv](https://arxiv.org/abs/2605.10343) | Streaming video understanding demands more than watching longer videos: assistants must decide when to speak in real... |
 | 2026-05-04 | HY-Himmel Technical Report: Hierarchical Interleaved Multi-stream Motion Encoding for Long Video Understanding | [arXiv](https://arxiv.org/abs/2605.08158) | Long-video understanding with multimodal language models suffers from three compounding bottlenecks: heavy decode cos... |
 | 2026-04-09 | Small Vision-Language Models are Smart Compressors for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.08120) | Adapting Multimodal Large Language Models (MLLMs) for hour-long videos is bottlenecked by context limits. |
@@ -170,7 +170,6 @@ Total papers: 140
 | 2026-07-07 | SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation | [arXiv](https://arxiv.org/abs/2607.05994) | Human-Object Interaction (HOI) video generation aims to synthesize realistic videos of humans manipulating diverse ob... |
 | 2026-07-03 | GuideMe: Multi-Domain Task Guidance and Intervention in Streaming Video | [arXiv](https://arxiv.org/abs/2607.02991) | While multimodal Large Language Models (MLLMs) excel at offline video understanding, an interesting question of how f... |
 | 2026-06-07 | Evaluating Multimodal Steganalysis for Split-Payload Audiovisual Steganography | [arXiv](https://arxiv.org/abs/2606.08726) | The aim of steganography is to hide secret information inside ordinary media so that the existence of communication i... |
-| 2026-06-05 | TraRA: Trajectory-level Recognition Aggregation for Video Text Spotting in Urban Surveillance | [arXiv](https://arxiv.org/abs/2606.07161) | Video Text Spotting (VTS) is essential for urban surveillance and intelligent transportation systems, enabling automa... |
 
 ## Video QA / Query
 
