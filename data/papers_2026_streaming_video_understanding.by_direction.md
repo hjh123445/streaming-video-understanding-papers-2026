@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-01T06:47:27
+Generated at: 2026-10-02T06:38:40
 
-Total papers: 139
+Total papers: 140
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 74 |
+| Memory & KV-Cache | 75 |
 | Reasoning & Agents | 41 |
 | Efficiency & Compression | 14 |
 | Benchmarks & Evaluation | 6 |
@@ -20,6 +20,7 @@ Total papers: 139
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-01 | OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction | [arXiv](https://arxiv.org/abs/2610.01762) | Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient e... |
 | 2026-09-30 | LongEmo: Towards Emotion Understanding and Reasoning in Long Videos | [arXiv](https://arxiv.org/abs/2609.40079) | While recent Multimodal Large Language Models (MLLMs) have shown promise in affective computing, their reasoning capa... |
 | 2026-09-30 | MEMO: Multi-Level Entity-Aware Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.38900) | Streaming video understanding requires models to process unbounded visual streams while preserving rich visual semant... |
 | 2026-09-29 | Watch-Think-Interact: Bootstrapping Long-Horizon Multi-Turn Streaming Video Reasoning with Reinforcement Learning | [arXiv](https://arxiv.org/abs/2609.37035) | Streaming video assistance requires models to answer asynchronous questions from an observed prefix under a fixed con... |
