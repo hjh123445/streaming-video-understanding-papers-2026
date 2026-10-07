@@ -1,18 +1,18 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-05T06:31:33
+Generated at: 2026-10-07T06:49:08
 
-Total papers: 140
+Total papers: 142
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 75 |
-| Reasoning & Agents | 41 |
+| Reasoning & Agents | 42 |
 | Efficiency & Compression | 14 |
 | Benchmarks & Evaluation | 6 |
-| Video QA / Query | 2 |
+| Video QA / Query | 3 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
 
@@ -20,6 +20,7 @@ Total papers: 140
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-05 | ReMem: Streaming Video Understanding With Long Context Retention | [arXiv](https://arxiv.org/abs/2610.05940) | Despite their impressive performance on a wide range of video understanding tasks, current Vision Language Models (VL... |
 | 2026-10-01 | OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction | [arXiv](https://arxiv.org/abs/2610.01762) | Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient e... |
 | 2026-09-30 | LongEmo: Towards Emotion Understanding and Reasoning in Long Videos | [arXiv](https://arxiv.org/abs/2609.40079) | While recent Multimodal Large Language Models (MLLMs) have shown promise in affective computing, their reasoning capa... |
 | 2026-09-30 | MEMO: Multi-Level Entity-Aware Memory for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.38900) | Streaming video understanding requires models to process unbounded visual streams while preserving rich visual semant... |
@@ -63,7 +64,6 @@ Total papers: 140
 | 2026-06-10 | InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning | [arXiv](https://arxiv.org/abs/2606.12195) | Recent progress in foundation models has shifted toward agentic behavior involving multi-step reasoning and tool use. |
 | 2026-06-07 | Harnessing Streaming Video in the Wild | [arXiv](https://arxiv.org/abs/2606.08615) | Vision-Language Models (VLMs) are increasingly required to process unbounded video streams in applications such as vi... |
 | 2026-06-05 | MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism | [arXiv](https://arxiv.org/abs/2606.07512) | Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induce... |
-| 2026-06-05 | Watch, Remember, Reason: Human-View Video Understanding with MLLMs | [arXiv](https://arxiv.org/abs/2606.07433) | Video understanding is being rapidly transformed by multimodal large language models (MLLMs), as research moves from... |
 | 2026-05-29 | Linear Scaling Video VLMs for Long Video Understanding | [arXiv](https://arxiv.org/abs/2605.31598) | Video vision-language models (VLMs) are increasingly used in long-horizon and streaming settings, yet most video enco... |
 | 2026-05-21 | MuKV: Multi-Grained KV Cache Compression for Long Streaming Video Question-Answering | [arXiv](https://arxiv.org/abs/2605.22269) | Long streaming video QA remains challenging due to growing visual tokens and limited reasoning length of large langua... |
 | 2026-05-19 | DynaTok: Temporally Adaptive and Positional Bias-Aware Token Compression for Video-LLMs | [arXiv](https://arxiv.org/abs/2605.19322) | Recent advances in Video Large Language Models (Video-LLMs) have greatly expanded multimodal reasoning capabilities. |
@@ -100,6 +100,7 @@ Total papers: 140
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-03 | Rethinking Long-Video Efficiency: A Joint Allocation Perspective on Frames, Pixels, and Front-End Latency | [arXiv](https://arxiv.org/abs/2610.04318) | Efficient long-video understanding with vision-language models (VLMs) is often framed as selecting informative frames... |
 | 2026-09-29 | When to Retrieve, When to Stay: Uncertainty-Aware Temporal Evidence Allocation for Streaming Video-LLMs | [arXiv](https://arxiv.org/abs/2609.37345) | Streaming video understanding requires Video Large Language Models (Video-LLMs) to reason over continuous visual stre... |
 | 2026-09-28 | FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning | [arXiv](https://arxiv.org/abs/2609.35728) | We present FlowAct-R2, a framework for interactive humanoid video generation that combines continuous multimodal cont... |
 | 2026-09-27 | PARSEE-VAD: Efficient Training-Free Online Video Anomaly Detection via Proposition-Aware Reasoning and Streaming Evidence Escalation | [arXiv](https://arxiv.org/abs/2609.33236) | Training-free online video anomaly detection (VAD) with frozen multimodal language models faces two coupled challenge... |
@@ -176,6 +177,7 @@ Total papers: 140
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-06 | Have I Seen Enough? Frozen Video-Language Models Encode Evidence Readiness | [arXiv](https://arxiv.org/abs/2610.08560) | Streaming video-language models must decide not only what to answer, but whether the evidence needed for the current... |
 | 2026-07-06 | QSVideo: Query-Conditioned Semantic Temporal Retrieval for Video Understanding | [arXiv](https://arxiv.org/abs/2607.04559) | The performance of vision-language models (VLMs) in video understanding declines with increasing video duration, as v... |
 | 2026-02-18 | ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding | [arXiv](https://arxiv.org/abs/2602.16412) | While multimodal large language models (MLLMs) have shown remarkable success across a wide range of tasks, long-form... |
 
