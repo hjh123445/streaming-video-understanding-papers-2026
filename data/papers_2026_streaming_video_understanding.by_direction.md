@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-08T06:57:59
+Generated at: 2026-10-10T06:39:24
 
 Total papers: 142
 
@@ -102,6 +102,7 @@ Total papers: 142
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-08 | FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams? | [arXiv](https://arxiv.org/abs/2610.12427) | Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on... |
 | 2026-10-03 | Rethinking Long-Video Efficiency: A Joint Allocation Perspective on Frames, Pixels, and Front-End Latency | [arXiv](https://arxiv.org/abs/2610.04318) | Efficient long-video understanding with vision-language models (VLMs) is often framed as selecting informative frames... |
 | 2026-09-29 | When to Retrieve, When to Stay: Uncertainty-Aware Temporal Evidence Allocation for Streaming Video-LLMs | [arXiv](https://arxiv.org/abs/2609.37345) | Streaming video understanding requires Video Large Language Models (Video-LLMs) to reason over continuous visual stre... |
 | 2026-09-28 | FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning | [arXiv](https://arxiv.org/abs/2609.35728) | We present FlowAct-R2, a framework for interactive humanoid video generation that combines continuous multimodal cont... |
@@ -129,7 +130,6 @@ Total papers: 142
 | 2026-06-23 | Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models | [arXiv](https://arxiv.org/abs/2606.25041) | We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for... |
 | 2026-06-10 | From Content to Knowledge: Lightning Fast Long-Video Understanding with Neural Knowledge Representations | [arXiv](https://arxiv.org/abs/2606.11913) | We propose a new paradigm for long video understanding by treating a long video as a Neural Knowledge Representation... |
 | 2026-06-08 | From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs | [arXiv](https://arxiv.org/abs/2606.10147) | Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel thro... |
-| 2026-06-08 | Streaming Interventions: Can Video Large Language Models Correct Mistakes as They Occur? | [arXiv](https://arxiv.org/abs/2606.09547) | Learning everyday skills, like cooking a dish, relies increasingly on instructional media such as online videos. |
 | 2026-06-05 | Don't Pause: Streaming Video-Language Synchrony for Online Video Understanding | [arXiv](https://arxiv.org/abs/2606.06991) | Online Video Large Language Models (Video-LLMs) have advanced toward seamless human-AI interaction through frame-by-f... |
 | 2026-06-01 | X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding | [arXiv](https://arxiv.org/abs/2606.02482) | While video streaming understanding has made significant strides, real-world applications, such as live sports broadc... |
 | 2026-05-18 | OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2605.18577) | Omni-proactive streaming video understanding, i.e., autonomously deciding when to speak and what to say from continuo... |
