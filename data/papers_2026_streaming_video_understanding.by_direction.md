@@ -1,16 +1,16 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-13T07:19:22
+Generated at: 2026-10-14T05:45:27
 
-Total papers: 142
+Total papers: 144
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 77 |
+| Memory & KV-Cache | 78 |
 | Reasoning & Agents | 41 |
-| Efficiency & Compression | 14 |
+| Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 3 |
 | General Streaming Video Understanding | 1 |
@@ -20,6 +20,7 @@ Total papers: 142
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-12 | Elephant in the Fridge: Constant-Memory Frame Packing for Long Video Understanding | [arXiv](https://arxiv.org/abs/2610.16118) | Hour-long videos, streaming feeds, and movie-length content are pushing vision-language models (VLMs) past their brea... |
 | 2026-10-07 | VideoEvolve: Co-Evolving Memory and Retrieval for Long Video Understanding | [arXiv](https://arxiv.org/abs/2610.10183) | Long video understanding increasingly relies on external memory to organize massive visual streams into compact repre... |
 | 2026-10-07 | vLLM-Omni Technical Report: A Unified Serving Runtime for Omni-Modality Generation | [arXiv](https://arxiv.org/abs/2610.09307) | Interaction with intelligent systems is expanding beyond text-centric chatbots and coding agents. |
 | 2026-10-05 | ReMem: Streaming Video Understanding With Long Context Retention | [arXiv](https://arxiv.org/abs/2610.05940) | Despite their impressive performance on a wide range of video understanding tasks, current Vision Language Models (VL... |
@@ -148,6 +149,7 @@ Total papers: 142
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-10 | SPARE: Shared Perception and Adaptive Retrieval of Evidence for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.14671) | Streaming video understanding requires answering questions from the observed video, with evidence drawn from recent o... |
 | 2026-09-23 | Live Assistant: Learning Whether, When, and Whom to Assist in Real-World Live Social Streams | [arXiv](https://arxiv.org/abs/2609.27303) | Livestreams are long-lasting interactive environments where audiovisual content, viewer activity, host behavior, and... |
 | 2026-09-08 | Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models | [arXiv](https://arxiv.org/abs/2609.08390) | Full-duplex spoken dialogue systems enable simultaneous listening and speaking, but their audio-only perception often... |
 | 2026-08-05 | Reading Less While Writing: A Closed-Form Bandwidth Dial for Streaming Multimodal Decoders | [arXiv](https://arxiv.org/abs/2609.20845) | A decoder that turns video or audio into text conventionally consumes the entire input before emitting a word. |
@@ -157,7 +159,7 @@ Total papers: 142
 | 2026-07-11 | DynaFilter: Cloud-driven Dynamic Filtering for Satellite Edge Intelligence | [arXiv](https://arxiv.org/abs/2607.10098) | Modern satellite edge systems, including those performing remote sensing tasks such object detection and tracking, ar... |
 | 2026-06-18 | NEST: Narrative Event Structures in Time for Long Video Understanding | [arXiv](https://arxiv.org/abs/2606.19706) | Recent progress in vision-language models has enabled processing of increasingly long video sequences, but handling e... |
 | 2026-05-11 | EvoStreaming: Your Offline Video Model Is a Natively Streaming Assistant | [arXiv](https://arxiv.org/abs/2605.10343) | Streaming video understanding demands more than watching longer videos: assistants must decide when to speak in real... |
-| 2026-05-04 | HY-Himmel Technical Report: Hierarchical Interleaved Multi-stream Motion Encoding for Long Video Understanding | [arXiv](https://arxiv.org/abs/2605.08158) | Long-video understanding with multimodal language models suffers from three compounding bottlenecks: heavy decode cos... |
+| 2026-05-04 | HIMMEL: Hierarchical Interleaved Multi-stream Motion Encoding for Long Video Understanding | [arXiv](https://arxiv.org/abs/2605.08158) | Long video understanding with multimodal language models suffers from three compounding bottlenecks: heavy decode cos... |
 | 2026-04-09 | Small Vision-Language Models are Smart Compressors for Long Video Understanding | [arXiv](https://arxiv.org/abs/2604.08120) | Adapting Multimodal Large Language Models (MLLMs) for hour-long videos is bottlenecked by context limits. |
 | 2026-03-26 | GazeQwen: Lightweight Gaze-Conditioned LLM Modulation for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.25841) | Current multimodal large language models (MLLMs) cannot effectively utilize eye-gaze information for video understand... |
 | 2026-03-23 | Color When It Counts: Grayscale-Guided Online Triggering for Always-On Streaming Video Sensing | [arXiv](https://arxiv.org/abs/2603.22466) | Always-on sensing is essential for next-generation edge/wearable AI systems, yet continuous high-fidelity RGB video c... |
