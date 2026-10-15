@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-14T05:45:27
+Generated at: 2026-10-15T05:31:16
 
 Total papers: 144
 
@@ -20,6 +20,7 @@ Total papers: 144
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-14 | DeltaStreamer: Towards Human-Like Agentic Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.19849) | We propose DeltaStreamer, a novel agentic framework for streaming video understanding inspired by how humans observe,... |
 | 2026-10-12 | Elephant in the Fridge: Constant-Memory Frame Packing for Long Video Understanding | [arXiv](https://arxiv.org/abs/2610.16118) | Hour-long videos, streaming feeds, and movie-length content are pushing vision-language models (VLMs) past their brea... |
 | 2026-10-07 | VideoEvolve: Co-Evolving Memory and Retrieval for Long Video Understanding | [arXiv](https://arxiv.org/abs/2610.10183) | Long video understanding increasingly relies on external memory to organize massive visual streams into compact repre... |
 | 2026-10-07 | vLLM-Omni Technical Report: A Unified Serving Runtime for Omni-Modality Generation | [arXiv](https://arxiv.org/abs/2610.09307) | Interaction with intelligent systems is expanding beyond text-centric chatbots and coding agents. |
@@ -63,7 +64,6 @@ Total papers: 144
 | 2026-06-16 | LiveStarPro: Proactive Streaming Video Understanding with Hierarchical Memory for Long-Horizon Streams | [arXiv](https://arxiv.org/abs/2606.17798) | Despite the remarkable progress of Video Large Language Models (Video-LLMs), current online architectures still strug... |
 | 2026-06-15 | What Should a Streaming Video Model Remember? | [arXiv](https://arxiv.org/abs/2606.16353) | Streaming video understanding models must answer queries at any moment during an ongoing stream, using only what they... |
 | 2026-06-15 | VisualClaw: A Real-Time, Personalized Agent for the Physical World | [arXiv](https://arxiv.org/abs/2606.16295) | Vision language models are serving as general-purpose interfaces for complex multimodal tasks. |
-| 2026-06-13 | Keep It in Mind: User Centric Continual Spatial Intelligence Reasoning in Egocentric Video Streams | [arXiv](https://arxiv.org/abs/2606.15200) | We introduce UCS-Bench, a dataset spanning 170+ hours of egocentric visual observations with 8.1K+ timestamped questi... |
 | 2026-06-10 | InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning | [arXiv](https://arxiv.org/abs/2606.12195) | Recent progress in foundation models has shifted toward agentic behavior involving multi-step reasoning and tool use. |
 | 2026-06-07 | Harnessing Streaming Video in the Wild | [arXiv](https://arxiv.org/abs/2606.08615) | Vision-Language Models (VLMs) are increasingly required to process unbounded video streams in applications such as vi... |
 | 2026-06-05 | MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism | [arXiv](https://arxiv.org/abs/2606.07512) | Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induce... |
