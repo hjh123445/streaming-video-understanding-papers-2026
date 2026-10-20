@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-19T05:40:13
+Generated at: 2026-10-20T05:38:38
 
-Total papers: 145
+Total papers: 149
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 78 |
-| Reasoning & Agents | 42 |
+| Memory & KV-Cache | 81 |
+| Reasoning & Agents | 43 |
 | Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 3 |
@@ -20,8 +20,11 @@ Total papers: 145
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-18 | StreamAhead: Real-Time Streaming Video Question Answering via Adaptive Precomputation | [arXiv](https://arxiv.org/abs/2610.25551) | Real-time streaming video question answering with vision-language models must answer queries that arrive at any time... |
 | 2026-10-15 | Memory as Weights: Internalizing Long-Term History for Streaming Videos | [arXiv](https://arxiv.org/abs/2610.22070) | Streaming vision-language models (VLMs) must continuously integrate information from the past while remaining respons... |
+| 2026-10-15 | ProV-Mem: Proactive Memory for Streaming Video Question Answering | [arXiv](https://arxiv.org/abs/2610.23998) | Proactive streaming video question answering requires a model to continuously monitor an incoming stream and autonomo... |
 | 2026-10-14 | DeltaStreamer: Towards Human-Like Agentic Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.19849) | We propose DeltaStreamer, a novel agentic framework for streaming video understanding inspired by how humans observe,... |
+| 2026-10-13 | FrameScout: Scouting Query-Relevant Frames for Long Video Understanding | [arXiv](https://arxiv.org/abs/2610.23975) | Long video understanding requires VideoLLMs to answer queries about videos spanning tens of minutes to hours, but suc... |
 | 2026-10-12 | Elephant in the Fridge: Constant-Memory Frame Packing for Long Video Understanding | [arXiv](https://arxiv.org/abs/2610.16118) | Hour-long videos, streaming feeds, and movie-length content are pushing vision-language models (VLMs) past their brea... |
 | 2026-10-07 | VideoEvolve: Co-Evolving Memory and Retrieval for Long Video Understanding | [arXiv](https://arxiv.org/abs/2610.10183) | Long video understanding increasingly relies on external memory to organize massive visual streams into compact repre... |
 | 2026-10-07 | vLLM-Omni Technical Report: A Unified Serving Runtime for Omni-Modality Generation | [arXiv](https://arxiv.org/abs/2610.09307) | Interaction with intelligent systems is expanding beyond text-centric chatbots and coding agents. |
@@ -33,6 +36,7 @@ Total papers: 145
 | 2026-09-29 | EGSD: Event-Grounded Self-Distillation for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2609.36803) | Real-time video understanding requires incrementally maintaining a memory of streaming content, and optimizing this r... |
 | 2026-09-29 | MemEvo: Automatic Discovery of Streaming Video Memory Mechanisms | [arXiv](https://arxiv.org/abs/2609.36581) | Query-agnostic streaming video understanding requires vision-language models to continuously compress an indefinitely... |
 | 2026-09-28 | LLMs are General Asynchronous Agents | [arXiv](https://arxiv.org/abs/2609.35427) | Modern LLMs are increasingly capable as autonomous agents, but they follow sequential interaction cycles: read, think... |
+| 2026-09-28 | EMMA: Event-Driven Multimodal Memory System with Multi-Agent Retrieval | [arXiv](https://arxiv.org/abs/2610.23892) | Long video understanding requires reasoning over hours of content that far exceed the context window of multimodal la... |
 | 2026-09-26 | KeyRec: Bounded Visual Memory for Streaming and Long-Video Understanding | [arXiv](https://arxiv.org/abs/2609.32182) | Vision-language models are increasingly used to understand long videos and continuous streams. |
 | 2026-09-20 | PREM: Prefix-Steered Recurrent Memory for Long-Video Understanding | [arXiv](https://arxiv.org/abs/2609.23601) | Long-video understanding must capture transient visual evidence under strict token budgets, yet existing methods comp... |
 | 2026-09-16 | SemABR: Measuring Video Semantic Fidelity with Multimodal LLMs for Adaptive Bitrate Streaming | [arXiv](https://arxiv.org/abs/2609.18075) | Conventional video metrics such as PSNR, SSIM, and VMAF measure visual distortion or perceptual quality, but they do... |
@@ -59,7 +63,6 @@ Total papers: 145
 | 2026-06-25 | ProtoKV: Streaming Video Understanding under Delayed Query with Summary-State Memory | [arXiv](https://arxiv.org/abs/2606.26762) | Streaming video understanding (SVU) must answer queries that arrive asynchronously while visual tokens stream continu... |
 | 2026-06-24 | Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2606.25658) | Currently, streaming video understanding is still a daunting task for existing \emph{multimodal large language models... |
 | 2026-06-22 | Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse | [arXiv](https://arxiv.org/abs/2606.23581) | Multimodal agents repeatedly re-examine the same video frames, UI screenshots, and rendered artifacts as their contex... |
-| 2026-06-18 | SignVLA: Real-Time Sign Language-Guided Robotic Manipulation via Attention LSTM and Vision-Language-Action Models | [arXiv](https://arxiv.org/abs/2606.20857) | Vision-Language-Action (VLA) models enable robots to execute manipulation tasks from natural-language instructions gr... |
 | 2026-06-18 | ViCoStream: Streaming VideoLLMs Can Run Beyond 100 FPS with Stage-Wise Coordinated Inference | [arXiv](https://arxiv.org/abs/2606.19849) | Streaming VideoLLMs must continuously process incoming video while maintaining low query latency, making both video-i... |
 | 2026-06-17 | How Well Can Your Video Model Remember? Measuring Memory-Budget Trade-offs in Long Video Understanding | [arXiv](https://arxiv.org/abs/2606.20726) | We introduce a compact empirical model that quantifies how answer accuracy degrades as a function of frame budget B a... |
 | 2026-06-16 | LiveStarPro: Proactive Streaming Video Understanding with Hierarchical Memory for Long-Horizon Streams | [arXiv](https://arxiv.org/abs/2606.17798) | Despite the remarkable progress of Video Large Language Models (Video-LLMs), current online architectures still strug... |
@@ -103,6 +106,7 @@ Total papers: 145
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-19 | Focused Omni-Modal GUI Agents | [arXiv](https://arxiv.org/abs/2610.26203) | Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, a... |
 | 2026-10-15 | From Perception to Prediction and Intervention: Benchmarking Proactive Video Assistants in Real-Life Scenarios | [arXiv](https://arxiv.org/abs/2610.21568) | Recent multimodal large language models have advanced video understanding, but existing benchmarks mainly evaluate wh... |
 | 2026-10-08 | FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams? | [arXiv](https://arxiv.org/abs/2610.12427) | Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on... |
 | 2026-10-03 | Rethinking Long-Video Efficiency: A Joint Allocation Perspective on Frames, Pixels, and Front-End Latency | [arXiv](https://arxiv.org/abs/2610.04318) | Efficient long-video understanding with vision-language models (VLMs) is often framed as selecting informative frames... |
