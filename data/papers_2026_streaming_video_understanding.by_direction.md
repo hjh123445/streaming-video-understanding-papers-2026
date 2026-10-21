@@ -1,17 +1,17 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-20T05:38:38
+Generated at: 2026-10-21T05:40:51
 
-Total papers: 149
+Total papers: 151
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 81 |
-| Reasoning & Agents | 43 |
+| Memory & KV-Cache | 80 |
+| Reasoning & Agents | 45 |
 | Efficiency & Compression | 15 |
-| Benchmarks & Evaluation | 5 |
+| Benchmarks & Evaluation | 6 |
 | Video QA / Query | 3 |
 | General Streaming Video Understanding | 1 |
 | Sensors / Systems | 1 |
@@ -62,7 +62,6 @@ Total papers: 149
 | 2026-07-06 | ReflectWorld-MM: An Entity-Oriented Multimodal Memory System for Open-Ended Video Streams | [arXiv](https://arxiv.org/abs/2607.09759) | Building assistants that can continually watch the world, remember what they see, and reason over their accumulated e... |
 | 2026-06-25 | ProtoKV: Streaming Video Understanding under Delayed Query with Summary-State Memory | [arXiv](https://arxiv.org/abs/2606.26762) | Streaming video understanding (SVU) must answer queries that arrive asynchronously while visual tokens stream continu... |
 | 2026-06-24 | Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2606.25658) | Currently, streaming video understanding is still a daunting task for existing \emph{multimodal large language models... |
-| 2026-06-22 | Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse | [arXiv](https://arxiv.org/abs/2606.23581) | Multimodal agents repeatedly re-examine the same video frames, UI screenshots, and rendered artifacts as their contex... |
 | 2026-06-18 | ViCoStream: Streaming VideoLLMs Can Run Beyond 100 FPS with Stage-Wise Coordinated Inference | [arXiv](https://arxiv.org/abs/2606.19849) | Streaming VideoLLMs must continuously process incoming video while maintaining low query latency, making both video-i... |
 | 2026-06-17 | How Well Can Your Video Model Remember? Measuring Memory-Budget Trade-offs in Long Video Understanding | [arXiv](https://arxiv.org/abs/2606.20726) | We introduce a compact empirical model that quantifies how answer accuracy degrades as a function of frame budget B a... |
 | 2026-06-16 | LiveStarPro: Proactive Streaming Video Understanding with Hierarchical Memory for Long-Horizon Streams | [arXiv](https://arxiv.org/abs/2606.17798) | Despite the remarkable progress of Video Large Language Models (Video-LLMs), current online architectures still strug... |
@@ -106,6 +105,8 @@ Total papers: 149
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-20 | DIVE: Benchmarking Full-Duplex Interaction with Visual Engagement in Continuous Streams | [arXiv](https://arxiv.org/abs/2610.28405) | Recent advances in multimodal large language models (MLLMs) have substantially improved spoken interaction and video... |
+| 2026-10-20 | PACE: Plan, Attend, Check, and Emit for Training-Free Response Timing in Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.28323) | Streaming video understanding requires a model to decide not only what to answer but also when to answer. |
 | 2026-10-19 | Focused Omni-Modal GUI Agents | [arXiv](https://arxiv.org/abs/2610.26203) | Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, a... |
 | 2026-10-15 | From Perception to Prediction and Intervention: Benchmarking Proactive Video Assistants in Real-Life Scenarios | [arXiv](https://arxiv.org/abs/2610.21568) | Recent multimodal large language models have advanced video understanding, but existing benchmarks mainly evaluate wh... |
 | 2026-10-08 | FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams? | [arXiv](https://arxiv.org/abs/2610.12427) | Streaming Video Large Language Models (VLMs) enable continuous video understanding, yet existing benchmarks focus on... |
@@ -174,6 +175,7 @@ Total papers: 149
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-20 | StreamEval: Evaluating Interactive Streaming Video Generation Models | [arXiv](https://arxiv.org/abs/2610.28402) | As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly... |
 | 2026-09-29 | Salt++: Context-Aligned Post-Training for Few-Step Streaming Multimodal Generation | [arXiv](https://arxiv.org/abs/2609.36995) | Few-step streaming audio--video generation requires both causal modeling and step distillation, yet standard training... |
 | 2026-09-28 | One Sensor, Whole Body - 3D Body Pose from a Single Consumer Earbud IMU | [arXiv](https://arxiv.org/abs/2609.34978) | Consumer earbuds already stream inertial motion data from the head, one of the most widely worn sensor locations on t... |
 | 2026-08-21 | Kinematic Knowledge Maps for Pattern Alignment: Structured Latent Representational Learning in Multimodal Gait Analysis | [arXiv](https://arxiv.org/abs/2608.20969) | Multimodal clinical AI is limited by weakly aligned inputs and the absence of domain-specific interpretable represent... |
