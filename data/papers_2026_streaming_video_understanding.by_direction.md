@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-21T05:40:51
+Generated at: 2026-10-22T05:43:17
 
-Total papers: 151
+Total papers: 153
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 80 |
+| Memory & KV-Cache | 82 |
 | Reasoning & Agents | 45 |
 | Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 6 |
@@ -20,6 +20,8 @@ Total papers: 151
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-21 | ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video | [arXiv](https://arxiv.org/abs/2610.30089) | Today's multimodal assistants are typically prompted to interpret the visual evidence presented to them. |
+| 2026-10-21 | Cache Locally, Recompute Selectively for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.29229) | Streaming video understanding (SVU) requires video-LLMs to process incoming video continuously while answering user q... |
 | 2026-10-18 | StreamAhead: Real-Time Streaming Video Question Answering via Adaptive Precomputation | [arXiv](https://arxiv.org/abs/2610.25551) | Real-time streaming video question answering with vision-language models must answer queries that arrive at any time... |
 | 2026-10-15 | Memory as Weights: Internalizing Long-Term History for Streaming Videos | [arXiv](https://arxiv.org/abs/2610.22070) | Streaming vision-language models (VLMs) must continuously integrate information from the past while remaining respons... |
 | 2026-10-15 | ProV-Mem: Proactive Memory for Streaming Video Question Answering | [arXiv](https://arxiv.org/abs/2610.23998) | Proactive streaming video question answering requires a model to continuously monitor an incoming stream and autonomo... |

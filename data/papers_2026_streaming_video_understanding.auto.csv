@@ -1,4 +1,6 @@
 date,title,source,url,brief
+2026-10-21,ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video,arXiv,https://arxiv.org/abs/2610.30089,Today's multimodal assistants are typically prompted to interpret the visual evidence presented to them.
+2026-10-21,"Cache Locally, Recompute Selectively for Streaming Video Understanding",arXiv,https://arxiv.org/abs/2610.29229,Streaming video understanding (SVU) requires video-LLMs to process incoming video continuously while answering user q...
 2026-10-20,DIVE: Benchmarking Full-Duplex Interaction with Visual Engagement in Continuous Streams,arXiv,https://arxiv.org/abs/2610.28405,Recent advances in multimodal large language models (MLLMs) have substantially improved spoken interaction and video...
 2026-10-20,StreamEval: Evaluating Interactive Streaming Video Generation Models,arXiv,https://arxiv.org/abs/2610.28402,"As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly..."
 2026-10-20,"PACE: Plan, Attend, Check, and Emit for Training-Free Response Timing in Streaming Video Understanding",arXiv,https://arxiv.org/abs/2610.28323,Streaming video understanding requires a model to decide not only what to answer but also when to answer.
