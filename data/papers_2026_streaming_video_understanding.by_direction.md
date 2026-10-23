@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-22T05:43:17
+Generated at: 2026-10-23T05:42:12
 
 Total papers: 153
 
@@ -8,8 +8,8 @@ Total papers: 153
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 82 |
-| Reasoning & Agents | 45 |
+| Memory & KV-Cache | 83 |
+| Reasoning & Agents | 44 |
 | Efficiency & Compression | 15 |
 | Benchmarks & Evaluation | 6 |
 | Video QA / Query | 3 |
@@ -20,6 +20,7 @@ Total papers: 153
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-22 | Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering | [arXiv](https://arxiv.org/abs/2610.31284) | Long egocentric videos pose a central challenge for multimodal language models: the visual stream must be compressed... |
 | 2026-10-21 | ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video | [arXiv](https://arxiv.org/abs/2610.30089) | Today's multimodal assistants are typically prompted to interpret the visual evidence presented to them. |
 | 2026-10-21 | Cache Locally, Recompute Selectively for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.29229) | Streaming video understanding (SVU) requires video-LLMs to process incoming video continuously while answering user q... |
 | 2026-10-18 | StreamAhead: Real-Time Streaming Video Question Answering via Adaptive Precomputation | [arXiv](https://arxiv.org/abs/2610.25551) | Real-time streaming video question answering with vision-language models must answer queries that arrive at any time... |
@@ -136,7 +137,6 @@ Total papers: 153
 | 2026-07-15 | Towards Spatial Supersensing in the Wild | [arXiv](https://arxiv.org/abs/2607.13681) | Humans can efficiently parse continuous sensory streams, from hours to years, scaffolding an internal world model tha... |
 | 2026-07-15 | GMoT: Gated Motion-Aware Tokenization for Fine-Grained Micro-Gesture Video Reasoning with Multimodal LLMs | [arXiv](https://arxiv.org/abs/2607.16322) | Micro-gesture recognition demands the detection of fleeting, spatially localized movements that are frequently overwh... |
 | 2026-06-29 | From Failure Taxonomy to Intervention: A Diagnostic Methodology for Industry-Scale AVLM in Video and Live-Streaming Platform Moderation | [arXiv](https://arxiv.org/abs/2606.30059) | Industry-scale video and live-streaming moderation imposes requirements that are difficult to satisfy with generic pr... |
-| 2026-06-23 | Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models | [arXiv](https://arxiv.org/abs/2606.25041) | We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for... |
 | 2026-06-10 | From Content to Knowledge: Lightning Fast Long-Video Understanding with Neural Knowledge Representations | [arXiv](https://arxiv.org/abs/2606.11913) | We propose a new paradigm for long video understanding by treating a long video as a Neural Knowledge Representation... |
 | 2026-06-08 | From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs | [arXiv](https://arxiv.org/abs/2606.10147) | Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel thro... |
 | 2026-06-05 | Don't Pause: Streaming Video-Language Synchrony for Online Video Understanding | [arXiv](https://arxiv.org/abs/2606.06991) | Online Video Large Language Models (Video-LLMs) have advanced toward seamless human-AI interaction through frame-by-f... |
