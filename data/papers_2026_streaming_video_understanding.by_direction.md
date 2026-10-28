@@ -1,15 +1,15 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-27T05:57:10
+Generated at: 2026-10-28T06:35:32
 
-Total papers: 154
+Total papers: 155
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 84 |
-| Reasoning & Agents | 44 |
+| Reasoning & Agents | 45 |
 | Efficiency & Compression | 16 |
 | Benchmarks & Evaluation | 5 |
 | Video QA / Query | 3 |
@@ -109,6 +109,7 @@ Total papers: 154
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-27 | Live-OPSD: On-Policy Self-Distillation for Proactive Streaming Large Video Models | [arXiv](https://arxiv.org/abs/2610.36959) | Streaming multimodal assistants must make response decisions while events are still unfolding. |
 | 2026-10-23 | SyncPro: Synchronous Reasoning and Responding for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.32132) | Proactive streaming video understanding requires assistants to track unfolding events and respond when a user's reque... |
 | 2026-10-20 | DIVE: Benchmarking Full-Duplex Interaction with Visual Engagement in Continuous Streams | [arXiv](https://arxiv.org/abs/2610.28405) | Recent advances in multimodal large language models (MLLMs) have substantially improved spoken interaction and video... |
 | 2026-10-20 | PACE: Plan, Attend, Check, and Emit for Training-Free Response Timing in Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.28323) | Streaming video understanding requires a model to decide not only what to answer but also when to answer. |
