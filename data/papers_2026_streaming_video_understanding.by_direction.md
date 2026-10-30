@@ -1,19 +1,19 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-10-29T06:43:23
+Generated at: 2026-10-30T06:44:41
 
-Total papers: 155
+Total papers: 156
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 84 |
-| Reasoning & Agents | 45 |
+| Reasoning & Agents | 46 |
 | Efficiency & Compression | 16 |
-| Benchmarks & Evaluation | 5 |
+| Benchmarks & Evaluation | 4 |
 | Video QA / Query | 3 |
-| General Streaming Video Understanding | 1 |
+| General Streaming Video Understanding | 2 |
 | Sensors / Systems | 1 |
 
 ## Memory & KV-Cache
@@ -109,6 +109,7 @@ Total papers: 155
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-28 | AskStream: When and What to Ask Proactively under Uncertainty in Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.38678) | Recent advances in multimodal large language models have increased interest in interaction paradigms for video unders... |
 | 2026-10-27 | Live-OPSD: On-Policy Self-Distillation for Proactive Streaming Large Video Models | [arXiv](https://arxiv.org/abs/2610.36959) | Streaming multimodal assistants must make response decisions while events are still unfolding. |
 | 2026-10-23 | SyncPro: Synchronous Reasoning and Responding for Proactive Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.32132) | Proactive streaming video understanding requires assistants to track unfolding events and respond when a user's reque... |
 | 2026-10-20 | DIVE: Benchmarking Full-Duplex Interaction with Visual Engagement in Continuous Streams | [arXiv](https://arxiv.org/abs/2610.28405) | Recent advances in multimodal large language models (MLLMs) have substantially improved spoken interaction and video... |
@@ -184,7 +185,6 @@ Total papers: 155
 | 2026-09-28 | One Sensor, Whole Body - 3D Body Pose from a Single Consumer Earbud IMU | [arXiv](https://arxiv.org/abs/2609.34978) | Consumer earbuds already stream inertial motion data from the head, one of the most widely worn sensor locations on t... |
 | 2026-08-21 | Kinematic Knowledge Maps for Pattern Alignment: Structured Latent Representational Learning in Multimodal Gait Analysis | [arXiv](https://arxiv.org/abs/2608.20969) | Multimodal clinical AI is limited by weakly aligned inputs and the absence of domain-specific interpretable represent... |
 | 2026-07-07 | SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation | [arXiv](https://arxiv.org/abs/2607.05994) | Human-Object Interaction (HOI) video generation aims to synthesize realistic videos of humans manipulating diverse ob... |
-| 2026-07-03 | GuideMe: Multi-Domain Task Guidance and Intervention in Streaming Video | [arXiv](https://arxiv.org/abs/2607.02991) | While multimodal Large Language Models (MLLMs) excel at offline video understanding, an interesting question of how f... |
 
 ## Video QA / Query
 
@@ -198,7 +198,8 @@ Total papers: 155
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
-| 2026-07-01 | A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps | [arXiv](https://arxiv.org/abs/2607.01400) | Deep multimodal brain-encoding models now predict fMRI responses to naturalistic video with high accuracy; whether th... |
+| 2026-10-29 | Hierarchical Step Decomposition for Training-free Online Video Step Grounding | [arXiv](https://arxiv.org/abs/2610.40153) | Given a set of procedural steps, Video Step Grounding (VSG) aims to identify which steps occur in a video and localiz... |
+| 2026-10-28 | StreamStudio: Exploring Video Authoring with Streaming Autoregressive Generation | [arXiv](https://arxiv.org/abs/2610.38467) | We present StreamStudio, a prototype system that explores a new authoring paradigm for streaming video generation. |
 
 ## Sensors / Systems
 
