@@ -1,14 +1,14 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-11-02T07:09:57
+Generated at: 2026-11-03T07:31:09
 
-Total papers: 157
+Total papers: 158
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 85 |
+| Memory & KV-Cache | 86 |
 | Reasoning & Agents | 46 |
 | Efficiency & Compression | 16 |
 | Benchmarks & Evaluation | 4 |
@@ -20,6 +20,7 @@ Total papers: 157
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-10-31 | StreamClarify: Proactive Clarification for Grounded Streaming Video Question Answering | [arXiv](https://arxiv.org/abs/2611.01263) | Streaming video question answering (QA) requires real-time reasoning over continuous video streams under strict laten... |
 | 2026-10-30 | TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs | [arXiv](https://arxiv.org/abs/2610.41983) | High accuracy on streaming video benchmarks does not establish whether a model uses visual history. |
 | 2026-10-23 | Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.32784) | The rapid growth of video data has created an urgent need for efficient video understanding systems that can handle l... |
 | 2026-10-22 | Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering | [arXiv](https://arxiv.org/abs/2610.31284) | Long egocentric videos pose a central challenge for multimodal language models: the visual stream must be compressed... |
