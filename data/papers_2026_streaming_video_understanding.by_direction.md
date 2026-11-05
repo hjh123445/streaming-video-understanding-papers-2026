@@ -1,8 +1,8 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-11-04T07:12:24
+Generated at: 2026-11-05T07:39:55
 
-Total papers: 158
+Total papers: 159
 
 ## Category Summary
 
@@ -10,7 +10,7 @@ Total papers: 158
 |---|---:|
 | Memory & KV-Cache | 86 |
 | Reasoning & Agents | 46 |
-| Efficiency & Compression | 16 |
+| Efficiency & Compression | 17 |
 | Benchmarks & Evaluation | 4 |
 | Video QA / Query | 3 |
 | General Streaming Video Understanding | 2 |
@@ -162,6 +162,7 @@ Total papers: 158
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-11-04 | Turns Matter: Advancing Streaming Video RL via Turn-Level Credit | [arXiv](https://arxiv.org/abs/2611.06728) | Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. |
 | 2026-10-22 | KiRoSe: Using Kinematic Data for Efficient Segmentation of Robot Demonstrations | [arXiv](https://arxiv.org/abs/2610.31801) | Segmenting robot demonstration data into disjoint temporal and semantic subsegments is valuable for learning, cleanin... |
 | 2026-10-10 | SPARE: Shared Perception and Adaptive Retrieval of Evidence for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.14671) | Streaming video understanding requires answering questions from the observed video, with evidence drawn from recent o... |
 | 2026-09-23 | Live Assistant: Learning Whether, When, and Whom to Assist in Real-World Live Social Streams | [arXiv](https://arxiv.org/abs/2609.27303) | Livestreams are long-lasting interactive environments where audiovisual content, viewer activity, host behavior, and... |
