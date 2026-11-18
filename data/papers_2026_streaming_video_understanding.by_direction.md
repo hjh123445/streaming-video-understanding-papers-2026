@@ -1,6 +1,6 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-11-17T08:46:19
+Generated at: 2026-11-18T08:10:16
 
 Total papers: 162
 
@@ -8,10 +8,10 @@ Total papers: 162
 
 | Direction | Count |
 |---|---:|
-| Memory & KV-Cache | 86 |
+| Memory & KV-Cache | 87 |
 | Reasoning & Agents | 49 |
 | Efficiency & Compression | 17 |
-| Benchmarks & Evaluation | 4 |
+| Benchmarks & Evaluation | 3 |
 | Video QA / Query | 3 |
 | General Streaming Video Understanding | 2 |
 | Sensors / Systems | 1 |
@@ -24,6 +24,7 @@ Total papers: 162
 | 2026-11-11 | MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation | [arXiv](https://arxiv.org/abs/2611.15640) | Streaming video understanding aims to continuously process incoming visual observations, making the retention and ret... |
 | 2026-11-07 | TimeTraveler: Temporal Strategy Planning with Time Dictionary for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2611.10337) | Streaming video understanding (SVU) requires models to answer user queries over continuously evolving video streams. |
 | 2026-10-31 | StreamClarify: Proactive Clarification for Grounded Streaming Video Question Answering | [arXiv](https://arxiv.org/abs/2611.01263) | Streaming video question answering (QA) requires real-time reasoning over continuous video streams under strict laten... |
+| 2026-10-26 | Shared Context, Separate Engines: Stateful Streaming Inference for Multimodal LLMs on Edge SoCs | [arXiv](https://arxiv.org/abs/2610.35309) | Streaming multimodal large language models (MLLMs) must take in new video frames while answering questions about what... |
 | 2026-10-23 | Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2610.32784) | The rapid growth of video data has created an urgent need for efficient video understanding systems that can handle l... |
 | 2026-10-22 | Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering | [arXiv](https://arxiv.org/abs/2610.31284) | Long egocentric videos pose a central challenge for multimodal language models: the visual stream must be compressed... |
 | 2026-10-21 | ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video | [arXiv](https://arxiv.org/abs/2610.30089) | Today's multimodal assistants are typically prompted to interpret the visual evidence presented to them. |
@@ -190,7 +191,6 @@ Total papers: 162
 | 2026-09-29 | Salt++: Context-Aligned Post-Training for Few-Step Streaming Multimodal Generation | [arXiv](https://arxiv.org/abs/2609.36995) | Few-step streaming audio--video generation requires both causal modeling and step distillation, yet standard training... |
 | 2026-09-28 | One Sensor, Whole Body - 3D Body Pose from a Single Consumer Earbud IMU | [arXiv](https://arxiv.org/abs/2609.34978) | Consumer earbuds already stream inertial motion data from the head, one of the most widely worn sensor locations on t... |
 | 2026-08-21 | Kinematic Knowledge Maps for Pattern Alignment: Structured Latent Representational Learning in Multimodal Gait Analysis | [arXiv](https://arxiv.org/abs/2608.20969) | Multimodal clinical AI is limited by weakly aligned inputs and the absence of domain-specific interpretable represent... |
-| 2026-07-07 | SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation | [arXiv](https://arxiv.org/abs/2607.05994) | Human-Object Interaction (HOI) video generation aims to synthesize realistic videos of humans manipulating diverse ob... |
 
 ## Video QA / Query
 
