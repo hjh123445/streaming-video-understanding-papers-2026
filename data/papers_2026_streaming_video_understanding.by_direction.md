@@ -1,18 +1,18 @@
 # 2026 Streaming Video Understanding Papers by Direction
 
-Generated at: 2026-11-18T08:10:16
+Generated at: 2026-11-19T08:21:20
 
-Total papers: 162
+Total papers: 164
 
 ## Category Summary
 
 | Direction | Count |
 |---|---:|
 | Memory & KV-Cache | 87 |
-| Reasoning & Agents | 49 |
+| Reasoning & Agents | 50 |
 | Efficiency & Compression | 17 |
+| Video QA / Query | 4 |
 | Benchmarks & Evaluation | 3 |
-| Video QA / Query | 3 |
 | General Streaming Video Understanding | 2 |
 | Sensors / Systems | 1 |
 
@@ -20,6 +20,7 @@ Total papers: 162
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-11-18 | Look Closer, Look Back, or Wait for Agentic Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2611.24267) | Streaming video models must answer questions about a live video under strict memory and latency limits. |
 | 2026-11-16 | BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents | [arXiv](https://arxiv.org/abs/2611.21553) | Streaming video understanding is becoming increasingly important for real-world interactive systems. |
 | 2026-11-11 | MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation | [arXiv](https://arxiv.org/abs/2611.15640) | Streaming video understanding aims to continuously process incoming visual observations, making the retention and ret... |
 | 2026-11-07 | TimeTraveler: Temporal Strategy Planning with Time Dictionary for Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2611.10337) | Streaming video understanding (SVU) requires models to answer user queries over continuously evolving video streams. |
@@ -94,7 +95,6 @@ Total papers: 162
 | 2026-03-31 | Scaling the Long Video Understanding of Multimodal Large Language Models via Visual Memory Mechanism | [arXiv](https://arxiv.org/abs/2603.29252) | Long video understanding is a key challenge that plagues the advancement of \emph{Multimodal Large language Models} (... |
 | 2026-03-23 | StreamingClaw Technical Report | [arXiv](https://arxiv.org/abs/2603.22120) | Emerging applications such as embodied intelligence, AI hardware, autonomous driving, and intelligent cockpits rely o... |
 | 2026-03-23 | StreamingEval: A Unified Evaluation Protocol towards Realistic Streaming Video Understanding | [arXiv](https://arxiv.org/abs/2603.21493) | Real-time, continuous understanding of visual signals is essential for real-world interactive AI applications, and po... |
-| 2026-03-20 | PEARL: Personalized Streaming Video Understanding Model | [arXiv](https://arxiv.org/abs/2603.20422) | Human cognition of new concepts is inherently a streaming process: we continuously recognize new objects or identitie... |
 | 2026-03-20 | CurveStream: Boosting Streaming Video Understanding in MLLMs via Curvature-Aware Hierarchical Visual Memory Management | [arXiv](https://arxiv.org/abs/2603.19571) | Multimodal Large Language Models have achieved significant success in offline video understanding, yet their applicat... |
 | 2026-03-13 | Thinking in Streaming Video | [arXiv](https://arxiv.org/abs/2603.12938) | Real-time understanding of continuous video streams is essential for interactive assistants and multimodal agents ope... |
 | 2026-03-12 | WAT: Online Video Understanding Needs Watching Before Thinking | [arXiv](https://arxiv.org/abs/2603.13412) | Multimodal Large Language Models (MLLMs) have shown strong capabilities in image understanding, motivating recent eff... |
@@ -112,6 +112,7 @@ Total papers: 162
 
 | Date | Paper | Link | Brief |
 |---|---|---|---|
+| 2026-11-18 | SimplePro: A Simple Baseline for Proactive Video Understanding | [arXiv](https://arxiv.org/abs/2611.23954) | Proactive video understanding requires vision-language models (VLMs) to decide not only what to answer as a video unf... |
 | 2026-11-16 | VISTA: A Framework for Vision-Informed Semantic Traffic Awareness | [arXiv](https://arxiv.org/abs/2611.20458) | The Internet of Things (IoT) is transforming intelligent transportation systems by connecting roadside cameras, edge... |
 | 2026-11-13 | RAVEN-Bench: A Paired EO-IR Video QA Benchmark for Aerial Multimodal Understanding | [arXiv](https://arxiv.org/abs/2611.18880) | Multimodal large language models (MLLMs) have advanced rapidly in image and video understanding, yet their ability to... |
 | 2026-11-12 | XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction | [arXiv](https://arxiv.org/abs/2611.17160) | Embodied interaction requires an agent to integrate multimodal perception with verbal and nonverbal behaviors to effe... |
@@ -184,6 +185,15 @@ Total papers: 162
 | 2026-03-23 | Color When It Counts: Grayscale-Guided Online Triggering for Always-On Streaming Video Sensing | [arXiv](https://arxiv.org/abs/2603.22466) | Always-on sensing is essential for next-generation edge/wearable AI systems, yet continuous high-fidelity RGB video c... |
 | 2026-03-01 | Event-Anchored Frame Selection for Effective Long-Video Understanding | [arXiv](https://arxiv.org/abs/2603.00983) | Massive frame redundancy and limited context window make efficient frame selection crucial for long-video understandi... |
 
+## Video QA / Query
+
+| Date | Paper | Link | Brief |
+|---|---|---|---|
+| 2026-10-30 | TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs | [arXiv](https://arxiv.org/abs/2610.41983) | High accuracy on streaming video benchmarks does not show that a model uses visual history. |
+| 2026-10-06 | Have I Seen Enough? Frozen Video-Language Models Encode Evidence Readiness | [arXiv](https://arxiv.org/abs/2610.08560) | Streaming video-language models must decide not only what to answer, but whether the evidence needed for the current... |
+| 2026-03-20 | PEARL: Personalized Streaming Video Understanding with Runtime-Defined Concepts | [arXiv](https://arxiv.org/abs/2603.20422) | Unlike humans, who learn new concepts from a continuous visual stream, existing personalized vision-language models (... |
+| 2026-02-18 | ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding | [arXiv](https://arxiv.org/abs/2602.16412) | While multimodal large language models (MLLMs) have shown remarkable success across a wide range of tasks, long-form... |
+
 ## Benchmarks & Evaluation
 
 | Date | Paper | Link | Brief |
@@ -191,14 +201,6 @@ Total papers: 162
 | 2026-09-29 | Salt++: Context-Aligned Post-Training for Few-Step Streaming Multimodal Generation | [arXiv](https://arxiv.org/abs/2609.36995) | Few-step streaming audio--video generation requires both causal modeling and step distillation, yet standard training... |
 | 2026-09-28 | One Sensor, Whole Body - 3D Body Pose from a Single Consumer Earbud IMU | [arXiv](https://arxiv.org/abs/2609.34978) | Consumer earbuds already stream inertial motion data from the head, one of the most widely worn sensor locations on t... |
 | 2026-08-21 | Kinematic Knowledge Maps for Pattern Alignment: Structured Latent Representational Learning in Multimodal Gait Analysis | [arXiv](https://arxiv.org/abs/2608.20969) | Multimodal clinical AI is limited by weakly aligned inputs and the absence of domain-specific interpretable represent... |
-
-## Video QA / Query
-
-| Date | Paper | Link | Brief |
-|---|---|---|---|
-| 2026-10-30 | TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs | [arXiv](https://arxiv.org/abs/2610.41983) | High accuracy on streaming video benchmarks does not show that a model uses visual history. |
-| 2026-10-06 | Have I Seen Enough? Frozen Video-Language Models Encode Evidence Readiness | [arXiv](https://arxiv.org/abs/2610.08560) | Streaming video-language models must decide not only what to answer, but whether the evidence needed for the current... |
-| 2026-02-18 | ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding | [arXiv](https://arxiv.org/abs/2602.16412) | While multimodal large language models (MLLMs) have shown remarkable success across a wide range of tasks, long-form... |
 
 ## General Streaming Video Understanding
 
